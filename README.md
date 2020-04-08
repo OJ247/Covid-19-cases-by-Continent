@@ -9,7 +9,7 @@ It is a time series data and hence the number of cases on any given day is cumul
 The covid 19 dataset for all Countries/Regions around the world that was [uploaded on kaggle](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset#covid_19_data.csv)
 
 - covid_19_africa.R\
-The R script used to process the covid_19_africa.csv
+The R script used to generate the covid_19_africa.csv from covid_19_data.csv
 
 - African countries.txt\
 A list of all the 54 African countries
