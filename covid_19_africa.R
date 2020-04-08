@@ -48,9 +48,6 @@ length(unique(covid_africa$Country))
 # storing the data set
 write_csv(covid_africa, "covid_19_africa.csv")
 
-# date of last update of script
-today()
-
 # session information
 sessionInfo()
 
