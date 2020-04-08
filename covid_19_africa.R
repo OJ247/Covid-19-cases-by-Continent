@@ -48,9 +48,6 @@ length(unique(covid_africa$Country))
 # storing the data set
 write_csv(covid_africa, "covid_19_africa.csv")
 
-# session information
-sessionInfo()
-
 # References
 # 1. John Hopkins University Covid_19 datasets: 
 # https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
