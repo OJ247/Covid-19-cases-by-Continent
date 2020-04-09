@@ -27,7 +27,7 @@ It is a time series data and hence the number of cases on any given day is cumul
 Define a general figure size for all plots
 
 ```r
-knitr::opts_chunk$set(fig.width=12, fig.height=14) 
+knitr::opts_chunk$set(fig.width=10, fig.height=12) 
 ```
 
 ## Data processing
