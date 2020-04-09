@@ -11,6 +11,15 @@ The covid 19 dataset for all Countries/Regions around the world that was [upload
 - covid_19_africa.R\
 The R script used to generate the covid_19_africa.csv from covid_19_data.csv
 
+- covid_19_africa_visualizations.Rmd\
+Rmarkdown script used to generate the visualizations for COVID-19 cases in Africa by country
+
+- covid_19_africa_visualizations.html\
+hmtl file for the visualizations of COVID-19 cases in Africa by Country
+
+- covid_19_africa_visualization_files
+visualization figures
+
 - African countries.txt\
 A list of all the 54 African countries
 
