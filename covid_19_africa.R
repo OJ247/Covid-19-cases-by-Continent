@@ -7,7 +7,7 @@ suppressMessages(library(lubridate))
 covid_world <- read_csv("covid_19_data.csv")
 
 # creating a character vector with all the 54 African countries recognized by the UN
-# modifications were made to the names to match those covid_19_data.csv
+# modifications were made to the names to match those in the covid_19_data.csv
 africa <- c("Algeria", "Angola", "Benin", "Botswana", "Burkina Faso",
           "Burundi", "Cameroon", "Cabo Verde", "Central African Republic", "Chad", 
           "Comoros", "Congo (Brazzaville)", "Congo (Kinshasa)", "Djibouti", "Egypt",
