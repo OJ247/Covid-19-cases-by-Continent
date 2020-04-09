@@ -1,0 +1,179 @@
+---
+title: "Visualizations of Covid-19 cases in Africa"
+author: "Julius Okwir"
+date: "4/9/2020"
+output:
+    html_document:
+            keep_md: true
+---
+
+## Background
+Late in December 2019, the [World Health Organisation](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen) (WHO) China Country Office obtained information about a severe pneumonia of an unknown cause, detected in the city of Wuhan in Hubei province, China. This later turned out to be the **novel coronavirus disease** (COVID-19), an infectious disease caused by **severe acute respiratory syndrome coronavirus-2** (SARS-CoV-2) of the corona virus family. The disease causes respiratory illness characterised by primary [symptoms](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html) like cough, fever, and in more acute cases, difficulty in breathing. **WHO** later [declared covid-19 as a Pandemic](https://time.com/5791661/who-coronavirus-pandemic-declaration/) because of its fast rate of spread across the Globe with over [1.4 Million confirmed cases and over 80,000 deaths](https://coronavirus.jhu.edu/map.html) as of April 8, 2020. The African continent confirmed its first cases in Mid February 2020 in some countries. The disease has since spread across 52 of the 54 Africa countries with over [10,00 confirmed cases and over 450 deaths](https://africanarguments.org/2020/04/07/coronavirus-in-africa-tracker-how-many-cases-and-where-latest/) as of April 8, 2020. 
+
+## The Dataset
+The [covid_19_africa.csv](https://github.com/ju-ok/Covid-19-Africa.git) dataset contains daily level information about the Covid-19 cases in Africa.
+It is a time series data and hence the number of cases on any given day is cumulative.I extracted the data from the [covid_19_data.csv](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset#covid_19_data.csv) which was made available on kaggle. The R scriptthat I used to prepare this dataset is also available on [my Github repository](https://github.com/ju-ok/Covid-19-Africa.git). The original datasets can be found on [John Hopkins University Github repository](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports) for covid_19. 
+
+### Field description
+- ObservationDate: YY/MM/DD
+- Country: name of African country
+- Confirmed: the number of covid-19 confirmed cases
+- Deaths:  the number of deaths from covid-19
+- Recovered: the number of recovered cases
+
+## Task
+- Visualizations of Africa’s covid-19 confirmed cases, deaths, and recovered cases by country. 
+
+Define a general figure size for all plots
+```{r}
+knitr::opts_chunk$set(fig.width=12, fig.height=14) 
+```
+
+## Data processing
+Loading the required packages and setting a general theme for all the plots.
+```{r, message = FALSE}
+suppressMessages(library(tidyverse))
+suppressMessages(library(lubridate))
+theme_set(theme_classic())
+```
+
+Importing the dataset
+```{r covid_19_africa, echo = TRUE}
+(covid_africa <- read_csv("covid_19_africa.csv"))
+```
+
+Converting the classes of Confirmed, Deaths, and Recovered columns to class integer.
+```{r class integer, echo = TRUE}
+(covid_africa <- covid_africa %>%
+        
+        mutate(Confirmed = as.integer(Confirmed), 
+               Deaths = as.integer(Deaths),
+               Recovered = as.integer(Recovered)))
+```
+
+
+Checking and confirming the number of African countries with confirmed cases. 
+At the time of updating this script, only 52 of the 54 African countries recognized by the UN and WHO had confirmed cases.
+```{r confirmed africa, echo = TRUE}
+length(unique(covid_africa$Country))
+```
+
+Obtaining the most recent cases in each country. 
+Note that the most recent cases on a given day == cumulative sum of cases reportd by end of the previous day. **WARNING: Adjust "today() - 1" accordingly.**
+```{r latest cases, echo = TRUE}
+(latest <- covid_africa %>%
+        filter(ObservationDate == today() - 1 ))
+```
+
+## VISUALIZATIONS OF COVID-19 CASES IN AFRICA
+Visualization of confirmed cases by country.
+```{r confirmed by country, echo = TRUE}
+(latest_confirmed <- latest %>%
+                
+                # reordering the countries by number of confirmed cases i.e highest to lowest
+                mutate(Country = fct_reorder(Country, Confirmed)) %>%
+                
+                # specifying the values on the x and y axes 
+                ggplot(aes(x = Country, y = Confirmed)) +
+                
+                # setting parameters for the bar plots of confirmed cases by country
+                geom_bar(stat = "identity", show.legend = FALSE, fill = "orange", width = 0.6) + 
+                
+                # specifying and positioning of the bar labels
+                geom_text(aes(label = Confirmed), hjust =  0, size = 3) +
+                
+                # flipping the x and y co-ordinates
+                coord_flip(clip = "off", expand = FALSE) +
+                
+                # specifying desired parameters for the plot title and margin
+                theme(plot.title = element_text(hjust = 0, size = 10, face = "bold"),
+                      plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
+                
+                # specifying the plot title
+                labs(title = "Africa's Confirmed Covid-19 cases by Country. 2020-04-09"))
+```
+
+Visualization of confirmed deaths by country.
+```{r confirmed deaths, echo = TRUE}
+(latest_deaths <- latest %>%
+                
+                # reordering the countries by number of confirmed deaths i.e highest to lowest
+                mutate(Country = fct_reorder(Country, Deaths)) %>%
+                
+                # specifying the values on the x and y axes 
+                ggplot(aes(x = Country, y = Deaths)) +
+                
+                # setting parameters for the bar plots of confirmed deaths by country
+                geom_bar(stat = "identity", show.legend = FALSE, fill = "red", width = 0.6) +
+                
+                # specifying and positioning of the bar labels
+                geom_text(aes(label = Deaths), hjust =  0, size = 3) +
+                
+                # flipping the x and y co-ordinates
+                coord_flip(clip = "off", expand = FALSE) +
+                
+                # specifying desired parameters for the plot title and margin
+                theme(plot.title = element_text(hjust = 0, size = 10, face = "bold"),
+                      plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
+                
+                # specifying the plot title
+                labs(title = "Africa's Deaths from Covid-19 by Country. 2020-04-09"))
+```
+
+Visualization of recovered cases by country.
+```{r recovered, echo = TRUE}
+(latest_recovered <- latest %>%
+                
+                # reordering the countries by number of recovered cases i.e highest to lowest
+                mutate(Country = fct_reorder(Country, Recovered)) %>%
+                
+                #  specifying the values on the x and y axes 
+                ggplot(aes(x = Country, y = Recovered)) +
+                
+                # setting parameters for the bar plots of confirmed recoveries by country
+                geom_bar(stat = "identity", show.legend = FALSE, fill = "green", width = 0.6) + 
+                
+                # specifying and positioning of the bar labels
+                geom_text(aes(label = Recovered), hjust =  0, size = 3) +
+                
+                # flipping the x and y  co-ordinates
+                coord_flip(clip = "off", expand = FALSE) +
+                
+                # specifying desired parameters for the plot title and margin
+                theme(plot.title = element_text(hjust = 0, size = 10, face = "bold"),
+                      plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
+                
+                # specifying the plot title
+                labs(title = "Africa's Recovered cases from covid-19 by Country. 2020-04-09"))
+```
+
+latest sum of confirmed cases, Deaths, and recovered cases in Africa.
+```{r summary, echo = TRUE}
+sum(latest$Confirmed); sum(latest$Deaths); sum(latest$Recovered)
+```
+
+Date of last update of script and session information
+```{r extras, echo = TRUE}
+# date of last update of Rmd
+today()
+# session information
+sessionInfo()
+```
+
+## References
+1. John Hopkins University Covid_19 datasets: 
+https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
+2. SRk's dataset on kaggle: https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset#covid_19_data.csv
+3. African Arguments, Covid-19 Africa Tracker: 
+https://africanarguments.org/2020/04/07/coronavirus-in-africa-tracker-how-many-cases-and-where-latest/
+
+
+
+
+
+
+
+
+
+
+
