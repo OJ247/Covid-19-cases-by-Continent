@@ -55,5 +55,4 @@ Zimbabwe
 
 
 
-## Modifications were made to these names to match those in John Hopkins University COVID-19 datasets since some African countries have several names. 
 
