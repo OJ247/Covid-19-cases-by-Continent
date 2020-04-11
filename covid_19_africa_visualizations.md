@@ -1,14 +1,14 @@
 ---
 title: "Visualizations of Covid-19 cases in Africa"
 author: "Julius Okwir"
-date: "4/9/2020"
+date: "2020/04/11"
 output:
     html_document:
             keep_md: true
 ---
 
 ## Background
-Late in December 2019, the [World Health Organisation](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen) (WHO) China Country Office obtained information about a severe pneumonia of an unknown cause, detected in the city of Wuhan in Hubei province, China. This later turned out to be the **novel coronavirus disease** (COVID-19), an infectious disease caused by **severe acute respiratory syndrome coronavirus-2** (SARS-CoV-2) of the corona virus family. The disease causes respiratory illness characterised by primary [symptoms](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html) like cough, fever, and in more acute cases, difficulty in breathing. **WHO** later [declared covid-19 as a Pandemic](https://time.com/5791661/who-coronavirus-pandemic-declaration/) because of its fast rate of spread across the Globe with over [1.6 Million confirmed cases and over 95,000 deaths](https://coronavirus.jhu.edu/map.html) as of April 10, 2020. The African continent confirmed its first cases in Mid February 2020 in some countries. The disease has since spread across 52 of the 54 Africa countries with over [11,00 confirmed cases and over 600 deaths](https://africanarguments.org/2020/04/07/coronavirus-in-africa-tracker-how-many-cases-and-where-latest/) as of April 10, 2020. 
+Late in December 2019, the [World Health Organisation](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen) (WHO) China Country Office obtained information about a severe pneumonia of an unknown cause, detected in the city of Wuhan in Hubei province, China. This later turned out to be the **novel coronavirus disease** (COVID-19), an infectious disease caused by **severe acute respiratory syndrome coronavirus-2** (SARS-CoV-2) of the corona virus family. The disease causes respiratory illness characterised by primary [symptoms](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html) like cough, fever, and in more acute cases, difficulty in breathing. **WHO** later [declared covid-19 as a Pandemic](https://time.com/5791661/who-coronavirus-pandemic-declaration/) because of its fast rate of spread across the Globe with over [1.69 Million confirmed cases and over 102,000 deaths](https://coronavirus.jhu.edu/map.html) as of April 11, 2020. The African continent confirmed its first cases in Mid February 2020 in some countries. The disease has since spread across 52 of the 54 Africa countries with over [12,900 confirmed cases and over 690 deaths](https://africanarguments.org/2020/04/07/coronavirus-in-africa-tracker-how-many-cases-and-where-latest/) as of April 11, 2020. 
 
 ## The Dataset
 The [covid_19_africa.csv](https://github.com/ju-ok/Covid-19-Africa.git) dataset contains daily level information about the Covid-19 cases in Africa.
@@ -64,7 +64,7 @@ Importing the dataset
 ```
 
 ```
-## # A tibble: 1,306 x 5
+## # A tibble: 1,358 x 5
 ##    ObservationDate Country     Confirmed Deaths Recovered
 ##    <date>          <chr>           <dbl>  <dbl>     <dbl>
 ##  1 2020-01-27      Ivory Coast         1      0         0
@@ -77,7 +77,7 @@ Importing the dataset
 ##  8 2020-02-20      Egypt               1      0         0
 ##  9 2020-02-21      Egypt               1      0         0
 ## 10 2020-02-22      Egypt               1      0         0
-## # ... with 1,296 more rows
+## # ... with 1,348 more rows
 ```
 
 Converting the classes of Confirmed, Deaths, and Recovered columns to class integer.
@@ -91,7 +91,7 @@ Converting the classes of Confirmed, Deaths, and Recovered columns to class inte
 ```
 
 ```
-## # A tibble: 1,306 x 5
+## # A tibble: 1,358 x 5
 ##    ObservationDate Country     Confirmed Deaths Recovered
 ##    <date>          <chr>           <int>  <int>     <int>
 ##  1 2020-01-27      Ivory Coast         1      0         0
@@ -104,7 +104,7 @@ Converting the classes of Confirmed, Deaths, and Recovered columns to class inte
 ##  8 2020-02-20      Egypt               1      0         0
 ##  9 2020-02-21      Egypt               1      0         0
 ## 10 2020-02-22      Egypt               1      0         0
-## # ... with 1,296 more rows
+## # ... with 1,348 more rows
 ```
 
 
@@ -131,16 +131,16 @@ Note that the most recent cases on a given day == cumulative sum of cases report
 ## # A tibble: 52 x 5
 ##    ObservationDate Country                  Confirmed Deaths Recovered
 ##    <date>          <chr>                        <int>  <int>     <int>
-##  1 2020-04-09      Algeria                       1666    235       347
-##  2 2020-04-09      Angola                          19      2         2
-##  3 2020-04-09      Benin                           26      1         5
-##  4 2020-04-09      Botswana                        13      1         0
-##  5 2020-04-09      Burkina Faso                   443     24       146
-##  6 2020-04-09      Burundi                          3      0         0
-##  7 2020-04-09      Cabo Verde                       7      1         1
-##  8 2020-04-09      Cameroon                       730     10        60
-##  9 2020-04-09      Central African Republic         8      0         0
-## 10 2020-04-09      Chad                            11      0         2
+##  1 2020-04-10      Algeria                       1761    256       405
+##  2 2020-04-10      Angola                          19      2         2
+##  3 2020-04-10      Benin                           35      1         5
+##  4 2020-04-10      Botswana                        13      1         0
+##  5 2020-04-10      Burkina Faso                   443     24       146
+##  6 2020-04-10      Burundi                          3      0         0
+##  7 2020-04-10      Cabo Verde                       7      1         1
+##  8 2020-04-10      Cameroon                       820     12        98
+##  9 2020-04-10      Central African Republic         8      0         0
+## 10 2020-04-10      Chad                            11      0         2
 ## # ... with 42 more rows
 ```
 
@@ -170,7 +170,7 @@ Visualization of confirmed cases by country.
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Confirmed Covid-19 cases by Country. 2020-04-10"))
+                labs(title = "Africa's Confirmed Covid-19 cases by Country. 2020-04-11"))
 ```
 
 ![](covid_19_africa_visualizations_files/figure-html/confirmed by country-1.png)<!-- -->
@@ -200,7 +200,7 @@ Visualization of confirmed deaths by country.
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Deaths from Covid-19 by Country. 2020-04-10"))
+                labs(title = "Africa's Deaths from Covid-19 by Country. 2020-04-11"))
 ```
 
 ![](covid_19_africa_visualizations_files/figure-html/confirmed deaths-1.png)<!-- -->
@@ -230,7 +230,7 @@ Visualization of recovered cases by country.
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Recovered cases from covid-19 by Country. 2020-04-10"))
+                labs(title = "Africa's Recovered cases from covid-19 by Country. 2020-04-11"))
 ```
 
 ![](covid_19_africa_visualizations_files/figure-html/recovered-1.png)<!-- -->
@@ -242,15 +242,15 @@ sum(latest$Confirmed); sum(latest$Deaths); sum(latest$Recovered)
 ```
 
 ```
-## [1] 12249
+## [1] 12913
 ```
 
 ```
-## [1] 627
+## [1] 693
 ```
 
 ```
-## [1] 1624
+## [1] 2139
 ```
 
 Date of last update of script and session information
@@ -261,7 +261,7 @@ today()
 ```
 
 ```
-## [1] "2020-04-10"
+## [1] "2020-04-11"
 ```
 
 ```r
