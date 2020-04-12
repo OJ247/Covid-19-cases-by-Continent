@@ -1,12 +1,13 @@
 # Covid-19-Africa
 
-This repository contains the following files:
-- covid_19_africa.csv\
+## This repository contains the following files:
+- **covid_19_africa.csv**\
 The dataset contains daily level information about the COVID-19 cases in Africa.
-It is a time series data and hence the number of cases on any given day is cumulative.I extracted the data from the [covid_19_data.csv](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset#covid_19_data.csv) which was made available on kaggle. The original datasets can be found on [John Hopkins University Github repository](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports) for covid_19.
+It is a time series data and hence the number of cases on any given day is cumulative.I extracted the data from the [covid_19_data.csv](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset#covid_19_data.csv) which was made available on kaggle. The original datasets can be found on [John Hopkins University Github repository](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports) for covid_19.\
+**Note: I will be updating this dataset with every update from John Hopkins University.**
 
-- covid_19_data.csv\
-The COVID-19 dataset for all Countries/Regions around the world that was [uploaded on kaggle](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset#covid_19_data.csv)
+- **covid_19_data.csv**\
+The COVID-19 dataset for all Countries/Regions around the world that was [uploaded on kaggle](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset#covid_19_data.csv).  Click the link for the latest version of this dataset. 
 
 - covid_19_africa.R\
 The R script used to generate the covid_19_africa.csv from covid_19_data.csv
