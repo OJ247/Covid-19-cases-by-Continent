@@ -4,7 +4,8 @@ author: "Julius Okwir"
 date: "2020/04/13"
 output:
     html_document:
-            keep_md: true
+         keep_md: true
+         code_folding: hide
 ---
 
 ## Background
@@ -12,7 +13,7 @@ Late in December 2019, the [World Health Organisation](https://www.who.int/emerg
 
 ## The Dataset
 The [covid_19_africa.csv](https://github.com/ju-ok/Covid-19-Africa.git) dataset contains daily level information about the Covid-19 cases in Africa.
-It is a time series data and hence the number of cases on any given day is cumulative.I extracted the data from the [covid_19_data.csv](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset#covid_19_data.csv) which was made available on kaggle. The R scriptthat I used to prepare this dataset is also available on [my Github repository](https://github.com/ju-ok/Covid-19-Africa.git). The original datasets can be found on [John Hopkins University Github repository](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports) for covid_19. 
+It is a time series data and hence the number of cases on any given day is cumulative.I extracted the data from the [covid_19_data.csv](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset#covid_19_data.csv) which was made available on kaggle. The R script that I used to prepare this dataset is also available on [my Github repository](https://github.com/ju-ok/Covid-19-Africa.git). The original datasets can be found on [John Hopkins University Github repository](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports) for covid_19. 
 
 ### Field description
 - ObservationDate: YY/MM/DD
@@ -31,7 +32,7 @@ knitr::opts_chunk$set(fig.width=10, fig.height=12)
 
 ## Data processing
 Loading the required packages and setting a general theme for all the plots.
-```{r, message = FALSE}
+```{r, message = FALSE, Warning = FALSE}
 suppressMessages(library(tidyverse))
 suppressMessages(library(lubridate))
 suppressMessages(library(DT))
@@ -40,7 +41,7 @@ theme_set(theme_classic())
 
 Importing the dataset
 ```{r covid_19_africa, echo = TRUE}
-(covid_africa <- read_csv("covid_19_africa.csv"))
+covid_africa <- read_csv("covid_19_africa.csv")
 ```
 
 Converting the classes of Confirmed, Deaths, and Recovered columns to class integer.
