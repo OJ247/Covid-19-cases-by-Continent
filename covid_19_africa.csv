@@ -1369,6 +1369,7 @@ ObservationDate,Country,Confirmed,Deaths,Recovered
 2020-04-11,Chad,11,0,2
 2020-04-11,Congo (Brazzaville),60,5,5
 2020-04-11,Congo (Kinshasa),223,20,16
+2020-04-11,Ivory Coast,533,4,58
 2020-04-11,Djibouti,187,2,36
 2020-04-11,Egypt,1939,146,426
 2020-04-11,Equatorial Guinea,18,0,3
@@ -1420,6 +1421,7 @@ ObservationDate,Country,Confirmed,Deaths,Recovered
 2020-04-12,Chad,18,0,2
 2020-04-12,Congo (Brazzaville),60,5,5
 2020-04-12,Congo (Kinshasa),234,20,16
+2020-04-12,Ivory Coast,574,5,85
 2020-04-12,Djibouti,214,2,36
 2020-04-12,Egypt,2065,159,589
 2020-04-12,Equatorial Guinea,21,0,3
