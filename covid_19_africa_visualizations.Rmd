@@ -4,7 +4,6 @@ author: "Julius Okwir"
 date: "2020/04/14"
 output:
     html_document:
-         keep_md: true
          code_folding: hide
 ---
 
