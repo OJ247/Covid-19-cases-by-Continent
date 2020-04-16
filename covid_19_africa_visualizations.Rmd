@@ -1,14 +1,14 @@
 ---
-title: "Visualizations of Covid-19 cases in Africa"
+title: "Visualizations of COVID-19 cases in Africa"
 author: "Julius Okwir"
-date: "2020/04/15"
+date: "2020/04/16"
 output:
     html_document:
          code_folding: hide
 ---
 
 ## Background
-Late in December 2019, the [World Health Organisation](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen) (WHO) China Country Office obtained information about a severe pneumonia of an unknown cause, detected in the city of Wuhan in Hubei province, China. This later turned out to be the **novel coronavirus disease** (COVID-19), an infectious disease caused by **severe acute respiratory syndrome coronavirus-2** (SARS-CoV-2) of the corona virus family. The disease causes respiratory illness characterised by primary [symptoms](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html) like cough, fever, and in more acute cases, difficulty in breathing. **WHO** later [declared covid-19 as a Pandemic](https://time.com/5791661/who-coronavirus-pandemic-declaration/) because of its fast rate of spread across the Globe with over [1.98 Million confirmed cases and over 126,000 deaths](https://coronavirus.jhu.edu/map.html) as of April 15, 2020. The African continent confirmed its first cases in Mid February 2020 in some countries. The disease has since spread across 52 of the 54 Africa countries with over [16,000 confirmed cases and over 870 deaths](https://africanarguments.org/2020/04/07/coronavirus-in-africa-tracker-how-many-cases-and-where-latest/) as of April 15, 2020. 
+Late in December 2019, the [World Health Organisation](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen) (WHO) China Country Office obtained information about a severe pneumonia of an unknown cause, detected in the city of Wuhan in Hubei province, China. This later turned out to be the **novel coronavirus disease** (COVID-19), an infectious disease caused by **severe acute respiratory syndrome coronavirus-2** (SARS-CoV-2) of the corona virus family. The disease causes respiratory illness characterised by primary [symptoms](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html) like cough, fever, and in more acute cases, difficulty in breathing. **WHO** later [declared covid-19 as a Pandemic](https://time.com/5791661/who-coronavirus-pandemic-declaration/) because of its fast rate of spread across the Globe with over [2 Million confirmed cases and over 137,000 deaths](https://coronavirus.jhu.edu/map.html) as of April 16, 2020. The African continent confirmed its first cases in Mid February 2020 in some countries. The disease has since spread across 52 of the 54 Africa countries with over [17,000 confirmed cases and over 900 deaths](https://africanarguments.org/2020/04/07/coronavirus-in-africa-tracker-how-many-cases-and-where-latest/) as of April 16, 2020. 
 
 ## The Dataset
 The [covid_19_africa.csv](https://github.com/ju-ok/Covid-19-Africa.git) dataset contains daily level information about the Covid-19 cases in Africa.
@@ -17,12 +17,12 @@ It is a time series data and hence the number of cases on any given day is cumul
 ### Field description
 - ObservationDate: YY/MM/DD
 - Country: name of African country
-- Confirmed: the number of covid-19 confirmed cases
-- Deaths:  the number of deaths from covid-19
+- Confirmed: the number of cOVID-19 confirmed cases
+- Deaths:  the number of deaths from COVID-19
 - Recovered: the number of recovered cases
 
 ## Task
-- Visualizations of Africa’s covid-19 confirmed cases, deaths, and recovered cases by country. 
+**Visualizations of Africa’s COVID-19 confirmed cases, deaths, and recovered cases by country.** 
 
 Define a general figure size for all plots
 ```{r}
@@ -50,9 +50,11 @@ covid_africa <- covid_africa %>%
         mutate(Confirmed = as.integer(Confirmed), 
                Deaths = as.integer(Deaths),
                Recovered = as.integer(Recovered))
+```
+**COVID-19 cases in Africa by Country from 27th of January to date.**
+```{r covid-19 Africa}
 datatable(covid_africa)
 ```
-
 
 **Checking and confirming the number of African countries with confirmed cases.** 
 At the time of updating this script, only 52 of the 54 African countries recognized by the UN and WHO had confirmed cases.
@@ -60,8 +62,8 @@ At the time of updating this script, only 52 of the 54 African countries recogni
 length(unique(covid_africa$Country))
 ```
 
-**Obtaining the most recent cases in each country.** 
-- Note that the most recent cases on a given day == cumulative sum of cases reported by end of the previous day.
+**Latest cases of COVID-19 in Africa by country.** 
+Note that the latest cases on a given day is the cumulative sum of cases reported by end of the previous day.
 ```{r latest cases, echo = TRUE}
 latest <- covid_africa %>%
         filter(ObservationDate == today() - 1 )
@@ -69,7 +71,7 @@ datatable(latest)
 ```
 
 ## VISUALIZATIONS OF COVID-19 CASES IN AFRICA
-**Visualization of confirmed cases by country.**
+**Confirmed number of cases by country.**
 ```{r confirmed by country, echo = TRUE}
 (latest_confirmed <- latest %>%
                 
@@ -93,10 +95,10 @@ datatable(latest)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Confirmed Covid-19 cases by Country. 2020-04-15"))
+                labs(title = "Africa's Confirmed COVID-19 cases by Country. 2020-04-16"))
 ```
 
-**Visualization of confirmed deaths by country.**
+**Confirmed deaths by country.**
 ```{r confirmed deaths, echo = TRUE}
 (latest_deaths <- latest %>%
                 
@@ -120,11 +122,11 @@ datatable(latest)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Deaths from Covid-19 by Country. 2020-04-15"))
+                labs(title = "Africa's Deaths from COVID-19 by Country. 2020-04-16"))
 
 ```
 
-**Visualization of recovered cases by country.**
+**Recovered cases by country.**
 ```{r recovered, echo = TRUE}
 (latest_recovered <- latest %>%
                 
@@ -148,7 +150,7 @@ datatable(latest)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Recovered cases from covid-19 by Country. 2020-04-15"))
+                labs(title = "Africa's Recovered cases from COVID-19 by Country. 2020-04-16"))
 ```
 
 **latest sum of confirmed cases, Deaths, and recovered cases in Africa respectively.**
