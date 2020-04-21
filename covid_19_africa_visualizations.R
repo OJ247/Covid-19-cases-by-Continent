@@ -49,7 +49,7 @@ latest <- covid_africa %>%
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Confirmed Covid-19 cases by Country. 2020-04-19"))
+                labs(title = "Africa's Confirmed Covid-19 cases by Country. 2020-04-21"))
 
 # Visualization of confirmed deaths by country
 (latest_deaths <- latest %>%
@@ -74,7 +74,7 @@ latest <- covid_africa %>%
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Deaths from Covid-19 by Country. 2020-04-19"))
+                labs(title = "Africa's Deaths from Covid-19 by Country. 2020-04-21"))
 
 # Visualization of recovered cases by country
 (latest_recovered <- latest %>%
@@ -99,8 +99,28 @@ latest <- covid_africa %>%
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Recovered cases from covid-19 by Country. 2020-04-19"))
+                labs(title = "Africa's Recovered cases from covid-19 by Country. 2020-04-21"))
 
+# weekly changes in the number of COVID-19 cases in Africa
+weekly_cases <- covid_africa %>%
+        group_by(ObservationDate) %>%
+        summarise(Confirmed = sum(Confirmed), Deaths = sum(Deaths), Recovered = sum(Recovered))
+
+colors <- c("Confirmed" = "orange", "Deaths" = "red", "Recovered" = "green")
+p <- weekly_cases %>%
+        gather(Confirmed, Deaths, Recovered, key = "cases", value = "number") %>%
+        ggplot(aes(x = ObservationDate, y = number)) +
+        geom_line(aes(color = cases)) +
+        scale_x_date(date_labels = "%d-%b", date_breaks = "1 week") +
+        scale_color_manual(values = colors) + 
+        theme_classic() +
+        theme(axis.text.x = element_text(angle = 45, hjust = 1),
+              plot.title = element_text(hjust = 0, size = 10, face = "bold"),
+              plot.margin = margin(1, 0, 0, 0, unit = "cm")) +
+        labs(title = "Weekly changes in the number of COVID-19 cases in Africa",
+             x = "Date", y = "Number of cases")
+
+ggplotly(p)
 # latest sum of confirmed cases, Deaths, and recovered cases in africa
 sum(latest$Confirmed); sum(latest$Deaths); sum(latest$Recovered)
 # date of last update of script
