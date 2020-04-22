@@ -1,14 +1,14 @@
 ---
 title: "Visualizations of COVID-19 cases in Africa"
 author: "Julius Okwir"
-date: "2020/04/21"
+date: "2020/04/22"
 output:
     html_document:
          code_folding: hide
 ---
 
 ## Background
-Late in December 2019, the [World Health Organisation](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen) (WHO) China Country Office obtained information about a severe pneumonia of an unknown cause, detected in the city of Wuhan in Hubei province, China. This later turned out to be the **novel coronavirus disease** (COVID-19), an infectious disease caused by **severe acute respiratory syndrome coronavirus-2** (SARS-CoV-2) of the corona virus family. The disease causes respiratory illness characterised by primary [symptoms](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html) like cough, fever, and in more acute cases, difficulty in breathing. **WHO** later [declared covid-19 as a Pandemic](https://time.com/5791661/who-coronavirus-pandemic-declaration/) because of its fast rate of spread across the Globe with over [2.47 Million confirmed cases and over 170,000 deaths](https://coronavirus.jhu.edu/map.html) as of April 21, 2020. The African continent started confirming its first cases in late January and mid-February of 2020 in some countries. The disease has since spread across 52 of the 54 Africa countries with over [23,000 confirmed cases and over 1,100 deaths](https://africanarguments.org/2020/04/07/coronavirus-in-africa-tracker-how-many-cases-and-where-latest/) as of April 21, 2020. 
+Late in December 2019, the [World Health Organisation](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen) (WHO) China Country Office obtained information about a severe pneumonia of an unknown cause, detected in the city of Wuhan in Hubei province, China. This later turned out to be the **novel coronavirus disease** (COVID-19), an infectious disease caused by **severe acute respiratory syndrome coronavirus-2** (SARS-CoV-2) of the corona virus family. The disease causes respiratory illness characterised by primary [symptoms](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html) like cough, fever, and in more acute cases, difficulty in breathing. **WHO** later [declared covid-19 as a Pandemic](https://time.com/5791661/who-coronavirus-pandemic-declaration/) because of its fast rate of spread across the Globe with over [2.56 Million confirmed cases and over 177,000 deaths](https://coronavirus.jhu.edu/map.html) as of April 22, 2020. The African continent started confirming its first cases in late January and mid-February of 2020 in some countries. The disease has since spread across 52 of the 54 Africa countries with over [24,000 confirmed cases and over 1,100 deaths](https://africanarguments.org/2020/04/07/coronavirus-in-africa-tracker-how-many-cases-and-where-latest/) as of April 22, 2020. 
 
 ## The Dataset
 The [covid_19_africa.csv](https://github.com/ju-ok/Covid-19-Africa.git) dataset contains daily level information about the Covid-19 cases in Africa.
@@ -43,7 +43,8 @@ covid_africa <- covid_africa %>%
         
         mutate(Confirmed = as.integer(Confirmed), 
                Deaths = as.integer(Deaths),
-               Recovered = as.integer(Recovered))
+               Recovered = as.integer(Recovered),
+               Active = as.integer(Active))
 ```
 
 ## COVID-19 cases in Africa by Country from 27th of January to date
@@ -73,16 +74,16 @@ weekly_cases <- covid_africa %>%
         group_by(ObservationDate) %>%
         
         # obtaining the sum of cases for each day
-        summarise(Confirmed = sum(Confirmed), Deaths = sum(Deaths), Recovered = sum(Recovered))
+        summarise(Confirmed = sum(Confirmed), Deaths = sum(Deaths), Recovered = sum(Recovered), Active = sum(Active))
 
 # creating a character vector of colors for the cases
-colors <- c("Confirmed" = "orange", "Deaths" = "red", "Recovered" = "green")
+colors <- c("Confirmed" = "orange", "Deaths" = "red", "Recovered" = "green", "Active" = "cyan2")
 
 # plotting
 p <- weekly_cases %>%
         
         # placing all cases in a single column and their sums in another column 
-        gather(Confirmed, Deaths, Recovered, key = "cases", value = "number") %>%
+        gather(Confirmed, Deaths, Recovered, Active, key = "cases", value = "number") %>%
         
         # specifying the values on the x and y axes
         ggplot(aes(x = ObservationDate, y = number)) +
@@ -133,7 +134,7 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Confirmed COVID-19 cases by Country. 2020-04-20"))
+                labs(title = "Africa's Confirmed COVID-19 cases by Country. 2020-04-22"))
 ```
 
 **Confirmed deaths by country.**
@@ -160,7 +161,7 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Deaths from COVID-19 by Country. 2020-04-20"))
+                labs(title = "Africa's Deaths from COVID-19 by Country. 2020-04-22"))
 
 ```
 
@@ -188,7 +189,34 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Recovered cases from COVID-19 by Country. 2020-04-20"))
+                labs(title = "Africa's Recovered cases from COVID-19 by Country. 2020-04-22"))
+```
+
+**Active cases by country.**
+```{r active, echo = TRUE, fig.width=10, fig.height=12}
+(latest_active <- latest %>%
+                
+                # reordering the countries by number of active cases i.e highest to lowest
+                mutate(Country = fct_reorder(Country, Active)) %>%
+                
+                #  specifying the values on the x and y axes 
+                ggplot(aes(x = Country, y = Active)) +
+                
+                # setting parameters for the bar plots of active cases by country
+                geom_bar(stat = "identity", show.legend = FALSE, fill = "cyan2", width = 0.6) + 
+                
+                # specifying and positioning of the bar labels
+                geom_text(aes(label = Active), hjust =  0, size = 3) +
+                
+                # flipping the x and y  co-ordinates
+                coord_flip(clip = "off", expand = FALSE) +
+                
+                # specifying desired parameters for the plot title and margin
+                theme(plot.title = element_text(hjust = 0, size = 10, face = "bold"),
+                      plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
+                
+                # specifying the plot title
+                labs(title = "Africa's Active cases of COVID-19 by Country. 2020-04-22"))
 ```
 
 ## References

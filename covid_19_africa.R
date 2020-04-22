@@ -32,6 +32,10 @@ covid_africa <- covid_world %>%
         # converting all columns of class double to class integer
         mutate_if(is.double, as.integer) %>%
         
+        # add the cumulative number of active cases
+        mutate(Active = Confirmed - (Deaths + Recovered))
+        
+        
         # changing ObservationDate from class Character to class Date
         mutate(ObservationDate = mdy(ObservationDate)) %>%
         
@@ -45,8 +49,8 @@ covid_africa
 # at the time of uploading this script only 52 of the 54 African countries had confirmed cases
 length(unique(covid_africa$Country))
 
-# adding the daily update from John Hopkins University. adjust the name of the csv "04-20-2020.csv" accordingly
-daily_update <- read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-20-2020.csv")
+# adding the daily update from John Hopkins University. adjust the name of the csv "04-21-2020.csv" accordingly
+daily_update <- read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-21-2020.csv")
 
 # modifications where made to some names to match those in the daily updates from JHU
 africa_1 <- c("Algeria", "Angola", "Benin", "Botswana", "Burkina Faso",
@@ -64,7 +68,7 @@ africa_1 <- c("Algeria", "Angola", "Benin", "Botswana", "Burkina Faso",
 daily_update <- daily_update %>%
         
         # selecting only the desired columns
-        select(Last_Update, Country_Region, Confirmed, Deaths, Recovered) %>%
+        select(Last_Update, Country_Region, Confirmed, Deaths, Recovered, Active) %>%
         
         #obtaining all covid-19 cases in affected african countries
         filter(Country_Region %in% africa_1) %>%
@@ -76,7 +80,8 @@ daily_update <- daily_update %>%
         mutate(ObservationDate = as_date(ObservationDate),
                Confirmed = as.integer(Confirmed),
                Deaths = as.integer(Deaths),
-               Recovered = as.integer(Recovered)) %>%
+               Recovered = as.integer(Recovered),
+               Active = as.integer(Active)) %>%
 
         # replace Cote'd'Ivoire with Ivory Coast to match the original dataset. 
         # Do this for any country with different names in the covid_19_data.csv and the JHU daily update
@@ -102,7 +107,6 @@ write_csv(covid_africa, "covid_19_africa.csv")
 # 2. SRk's dataset on kaggle: https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset#covid_19_data.csv
 # 3. Names of African Countries from the United Nations Department of General Assembly and Conference Management:
 # https://www.un.org/depts/DGACM/RegionalGroups.shtml
-
 
 
 
