@@ -26,7 +26,7 @@ length(unique(covid_africa$Country))
 latest <- covid_africa %>%
         filter(ObservationDate == today() - 1 )
 
-# weekly changes in the number of COVID-19 cases in Africa
+# the number of COVID-19 cases in Africa
 weekly_cases <- covid_africa %>%
         group_by(ObservationDate) %>%
         summarise(Confirmed = sum(Confirmed), Deaths = sum(Deaths), Recovered = sum(Recovered))
@@ -42,7 +42,7 @@ p <- weekly_cases %>%
         theme(axis.text.x = element_text(angle = 45, hjust = 1),
               plot.title = element_text(hjust = 0, size = 10, face = "bold"),
               plot.margin = margin(1, 0, 0, 0, unit = "cm")) +
-        labs(title = "Weekly changes in the number of COVID-19 cases in Africa",
+        labs(title = "Number of COVID-19 cases in Africa",
              x = "Date", y = "Number of cases")
 
 ggplotly(p)
@@ -70,7 +70,7 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Confirmed Covid-19 cases by Country. 2020-04-22"))
+                labs(title = "Africa's Confirmed Covid-19 cases by Country. 2020-04-23"))
 
 # Visualization of confirmed deaths by country
 (latest_deaths <- latest %>%
@@ -95,7 +95,7 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Deaths from Covid-19 by Country. 2020-04-22"))
+                labs(title = "Africa's Deaths from Covid-19 by Country. 2020-04-23"))
 
 # Visualization of recovered cases by country
 (latest_recovered <- latest %>%
@@ -120,8 +120,32 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Recovered cases from covid-19 by Country. 2020-04-22"))
+                labs(title = "Africa's Recovered cases from covid-19 by Country. 2020-04-23"))
 
+# visualization of Active cases by country
+(latest_active <- latest %>%
+                
+                # reordering the countries by number of active cases i.e highest to lowest
+                mutate(Country = fct_reorder(Country, Active)) %>%
+                
+                #  specifying the values on the x and y axes 
+                ggplot(aes(x = Country, y = Active)) +
+                
+                # setting parameters for the bar plots of active cases by country
+                geom_bar(stat = "identity", show.legend = FALSE, fill = "cyan2", width = 0.6) + 
+                
+                # specifying and positioning of the bar labels
+                geom_text(aes(label = Active), hjust =  0, size = 3) +
+                
+                # flipping the x and y  co-ordinates
+                coord_flip(clip = "off", expand = FALSE) +
+                
+                # specifying desired parameters for the plot title and margin
+                theme(plot.title = element_text(hjust = 0, size = 10, face = "bold"),
+                      plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
+                
+                # specifying the plot title
+                labs(title = "Africa's Active cases of COVID-19 by Country. 2020-04-23"))
 
 # latest sum of confirmed cases, Deaths, and recovered cases in africa
 sum(latest$Confirmed); sum(latest$Deaths); sum(latest$Recovered)

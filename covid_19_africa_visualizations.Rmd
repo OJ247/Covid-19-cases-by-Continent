@@ -1,14 +1,14 @@
 ---
 title: "Visualizations of COVID-19 cases in Africa"
 author: "Julius Okwir"
-date: "2020/04/22"
+date: "2020/04/23"
 output:
     html_document:
          code_folding: hide
 ---
 
 ## Background
-Late in December 2019, the [World Health Organisation](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen) (WHO) China Country Office obtained information about a severe pneumonia of an unknown cause, detected in the city of Wuhan in Hubei province, China. This later turned out to be the **novel coronavirus disease** (COVID-19), an infectious disease caused by **severe acute respiratory syndrome coronavirus-2** (SARS-CoV-2) of the corona virus family. The disease causes respiratory illness characterised by primary [symptoms](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html) like cough, fever, and in more acute cases, difficulty in breathing. **WHO** later [declared covid-19 as a Pandemic](https://time.com/5791661/who-coronavirus-pandemic-declaration/) because of its fast rate of spread across the Globe with over [2.56 Million confirmed cases and over 177,000 deaths](https://coronavirus.jhu.edu/map.html) as of April 22, 2020. The African continent started confirming its first cases in late January and mid-February of 2020 in some countries. The disease has since spread across 52 of the 54 Africa countries with over [24,000 confirmed cases and over 1,100 deaths](https://africanarguments.org/2020/04/07/coronavirus-in-africa-tracker-how-many-cases-and-where-latest/) as of April 22, 2020. 
+Late in December 2019, the [World Health Organisation](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen) (WHO) China Country Office obtained information about a severe pneumonia of an unknown cause, detected in the city of Wuhan in Hubei province, China. This later turned out to be the **novel coronavirus disease** (COVID-19), an infectious disease caused by **severe acute respiratory syndrome coronavirus-2** (SARS-CoV-2) of the corona virus family. The disease causes respiratory illness characterised by primary [symptoms](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html) like cough, fever, and in more acute cases, difficulty in breathing. **WHO** later [declared covid-19 as a Pandemic](https://time.com/5791661/who-coronavirus-pandemic-declaration/) because of its fast rate of spread across the Globe with over [2.6 Million confirmed cases and over 180,000 deaths](https://coronavirus.jhu.edu/map.html) as of April 23, 2020. The African continent started confirming its first cases in late January and mid-February of 2020 in some countries. The disease has since spread across 52 of the 54 Africa countries with over [25,000 confirmed cases and over 1,200 deaths](https://africanarguments.org/2020/04/07/coronavirus-in-africa-tracker-how-many-cases-and-where-latest/) as of April 23, 2020. 
 
 ## The Dataset
 The [covid_19_africa.csv](https://github.com/ju-ok/Covid-19-Africa.git) dataset contains daily level information about the Covid-19 cases in Africa.
@@ -20,6 +20,7 @@ It is a time series data and hence the number of cases on any given day is cumul
 - Confirmed: the number of cOVID-19 confirmed cases
 - Deaths:  the number of deaths from COVID-19
 - Recovered: the number of recovered cases
+- Active: the number of people still infected with COVID-19
 
 ## Task
 **Visualizations of Africa’s COVID-19 confirmed cases, deaths, and recovered cases by country.** 
@@ -134,7 +135,7 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Confirmed COVID-19 cases by Country. 2020-04-22"))
+                labs(title = "Africa's Confirmed COVID-19 cases by Country. 2020-04-23"))
 ```
 
 **Confirmed deaths by country.**
@@ -161,7 +162,7 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Deaths from COVID-19 by Country. 2020-04-22"))
+                labs(title = "Africa's Deaths from COVID-19 by Country. 2020-04-23"))
 
 ```
 
@@ -189,7 +190,7 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Recovered cases from COVID-19 by Country. 2020-04-22"))
+                labs(title = "Africa's Recovered cases from COVID-19 by Country. 2020-04-23"))
 ```
 
 **Active cases by country.**
@@ -216,7 +217,7 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Active cases of COVID-19 by Country. 2020-04-22"))
+                labs(title = "Africa's Active cases of COVID-19 by Country. 2020-04-23"))
 ```
 
 ## References
