@@ -1,6 +1,7 @@
 #loading the required packages
 suppressMessages(library(tidyverse))
 suppressMessages(library(lubridate))
+suppressMessages(library(plotly))
 
 # setting a general theme for all the plots
 theme_set(theme_classic())
@@ -13,7 +14,8 @@ covid_africa <- read_csv("covid_19_africa.csv")
         # converting all columns of class double to class integer
         mutate(Confirmed = as.integer(Confirmed), 
                Deaths = as.integer(Deaths),
-               Recovered = as.integer(Recovered)))
+               Recovered = as.integer(Recovered),
+               Active = as.integer(Active)))
 
 # checking and confirming the number of african countries with confirmed cases
 # at the time of uploading this script only 52 of the 54 African countries had confirmed cases
@@ -29,11 +31,13 @@ latest <- covid_africa %>%
 # the number of COVID-19 cases in Africa
 weekly_cases <- covid_africa %>%
         group_by(ObservationDate) %>%
-        summarise(Confirmed = sum(Confirmed), Deaths = sum(Deaths), Recovered = sum(Recovered))
+        summarise(Confirmed = sum(Confirmed), Deaths = sum(Deaths),
+                  Recovered = sum(Recovered), Active = sum(Active))
 
-colors <- c("Confirmed" = "orange", "Deaths" = "red", "Recovered" = "green")
+colors <- c("Confirmed" = "orange", "Deaths" = "red", "Recovered" = "green", "Active" = "cyan2")
+
 p <- weekly_cases %>%
-        gather(Confirmed, Deaths, Recovered, key = "cases", value = "number") %>%
+        gather(Confirmed, Deaths, Recovered, Active, key = "cases", value = "number") %>%
         ggplot(aes(x = ObservationDate, y = number)) +
         geom_line(aes(color = cases)) +
         scale_x_date(date_labels = "%d-%b", date_breaks = "1 week") +
@@ -70,7 +74,8 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Confirmed Covid-19 cases by Country. 2020-04-23"))
+                labs(title = "Africa's Confirmed Covid-19 cases by Country. 2020-04-24"))
+
 
 # Visualization of confirmed deaths by country
 (latest_deaths <- latest %>%
@@ -95,7 +100,7 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Deaths from Covid-19 by Country. 2020-04-23"))
+                labs(title = "Africa's Deaths from Covid-19 by Country. 2020-04-24"))
 
 # Visualization of recovered cases by country
 (latest_recovered <- latest %>%
@@ -120,7 +125,7 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Recovered cases from covid-19 by Country. 2020-04-23"))
+                labs(title = "Africa's Recovered cases from covid-19 by Country. 2020-04-24"))
 
 # visualization of Active cases by country
 (latest_active <- latest %>%
@@ -145,12 +150,10 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Active cases of COVID-19 by Country. 2020-04-23"))
+                labs(title = "Africa's Active cases of COVID-19 by Country. 2020-04-24"))
 
 # latest sum of confirmed cases, Deaths, and recovered cases in africa
 sum(latest$Confirmed); sum(latest$Deaths); sum(latest$Recovered)
-# date of last update of script
-today()
 
 # References
 # 1. John Hopkins University Covid_19 datasets: 
