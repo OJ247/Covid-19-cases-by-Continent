@@ -49,8 +49,8 @@ covid_africa
 # at the time of uploading this script only 52 of the 54 African countries had confirmed cases
 length(unique(covid_africa$Country))
 
-# adding the daily update from John Hopkins University. adjust the name of the csv "04-23-2020.csv" accordingly
-daily_update <- read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-23-2020.csv")
+# adding the daily update from John Hopkins University. adjust the name of the csv "04-24-2020.csv" accordingly
+daily_update <- read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-24-2020.csv")
 
 
 # modifications where made to some names to match those in the daily updates from JHU
@@ -87,7 +87,11 @@ daily_update <- daily_update %>%
         # replace Cote'd'Ivoire with Ivory Coast to match the original dataset. 
         # Do this for any country with different names in the covid_19_data.csv and the JHU daily update
         mutate(Country = replace(Country, Country == "Cote d'Ivoire", "Ivory Coast"))
-        
+ 
+# correction on date
+daily_update <- daily_update %>%
+        mutate(ObservationDate = "2020-04-24") %>%
+        mutate(ObservationDate = as_date(ObservationDate))
 
 # checking for number of african countries in the daily update. These should be the same as those in
 # the covid_africa dataset
