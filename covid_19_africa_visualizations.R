@@ -74,7 +74,7 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Confirmed Covid-19 cases by Country. 2020-04-26"))
+                labs(title = "Africa's Confirmed Covid-19 cases by Country. 2020-04-27"))
 
 
 # Visualization of confirmed deaths by country
@@ -100,7 +100,7 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Deaths from Covid-19 by Country. 2020-04-26"))
+                labs(title = "Africa's Deaths from Covid-19 by Country. 2020-04-27"))
 
 # Visualization of recovered cases by country
 (latest_recovered <- latest %>%
@@ -125,7 +125,7 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Recovered cases from covid-19 by Country. 2020-04-26"))
+                labs(title = "Africa's Recovered cases from covid-19 by Country. 2020-04-27"))
 
 # visualization of Active cases by country
 (latest_active <- latest %>%
@@ -150,7 +150,7 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Active cases of COVID-19 by Country. 2020-04-26"))
+                labs(title = "Africa's Active cases of COVID-19 by Country. 2020-04-27"))
 
 # latest sum of confirmed cases, Deaths, and recovered cases in africa
 sum(latest$Confirmed); sum(latest$Deaths); sum(latest$Recovered)
