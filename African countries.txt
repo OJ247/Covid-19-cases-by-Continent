@@ -1,3 +1,4 @@
+COUNTRIES OF AFRICA
 Algeria
 Angola
 Benin
@@ -7,7 +8,6 @@ Burundi
 Cameroon
 Cabo Verde
 Central African Republic
-COUNTRIES OF AFRICA
 Chad
 Comoros
 Congo (Brazzaville)
