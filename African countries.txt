@@ -7,6 +7,7 @@ Burundi
 Cameroon
 Cabo Verde
 Central African Republic
+COUNTRIES OF AFRICA
 Chad
 Comoros
 Congo (Brazzaville)
@@ -53,6 +54,75 @@ Uganda
 Zambia
 Zimbabwe
 
+SUBREGIONS OF AFRICA
+Northern Africa
+Algeria
+Egypt
+Libya
+Morocco
+Sudan
+Tunisia
+
+Central Africa
+Angola
+Cameroon
+Central African Republic
+Chad
+Congo (Brazzaville)
+Congo (Kinshasa)
+Equatorial Guinea
+Gabon
+Sao Tome and Principe
+
+Southern Africa 
+Botswana
+Eswatini
+Lesotho
+Namibia
+South Africa
+
+Eastern Africa
+Burundi
+Comoros
+Djibouti
+Ethiopia
+Eritrea
+Kenya
+Madagascar
+Malawi
+Mauritius
+Mozambique
+Rwanda
+Seychelles
+Somalia
+South Sudan
+Tanzania
+Uganda
+Zambia
+Zimbabwe
+
+Western Africa
+Benin
+Burkina Faso
+Cabo Verde
+Gambia
+Ghana
+Guinea
+Guinea-Bissau
+Ivory Coast
+Liberia
+Mali
+Mauritania
+Niger
+Nigeria
+Senegal
+Sierra Leone
+Togo 
+
+
+References
+1. Names of African Countries from the United Nations Department of General Assembly and Conference management: https://www.un.org/depts/DGACM/RegionalGroups.shtml
+2. United Nations subregions of Africa: https://pitt.libguides.com/c.php?g=12378&p=65814
 
 
 
