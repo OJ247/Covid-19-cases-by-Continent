@@ -49,8 +49,8 @@ covid_africa
 # at the time of uploading this script only 52 of the 54 African countries had confirmed cases
 length(unique(covid_africa$Country))
 
-# adding the daily update from John Hopkins University. adjust the name of the csv "04-27-2020.csv" accordingly
-daily_update <- read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-27-2020.csv")
+# adding the daily update from John Hopkins University. adjust the name of the csv "04-28-2020.csv" accordingly
+daily_update <- read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/04-28-2020.csv")
 
 
 # modifications where made to some names to match those in the daily updates from JHU
@@ -90,18 +90,12 @@ daily_update <- daily_update %>%
  
 # correction on date
 daily_update <- daily_update %>%
-        mutate(ObservationDate = "2020-04-27") %>%
+        mutate(ObservationDate = "2020-04-28") %>%
         mutate(ObservationDate = as_date(ObservationDate))
 
 # checking for number of african countries in the daily update. These should be the same as those in
 # the covid_africa dataset
 length(unique(daily_update$Country))
-
-# join covid_africa with the daily_update. Joining will be done on all variables
-covid_africa <- full_join(covid_africa, daily_update)
-
-# having a look at the updated dataset. notice the change in number of observations
-covid_africa
 
 # adding african regions
 # modifications were made to some names to match those in the covid_africa dataset
@@ -118,7 +112,7 @@ western_africa <- c("Benin", "Burkina Faso", "Cabo Verde", "Gambia", "Ghana", "G
                     "Guinea-Bissau", "Ivory Coast", "Liberia", "Mali", "Mauritania",
                     "Niger", "Nigeria", "Senegal", "Sierra Leone", "Togo")
 
-covid_africa <- covid_africa %>%
+daily_update <- daily_update %>%
                  mutate(Region = ifelse(Country %in% northern_africa, "Northern Africa",
                         ifelse(Country %in% eastern_africa, "Eastern Africa",
                         ifelse(Country %in% central_africa, "Central Africa",
@@ -126,6 +120,13 @@ covid_africa <- covid_africa %>%
                                "Western Africa"))))) %>%
                  mutate(Region = as_factor(Region)) %>%
                 select(ObservationDate, Country, Region, everything())
+
+
+# join covid_africa with the daily_update. Joining will be done on all variables
+covid_africa <- full_join(covid_africa, daily_update)
+
+# having a look at the updated dataset.
+head(covid_africa); tail(covid_africa)
 
 # storing the data set
 write_csv(covid_africa, "covid_19_africa.csv")
@@ -138,14 +139,11 @@ write_csv(covid_africa, "covid_19_africa.csv")
 # https://www.un.org/depts/DGACM/RegionalGroups.shtml
 # 4. United Nations subregions of Africa:
 # https://pitt.libguides.com/c.php?g=12378&p=65814
-# 5. Countries within Each African Region from the United Nations Statistics Division:
-# https://unstats.un.org/unsd/methodology/m49/
 
 
 
 
         
-
 
 
 
