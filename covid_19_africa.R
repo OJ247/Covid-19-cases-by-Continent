@@ -49,9 +49,8 @@ covid_africa
 # at the time of uploading this script only 52 of the 54 African countries had confirmed cases
 length(unique(covid_africa$Country))
 
-# adding the daily update from John Hopkins University. adjust the name of the csv "05-02-2020.csv" accordingly
-daily_update <- read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-02-2020.csv")
-
+# adding the daily update from John Hopkins University. adjust the name of the csv "05-04-2020.csv" accordingly
+daily_update <- read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-04-2020.csv")
 
 # modifications where made to some names to match those in the daily updates from JHU
 africa_1 <- c("Algeria", "Angola", "Benin", "Botswana", "Burkina Faso",
@@ -90,12 +89,8 @@ daily_update <- daily_update %>%
  
 # correction on date
 daily_update <- daily_update %>%
-        mutate(ObservationDate = "2020-05-02") %>%
+        mutate(ObservationDate = "2020-05-04") %>%
         mutate(ObservationDate = as_date(ObservationDate))
-
-# checking for number of african countries in the daily update. These should be the same as those in
-# the covid_africa dataset
-length(unique(daily_update$Country))
 
 # adding african regions
 # modifications were made to some names to match those in the covid_africa dataset
@@ -121,13 +116,15 @@ daily_update <- daily_update %>%
                  mutate(Region = as_factor(Region)) %>%
                 select(ObservationDate, Country, Region, everything())
 
+# looking at the daily_update
+head(daily_update); tail(daily_update)
 
 # join covid_africa with the daily_update. Joining will be done on all variables
 covid_africa <- covid_africa %>%
         full_join(daily_update) %>%
         mutate(Region = as_factor(Region))
 
-# having a look at the updated dataset.
+# looking at the updated covid_africa dataset.
 head(covid_africa); tail(covid_africa)
 
 # storing the data set
