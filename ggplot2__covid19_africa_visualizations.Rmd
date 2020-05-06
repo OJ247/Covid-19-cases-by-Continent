@@ -1,7 +1,7 @@
 ---
 title: "Visualizations of COVID-19 cases in Africa"
 author: "Julius Okwir"
-date: "2020/05/05"
+date: "2020/05/06"
 output:
     html_document:
          code_folding: hide
@@ -137,7 +137,7 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Confirmed COVID-19 cases by Country. 2020/05/05"))
+                labs(title = "Africa's Confirmed COVID-19 cases by Country. 2020/05/06"))
 ```
 
 **Confirmed deaths by country.**
@@ -164,7 +164,7 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Deaths from COVID-19 by Country. 2020/05/05"))
+                labs(title = "Africa's Deaths from COVID-19 by Country. 2020/05/06"))
 
 ```
 
@@ -192,7 +192,7 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Recovered cases from COVID-19 by Country. 2020/05/05"))
+                labs(title = "Africa's Recovered cases from COVID-19 by Country. 2020/05/06"))
 ```
 
 **Active cases by country.**
@@ -219,7 +219,7 @@ ggplotly(p)
                       plot.margin = margin(0, 1, 0, 0, unit = "cm")) +
                 
                 # specifying the plot title
-                labs(title = "Africa's Active cases of COVID-19 by Country. 2020/05/05"))
+                labs(title = "Africa's Active cases of COVID-19 by Country. 2020/05/06"))
 ```
 
 ## References
