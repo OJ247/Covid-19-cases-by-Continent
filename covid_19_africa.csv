@@ -2875,3 +2875,56 @@ ObservationDate,Country,Region,Confirmed,Deaths,Recovered,Active
 2020-05-09,Uganda,Eastern Africa,116,0,55,61
 2020-05-09,Zambia,Eastern Africa,252,7,112,133
 2020-05-09,Zimbabwe,Eastern Africa,35,4,9,22
+2020-05-10,Algeria,Northern Africa,5723,502,2678,2543
+2020-05-10,Angola,Central Africa,45,2,13,30
+2020-05-10,Benin,Western Africa,319,2,62,255
+2020-05-10,Botswana,Southern Africa,23,1,12,10
+2020-05-10,Burkina Faso,Western Africa,751,49,577,125
+2020-05-10,Burundi,Eastern Africa,15,1,7,7
+2020-05-10,Cabo Verde,Western Africa,246,2,56,188
+2020-05-10,Cameroon,Central Africa,2579,114,1465,1000
+2020-05-10,Central African Republic,Central Africa,143,0,10,133
+2020-05-10,Chad,Central Africa,322,31,53,238
+2020-05-10,Comoros,Eastern Africa,11,1,0,10
+2020-05-10,Congo (Brazzaville),Central Africa,274,10,33,231
+2020-05-10,Congo (Kinshasa),Central Africa,991,41,136,814
+2020-05-10,Ivory Coast,Western Africa,1700,21,794,885
+2020-05-10,Djibouti,Eastern Africa,1210,3,847,360
+2020-05-10,Egypt,Northern Africa,9400,525,2075,6800
+2020-05-10,Equatorial Guinea,Central Africa,439,4,13,422
+2020-05-10,Eritrea,Eastern Africa,39,0,37,2
+2020-05-10,Eswatini,Southern Africa,172,2,27,143
+2020-05-10,Ethiopia,Eastern Africa,239,5,99,135
+2020-05-10,Gabon,Central Africa,661,8,110,543
+2020-05-10,Gambia,Western Africa,20,1,9,10
+2020-05-10,Ghana,Western Africa,4263,22,378,3863
+2020-05-10,Guinea,Western Africa,2146,11,714,1421
+2020-05-10,Guinea-Bissau,Western Africa,726,3,26,697
+2020-05-10,Kenya,Eastern Africa,672,32,239,401
+2020-05-10,Liberia,Western Africa,199,20,79,100
+2020-05-10,Libya,Northern Africa,64,3,24,37
+2020-05-10,Madagascar,Eastern Africa,193,0,101,92
+2020-05-10,Malawi,Eastern Africa,56,3,14,39
+2020-05-10,Mali,Western Africa,704,38,351,315
+2020-05-10,Mauritania,Western Africa,8,1,6,1
+2020-05-10,Mauritius,Eastern Africa,332,10,320,2
+2020-05-10,Morocco,Northern Africa,6063,188,2554,3321
+2020-05-10,Mozambique,Eastern Africa,91,0,34,57
+2020-05-10,Namibia,Southern Africa,16,0,11,5
+2020-05-10,Niger,Western Africa,821,46,624,151
+2020-05-10,Nigeria,Western Africa,4399,143,778,3478
+2020-05-10,Rwanda,Eastern Africa,284,0,140,144
+2020-05-10,Sao Tome and Principe,Central Africa,208,5,4,199
+2020-05-10,Senegal,Western Africa,1709,19,650,1040
+2020-05-10,Seychelles,Eastern Africa,11,0,10,1
+2020-05-10,Sierra Leone,Western Africa,307,18,67,222
+2020-05-10,Somalia,Eastern Africa,1054,51,118,885
+2020-05-10,South Africa,Southern Africa,10015,194,4173,5648
+2020-05-10,South Sudan,Eastern Africa,120,0,2,118
+2020-05-10,Sudan,Northern Africa,1365,70,149,1146
+2020-05-10,Tanzania,Eastern Africa,509,21,183,305
+2020-05-10,Togo,Western Africa,174,11,89,74
+2020-05-10,Tunisia,Northern Africa,1032,45,700,287
+2020-05-10,Uganda,Eastern Africa,121,0,55,66
+2020-05-10,Zambia,Eastern Africa,267,7,117,143
+2020-05-10,Zimbabwe,Eastern Africa,36,4,9,23
