@@ -1,20 +1,22 @@
 ---
-title: "EDA: Visualizations of COVID-19 cases in Africa"
+title: "Interactive Visualizations of COVID-19 cases in Africa"
 author: "Julius Okwir"
-date: "2020/05/21"
+date: "`r format(Sys.Date())`"
 output:
     html_document:
+         toc: true
+         toc_depth: 2
          code_folding: hide
 ---
 
-## Background
-Late in December 2019, the [World Health Organisation](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen) (WHO) China Country Office obtained information about a severe pneumonia of an unknown cause, detected in the city of Wuhan in Hubei province, China. This later turned out to be the **novel coronavirus disease** (COVID-19), an infectious disease caused by **severe acute respiratory syndrome coronavirus-2** (SARS-CoV-2) of the corona virus family. The disease causes respiratory illness characterised by primary [symptoms](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html) like cough, fever, and in more acute cases, difficulty in breathing. **WHO** later [declared covid-19 as a Pandemic](https://time.com/5791661/who-coronavirus-pandemic-declaration/) because of its fast rate of spread across the Globe with over [5 Million confirmed cases and over 328,000 deaths](https://coronavirus.jhu.edu/map.html) as of May 21, 2020. The African continent started confirming its first cases in late January and mid-February of 2020 in some countries. The disease has since spread across all the 54 Africa countries with over [95,000 confirmed cases and over 2,900 deaths](https://africanarguments.org/2020/04/07/coronavirus-in-africa-tracker-how-many-cases-and-where-latest/) as of May 21, 2020. 
+# Background
+Late in December 2019, the [World Health Organisation](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen) (WHO) China Country Office obtained information about a severe pneumonia of an unknown cause, detected in the city of Wuhan in Hubei province, China. This later turned out to be the **novel coronavirus disease** (COVID-19), an infectious disease caused by **severe acute respiratory syndrome coronavirus-2** (SARS-CoV-2) of the corona virus family. The disease causes respiratory illness characterised by primary [symptoms](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html) like cough, fever, and in more acute cases, difficulty in breathing. **WHO** later [declared covid-19 as a Pandemic](https://time.com/5791661/who-coronavirus-pandemic-declaration/) because of its fast rate of spread across the Globe with over [5.5 Million confirmed cases and over 346,000 deaths](https://coronavirus.jhu.edu/map.html) as of May 26, 2020. The African continent started confirming its first cases in late January and mid-February of 2020 in some countries. The disease has since spread across all the 54 Africa countries with over [115,000 confirmed cases and over 3,400 deaths](https://africanarguments.org/2020/04/07/coronavirus-in-africa-tracker-how-many-cases-and-where-latest/) as of May 26, 2020. 
 
-## The Dataset
+# The Dataset
 The [covid_19_africa.csv](https://github.com/ju-ok/Covid-19-Africa.git) dataset contains daily level information about the Covid-19 cases in Africa.
 It is a time series data and hence the number of cases on any given day is cumulative.I extracted the data from the [covid_19_data.csv](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset#covid_19_data.csv) which was made available on kaggle. The R script that I used to prepare this dataset is also available on [my Github repository](https://github.com/ju-ok/Covid-19-Africa.git). The original datasets can be found on [John Hopkins University Github repository](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports) for covid_19. 
 
-### Field description
+## Field description
 - ObservationDate: YY/MM/DD
 - Country: name of African country
 - Region: Region of the African country
@@ -24,15 +26,16 @@ It is a time series data and hence the number of cases on any given day is cumul
 - Active: the number of people still infected with COVID-19
 
 ## Task
-**Visualizations of Africa’s COVID-19 confirmed cases, deaths, recovered, and active  cases.** 
+Visualizations of Africa’s COVID-19 cases.
 
-## Data processing
+# Data processing
 ```{r, message = FALSE, Warning = FALSE, message=FALSE}
 # loading the required packages
 suppressMessages(library(tidyverse))
 suppressMessages(library(lubridate))
 suppressMessages(library(DT))
 suppressMessages(library(highcharter))
+suppressMessages(library(htmltools))
 
 # importing the dataset
 covid_africa <- read_csv("covid_19_africa.csv")
@@ -47,74 +50,62 @@ covid_africa <- covid_africa %>%
                Active = as.integer(Active))
 ```
 
-## COVID-19 cases in Africa by Country since 27th of January, 2020
-**Note that the lastest number of cases are those reported by end of the previous day.**
+```{r}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE)
+```
+
+# COVID-19 in Africa
+## A summary of COVID-19 cases in Africa since 27th of January, 2020
+Note that the lastest number of cases are those reported by end of the previous day.
 ```{r covid-19 Africa}
 datatable(covid_africa)
 ```
 
 ## Number of African countries with confirmed cases
-```{r confirmed africa, echo = TRUE}
+```{r confirmed africa}
 length(unique(covid_africa$Country))
 ```
 All the 54 African countries recognized by the UN and WHO have confirmed cases of COVID-19.
 
-**Interactive plot of the cumulative number of COVID-19 cases in Africa**
-```{r cases in africa, echo = TRUE, warning=FALSE}
+## Cumulative number of COVID-19 cases in Africa
+**Note: all plots with legends can be activated or deactivated by clicking on the legend.**
+```{r cases in africa}
+# obtaining the cumulative cases by observation date
 cases <- covid_africa %>%
-        # grouping by observationdate
         group_by(ObservationDate) %>%
-        
-        # obtaining the sum of cases for each day
-        summarise(Confirmed = sum(Confirmed), Deaths = sum(Deaths), Recovered = sum(Recovered), Active = sum(Active))
+        summarise(Confirmed = sum(Confirmed), Deaths = sum(Deaths), 
+                  Recovered = sum(Recovered), Active = sum(Active))
 
-# creating a character vector of colors for the cases
+# specifying the plot colors
 colors <- c("Active" = "cyan", "Confirmed" = "orange", "Deaths" = "red", "Recovered" = "lightseagreen")
 
 # plotting
 cases %>%
-        
-        # placing all cases in a single column and their sums in another column 
         gather(Confirmed, Deaths, Recovered, Active, key = "cases", value = "number") %>%
-        
-        # setting general chart options
         hchart("line", hcaes(x = ObservationDate, y = number, group = cases),
                color = colors) %>%
-        
-        # setting the plot title
         hc_title(text = "Cumulative number of COVID-19 cases in Africa") %>%
-        
-        # setting current date as subtitle
         hc_subtitle(text = today()) %>%
-        
-        # setting the x axis label
         hc_xAxis(title = list(text = "Date")) %>%
-                
-        # setting the y axis label        
         hc_yAxis(title = list(text = "Number of cases")) %>%
-        
-        # adding plot border
         hc_chart(borderColor = "grey",
                  borderWidth = 1) %>%
-      
-        # adding the tool tips
         hc_tooltip(crosshairs = TRUE, sort = TRUE, table = TRUE) %>%
-        
-        # plot theme
         hc_add_theme(hc_theme_google())
 ```
 
-**Interactive plot of the daily new confirmed cases and new deaths from COVID-19 in Africa.**
+## Daily new confirmed cases and new deaths from COVID-19 in Africa
 ```{r new cases and deaths}
+# computing the daily new cases and deaths
 new_cases <- cases %>%
         mutate(new_confirmed = Confirmed - lag(Confirmed, default = first(Confirmed)),
-               new_deaths = Deaths - lag(Deaths, default = first(Deaths)),
-               new_recovered = Recovered - lag(Recovered, default = first(Recovered)),
-               new_active = Active - lag(Active, default = first(Active))) %>%
-        select(ObservationDate, new_confirmed:new_deaths)
+               new_deaths = Deaths - lag(Deaths, default = first(Deaths))) %>%
+        select(ObservationDate, new_confirmed, new_deaths)
 
+# specifying the plot colors
 new_colors <- c("new_confirmed" = "orange", "new_deaths" = "red")
 
+# plotting
 new_cases %>%
         gather(new_confirmed, new_deaths, 
                key = "cases", value = "number") %>%
@@ -130,86 +121,235 @@ new_cases %>%
         hc_subtitle(text = today())
 ```
 
-**Interactive plots of the cumulative numbers of COVID-19 cases by African Region.**
-```{r confirmed regional cases}
-regional_cases <- covid_africa %>%
-        # grouping cases by date and region
-        group_by(ObservationDate, Region) %>%
-        
-        # obtaining sum of the cases on each date from each region
-        summarise(Confirmed = sum(Confirmed), Deaths = sum(Deaths),
-                  Recovered = sum(Recovered), Active = sum(Active))
+## Case Fatality Rate(%) and Recovery Rate(%) from COVID-19 in Africa
+The [case fatality rate](https://www.britannica.com/science/case-fatality-rate) and recovery rate are dependant on accurate reporting of COVID-19 cases. The limited testing capacities of some African countries implies that these values may be inexact.
+```{r CFR and RR}
+# computing the rates
+rates <- cases %>%
+  mutate(case_fatality = (Deaths / Confirmed) * 100,
+         recovery_rate = (Recovered / Confirmed) * 100,
+         CFR = round(case_fatality, 2),
+         RR = round(recovery_rate, 2))
+
+# specifying the colors
+rates_color <- c("CFR" = "red", "RR" = "lightgreen")
 
 # plotting
-regional_cases %>%                  
-hchart("line", hcaes(x = ObservationDate, y = Confirmed, group = Region)) %>%
-        hc_xAxis(title = list(text = "Date")) %>%
-        hc_title(text = "Cumulative number of Confirmed cases by region") %>%
-        hc_chart(borderColor = "grey",
+rates %>% 
+  gather(CFR, RR, key = "cases", value = "number") %>%
+  hchart("line", hcaes(x = ObservationDate, y = number, group = cases),
+         color = rates_color) %>%
+  hc_xAxis(title = list(text = "Date")) %>%
+  hc_yAxis(title = list(text = "Percent(%)")) %>%
+  hc_tooltip(crosshairs = TRUE, sort = TRUE, table = TRUE) %>%
+  hc_title(text = "Changes in the Case Fatality Rate(CFR) and Recovery Rate(RR) in Africa") %>%
+  hc_chart(borderColor = "grey",
                  borderWidth = 1) %>%
-        hc_subtitle(text = today()) %>%
-        hc_tooltip(crosshairs = TRUE, sort = TRUE, table = TRUE) %>%
-        hc_add_theme(hc_theme_google())
+  hc_add_theme(hc_theme_google())
 ```
 
-```{r deaths regional}
-regional_cases %>%                  
-hchart("line", hcaes(x = ObservationDate, y = Deaths, group = Region)) %>%
-        hc_xAxis(title = list(text = "Date")) %>%
-        hc_title(text = "Cumulative number of COVID-19 deaths by region") %>%
-        hc_subtitle(text = today()) %>%
-        hc_chart(borderColor = "grey",
-                 borderWidth = 1) %>%
-        hc_tooltip(crosshairs = TRUE, sort = TRUE, table = TRUE) %>%
-        hc_add_theme(hc_theme_google())
-```
-
-**Interactive plots of the highest to lowest numbers of COVID-19 cases by African country.**
-```{r confirmed by country, echo = TRUE, warning=FALSE}
-## Latest number of cases of COVID-19 in Africa by country
+## Heatmaps of Africa showing COVID-19 cases {.tabset .tabset-fade .tabset-pills}
+```{r heatmaps}
+# getting the latest number of cases of COVID-19 in Africa by country
 latest <- covid_africa %>%
         filter(ObservationDate == today() - 1 )
 
-latest_confirmed <- latest %>%
-        
-        # arranging confirmed cases in descending order
-        arrange(desc(Confirmed))
+# downloading a map of Africa
+africa_map <- download_map_data("https://code.highcharts.com/mapdata/custom/africa.js")
 
-# plot       
-highchart() %>% 
+# looking and the African Countries
+properties <- get_data_from_map(africa_map)
+
+# modify some country names in the covid_19_africa data to match those in africa_map
+latest_1 <-  latest %>%
+        mutate(Country = replace(Country, Country == "Congo (Kinshasa)", "Democratic Republic of the Congo"),
+               Country = replace(Country, Country == "Congo (Brazzaville)", "Republic of Congo"),
+               Country = replace(Country, Country == "Tanzania", "United Republic of Tanzania"))
+```
         
-        # adding series
+### Confirmed
+```{r confirmed heatmap}
+highchart() %>%
+        hc_add_series_map(africa_map, latest_1, value = "Confirmed",
+                          joinBy = c("name", "Country"), name = "Confirmed") %>%
+        hc_colorAxis(minColor = "lightyellow", maxColor = "Darkorange") %>%
+        hc_mapNavigation(enabled = TRUE) %>%
+        hc_title(text = "Confirmed") %>%
+        hc_subtitle(text = today()) %>%
+        hc_chart(borderColor = "grey",
+                 borderWidth = 1)
+```
+
+### Deaths
+```{r deaths heatmap}
+highchart() %>%
+        hc_add_series_map(africa_map, latest_1, value = "Deaths",
+                          joinBy = c("name", "Country"), name = "Deaths") %>%
+        hc_colorAxis(minColor = "snow", maxColor = "darkred") %>%
+        hc_mapNavigation(enabled = TRUE) %>%
+        hc_title(text = "Deaths") %>%
+        hc_subtitle(text = today()) %>%
+        hc_chart(borderColor = "grey",
+                 borderWidth = 1)
+```
+
+### Recovered
+```{r recovered heatmap}
+highchart() %>%
+  hc_add_series_map(africa_map, latest_1, value = "Recovered",
+                    joinBy = c("name", "Country"), name = "Recovered") %>%
+  hc_colorAxis(minColor = "lightgreen", maxColor = "darkgreen") %>%
+  hc_mapNavigation(enabled = TRUE) %>%
+  hc_title(text = "Recovered") %>%
+  hc_subtitle(text = today()) %>%
+  hc_chart(borderColor = "grey",
+           borderWidth = 1)
+```
+
+### Active
+```{r active heatmap}
+highchart() %>%
+  hc_add_series_map(africa_map, latest_1, value = "Active",
+                    joinBy = c("name", "Country"), name = "Active") %>%
+  hc_colorAxis(minColor = "lightcyan", maxColor = "darkcyan") %>%
+  hc_mapNavigation(enabled = TRUE) %>%
+  hc_title(text = "Active") %>%
+  hc_subtitle(text = today()) %>%
+  hc_chart(borderColor = "grey",
+           borderWidth = 1)
+```
+
+# COVID-19 cases by African Region
+## Cumulative number of COVID-19 cases by African Region {.tabset .tabset-fade .tabset-pills}
+```{r regional cases}
+# computing the regional cases of COVID-19
+regional_cases <- covid_africa %>%
+        group_by(ObservationDate, Region) %>%
+        summarise(Confirmed = sum(Confirmed), Deaths = sum(Deaths),
+                  Recovered = sum(Recovered), Active = sum(Active))
+```
+### Confirmed
+```{r confirmed by region}
+# plotting
+regional_cases %>%                  
+hchart("line", hcaes(x = ObservationDate, y = Confirmed, group = Region)) %>%
+        hc_xAxis(title = list(text = "Date")) %>%       
+        hc_title(text = "Cumulative Confirmed cases") %>%
+        hc_subtitle(text = today()) %>%
+        hc_chart(borderColor = "grey",
+           borderWidth = 1) %>%
+        hc_tooltip(crosshairs = TRUE, sort = TRUE, table = TRUE) %>%
+        hc_add_theme(hc_theme_google())
+```
+
+### Deaths
+```{r regional deaths}
+regional_cases %>%                  
+        hchart("line", hcaes(x = ObservationDate, y = Deaths, group = Region)) %>%
+        hc_xAxis(title = list(text = "Date")) %>%      
+        hc_title(text = "Cumulative Deaths") %>%
+        hc_subtitle(text = today()) %>%
+        hc_chart(borderColor = "grey",
+           borderWidth = 1) %>%
+        hc_tooltip(crosshairs = TRUE, sort = TRUE, table = TRUE) %>%
+        hc_add_theme(hc_theme_google())
+```
+
+### Recovered
+```{r regional recovered}
+regional_cases %>%                  
+  hchart("line", hcaes(x = ObservationDate, y = Recovered, group = Region)) %>%
+  hc_xAxis(title = list(text = "Date")) %>%      
+  hc_title(text = "Cumulative Recoveries") %>%
+  hc_subtitle(text = today()) %>%
+  hc_chart(borderColor = "grey",
+           borderWidth = 1) %>%
+  hc_tooltip(crosshairs = TRUE, sort = TRUE, table = TRUE) %>%
+  hc_add_theme(hc_theme_google())
+```
+
+### Active
+```{r regional active}
+regional_cases %>%                  
+  hchart("line", hcaes(x = ObservationDate, y = Active, group = Region)) %>%
+  hc_xAxis(title = list(text = "Date")) %>%      
+  hc_title(text = "Cumulative Active cases") %>%
+  hc_subtitle(text = today()) %>%
+  hc_chart(borderColor = "grey",
+           borderWidth = 1) %>%
+  hc_tooltip(crosshairs = TRUE, sort = TRUE, table = TRUE) %>%
+  hc_add_theme(hc_theme_google())
+```
+
+## Case Fatality Rate(%) and Recovery Rate(%) 
+```{r regional CFR and RR}
+# computing the regional CFR and RR
+regional_rates <- latest %>%
+  group_by(Region) %>%
+  summarise(Confirmed = sum(Confirmed), Deaths = sum(Deaths), Recovered = sum(Recovered)) %>%
+  mutate(case_fatality = (Deaths / Confirmed) * 100,
+         fatality_rounded = round(case_fatality, 2),
+         recovery_rate = (Recovered / Confirmed) * 100,
+         recovery_rounded = round(recovery_rate, 2))
+  
+# plotting
+regional_fatality <- regional_rates %>%
+  arrange(case_fatality) %>%
+  hchart("column", hcaes(Region, fatality_rounded), color = "red", name = "CFR(%)") %>%
+  hc_yAxis(title = list(text = "Case Fatality Rate (%)")) %>%
+  hc_title(text = "Case Fatality Rate by African Region") %>%
+  hc_subtitle(text = today()) %>%
+  hc_chart(borderColor = "grey",
+           borderWidth = 1) %>%
+  hc_add_theme(hc_theme_google())
+
+regional_recovery <- regional_rates %>%
+  arrange(recovery_rate) %>%
+  hchart("column", hcaes(Region, recovery_rounded), color = "green", name = "RR(%)") %>%
+  hc_yAxis(title = list(text = "Recovery Rate (%)")) %>%
+  hc_title(text = "Recovery Rate by African Region") %>%
+  hc_subtitle(text = today()) %>%
+  hc_chart(borderColor = "grey",
+           borderWidth = 1) %>%
+  hc_add_theme(hc_theme_google())
+
+# all plots on same page
+all_rates <- list(regional_fatality, regional_recovery)
+hw_grid(all_rates, rowheight = 400, ncol = 2) %>% browsable()
+```
+
+# COVID-19 cases by African Country
+## Highest to the Lowest: the number of COVID-19 cases in Africa by Country {.tabset .tabset-fade .tabset-pills}
+```{r latest cases}
+# getting the latest number of confirmed cases in descending order
+latest_confirmed <- latest %>%
+        arrange(desc(Confirmed))
+```
+### Confirmed
+```{r confirmed by country}
+# plotting       
+highchart() %>% 
         hc_add_series(data = latest_confirmed, type = "bar",
                       hcaes(x = Country, y = Confirmed),
                       name = "Confirmed cases", showInLegend = FALSE,
                       color = "orange") %>%
-        
-        # adding x axis parameters
         hc_xAxis(categories = latest_confirmed$Country,
                  title = list(text = "Country")) %>%
-        
-        # adding y axis parameters
         hc_yAxis(title = list(text = "Confirmed cases")) %>%
-        
-        # adding the plot title
-        hc_title(text = "Confirmed cases of COVID-19 in Africa by Country") %>%
-        
-        # setting today's date as a subtitle
+        hc_title(text = "COVID-19 Confirmed cases by African Country") %>%
         hc_subtitle(text = today()) %>%
-        
-        # add plot border
         hc_chart(borderColor = "grey",
                  borderWidth = 1) %>%
-        
-        # specifying the plot size
-        hc_size(700, 900)
+        hc_size(900, 900)
 ```
 
-```{r deaths, echo = TRUE, warning=FALSE}
+### Deaths
+```{r deaths}
+# COVID-19 deaths in descending order
 latest_deaths <- latest %>%
         arrange(desc(Deaths))
 
-# plot       
+# plotting       
 highchart() %>% 
         hc_add_series(data = latest_deaths, type = "bar",
                       hcaes(x = Country, y = Deaths),
@@ -218,18 +358,20 @@ highchart() %>%
         hc_xAxis(categories = latest_deaths$Country,
                  title = list(text = "Country")) %>%
         hc_yAxis(title = list(text = "Deaths")) %>%
-        hc_title(text = "Deaths from COVID-19 in Africa by Country") %>%
+        hc_title(text = "Deaths from COVID-19 by Country") %>%
         hc_subtitle(text = today()) %>%
         hc_chart(borderColor = "grey",
                  borderWidth = 1) %>%
-        hc_size(700, 900)
+        hc_size(900, 900)
 ```
 
-```{r recovered, echo = TRUE, warning=FALSE}
+### Recovered 
+```{r recovered}
+# recovered cases in descending order
 latest_recovered <- latest %>%
         arrange(desc(Recovered))
 
-# plot       
+# plotting       
 highchart() %>% 
         hc_add_series(data = latest_recovered, type = "bar",
                       hcaes(x = Country, y = Recovered),
@@ -238,18 +380,20 @@ highchart() %>%
         hc_xAxis(categories = latest_recovered$Country,
                  title = list(text = "Country")) %>%
         hc_yAxis(title = list(text = "Recovered cases")) %>%
-         hc_title(text = "Recovered cases from COVID-19 in Africa by Country") %>%
+         hc_title(text = "COVID-19 recoveries by Country") %>%
         hc_subtitle(text = today()) %>%
         hc_chart(borderColor = "grey",
                  borderWidth = 1) %>%
-        hc_size(700, 900)
+        hc_size(900, 900)
 ```
 
-```{r active, echo = TRUE, warning=FALSE}
+### Active
+```{r active}
+# active cases in ascending order
 latest_active <- latest %>%
         arrange(desc(Active))
 
-# plot       
+# plotting       
 highchart() %>% 
         hc_add_series(data = latest_active, type = "bar",
                       hcaes(x = Country, y = Active),
@@ -262,10 +406,86 @@ highchart() %>%
         hc_subtitle(text = today()) %>%
         hc_chart(borderColor = "grey",
                  borderWidth = 1) %>%
-        hc_size(700, 900)
+        hc_size(900, 900)
 ```
 
-## References
+## Case Fatality Rate(%) and Recovery Rate(%) in Each African Country
+```{r CFR and RR by country}
+latest %>%
+  mutate(case_fatality = (Deaths / Confirmed) * 100,
+         fatality_rounded = round(case_fatality, 2),
+         recovery_rate = (Recovered / Confirmed) * 100,
+         recovery_rounded = round(recovery_rate, 2)) %>%
+  rename("Case Fatality Rate(%)" = fatality_rounded,
+         "Recovery Rate(%)" = recovery_rounded) %>%
+  select(Country, Region, "Case Fatality Rate(%)", "Recovery Rate(%)") %>%
+  datatable()
+```
+
+## Compare countries of Choice {.tabset .tabset-fade .tabset-pills}
+### Confirmed
+Compare the changes in the number of COVID-19 cases in your countries of choice
+```{r compare confirmed}
+covid_africa %>%
+hchart("spline", hcaes(ObservationDate, Confirmed, group = Country), visible = FALSE) %>%
+  hc_xAxis(title = list(text = "Date")) %>%      
+  hc_title(text = "Confirmed cases") %>%
+  hc_subtitle(text = today()) %>%
+  hc_chart(borderColor = "grey",
+           borderWidth = 1) %>%
+  hc_tooltip(crosshairs = TRUE, sort = TRUE, table = TRUE) %>%
+  hc_add_theme(hc_theme_google()) %>%
+  hc_size(800, 600)
+```
+
+### Deaths
+Compare changes in the number of COVID-19 deaths in your countries of choice
+```{r compare deaths}
+covid_africa %>%
+  hchart("spline", hcaes(ObservationDate, Deaths, group = Country), visible = FALSE) %>%
+  hc_xAxis(title = list(text = "Date")) %>%      
+  hc_title(text = "Deaths") %>%
+  hc_subtitle(text = today()) %>%
+  hc_chart(borderColor = "grey",
+           borderWidth = 1) %>%
+  hc_tooltip(crosshairs = TRUE, sort = TRUE, table = TRUE) %>%
+  hc_add_theme(hc_theme_google()) %>%
+  hc_size(800, 600)
+```
+
+### Recovered
+Compare changes in the number of COVID-19 recoveries in your countries of choice
+```{r compare recoveries}
+covid_africa %>%
+  hchart("spline", hcaes(ObservationDate, Recovered, group = Country),
+         visible = FALSE) %>%
+  hc_xAxis(title = list(text = "Date")) %>%      
+  hc_title(text = "Deaths") %>%
+  hc_subtitle(text = today()) %>%
+  hc_chart(borderColor = "grey",
+           borderWidth = 1) %>%
+  hc_tooltip(crosshairs = TRUE, sort = TRUE, table = TRUE) %>%
+  hc_add_theme(hc_theme_google()) %>%
+  hc_size(800, 600)
+```
+
+### Active
+Compare changes in the number of COVID-19 Active cases in your countries of choice
+```{r compare active}
+covid_africa %>%
+  hchart("spline", hcaes(ObservationDate, Active, group = Country),
+         visible = FALSE) %>%
+  hc_xAxis(title = list(text = "Date")) %>%      
+  hc_title(text = "Active") %>%
+  hc_subtitle(text = today()) %>%
+  hc_chart(borderColor = "grey",
+           borderWidth = 1) %>%
+  hc_tooltip(crosshairs = TRUE, sort = TRUE, table = TRUE) %>%
+  hc_add_theme(hc_theme_google()) %>%
+  hc_size(800, 600)
+```
+
+# References
 1. John Hopkins University Covid_19 datasets: 
 https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
 2. SRk's dataset on kaggle: https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset#covid_19_data.csv
