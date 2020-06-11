@@ -32,28 +32,34 @@ ObservationDate,Country_Region,Province_State,Confirmed,Deaths,Recovered,Active
 2020-03-06,Diamond Princess,NA,696,6,40,650
 2020-03-06,Diamond Princess,NA,696,6,40,650
 2020-03-06,Diamond Princess,NA,696,6,40,650
-2020-03-09,Saint Martin,NA,2,0,0,2
 2020-03-06,Diamond Princess,NA,696,6,40,650
+2020-03-09,Saint Martin,NA,2,0,0,2
 2020-03-10,Saint Martin,NA,2,0,0,2
 2020-03-11,Diamond Princess,NA,696,7,325,364
 2020-03-11,Diamond Princess,NA,696,7,325,364
 2020-03-11,Diamond Princess,NA,696,7,325,364
 2020-03-13,Diamond Princess,NA,696,7,325,364
 2020-03-13,Diamond Princess,NA,696,7,325,364
-2020-03-15,Kosovo,NA,2,0,0,2
+2020-03-13,Diamond Princess,NA,696,7,325,364
 2020-03-13,Diamond Princess,NA,696,7,325,364
 2020-03-15,Kosovo,NA,2,0,0,2
-2020-03-13,Diamond Princess,NA,696,7,325,364
+2020-03-15,Kosovo,NA,2,0,0,2
+2020-03-15,Kosovo,NA,2,0,0,2
+2020-03-15,Kosovo,NA,2,0,0,2
+2020-03-15,Kosovo,NA,2,0,0,2
+2020-03-15,Kosovo,NA,2,0,0,2
 2020-03-15,Kosovo,NA,2,0,0,2
 2020-03-18,Diamond Princess,NA,712,7,325,380
-2020-03-15,Kosovo,NA,2,0,0,2
 2020-03-18,Diamond Princess,NA,712,7,325,380
-2020-03-15,Kosovo,NA,2,0,0,2
 2020-03-18,Diamond Princess,NA,712,7,325,380
-2020-03-15,Kosovo,NA,2,0,0,2
 2020-03-21,Diamond Princess,NA,712,8,325,379
-2020-03-15,Kosovo,NA,2,0,0,2
 2020-03-22,Diamond Princess,NA,712,8,567,137
+2020-03-23,Diamond Princess,NA,712,8,567,137
+2020-03-25,Diamond Princess,NA,712,10,587,115
+2020-03-26,Diamond Princess,NA,712,10,597,105
+2020-03-26,Kosovo,NA,71,1,0,70
+2020-03-27,Diamond Princess,NA,712,10,597,105
+2020-03-27,Kosovo,NA,86,1,1,84
 2020-03-28,Diamond Princess,NA,712,10,597,105
 2020-03-28,Kosovo,NA,91,1,1,89
 2020-03-28,MS Zaandam,NA,2,0,0,2
@@ -63,33 +69,27 @@ ObservationDate,Country_Region,Province_State,Confirmed,Deaths,Recovered,Active
 2020-03-30,Diamond Princess,NA,712,10,603,99
 2020-03-30,Kosovo,NA,94,1,1,92
 2020-03-30,MS Zaandam,NA,2,0,0,2
-2020-04-02,Diamond Princess,NA,712,11,619,82
-2020-04-02,Kosovo,NA,125,1,10,114
-2020-04-02,MS Zaandam,NA,9,2,0,7
-2020-04-04,Diamond Princess,NA,712,11,619,82
-2020-04-04,Kosovo,NA,135,1,16,118
-2020-04-04,MS Zaandam,NA,9,2,0,7
-2020-04-06,Diamond Princess,NA,712,11,619,82
-2020-04-06,Kosovo,NA,145,1,23,121
-2020-04-06,MS Zaandam,NA,9,2,0,7
-2020-03-23,Diamond Princess,NA,712,8,567,137
-2020-03-25,Diamond Princess,NA,712,10,587,115
-2020-03-26,Diamond Princess,NA,712,10,597,105
-2020-03-26,Kosovo,NA,71,1,0,70
-2020-03-27,Diamond Princess,NA,712,10,597,105
-2020-03-27,Kosovo,NA,86,1,1,84
 2020-03-31,Diamond Princess,NA,712,10,603,99
 2020-03-31,Kosovo,NA,112,1,6,105
 2020-03-31,MS Zaandam,NA,2,0,0,2
 2020-04-01,Diamond Princess,NA,712,11,603,98
 2020-04-01,Kosovo,NA,125,1,10,114
 2020-04-01,MS Zaandam,NA,9,2,0,7
+2020-04-02,Diamond Princess,NA,712,11,619,82
+2020-04-02,Kosovo,NA,125,1,10,114
+2020-04-02,MS Zaandam,NA,9,2,0,7
 2020-04-03,Diamond Princess,NA,712,11,619,82
 2020-04-03,Kosovo,NA,126,1,10,115
 2020-04-03,MS Zaandam,NA,9,2,0,7
+2020-04-04,Diamond Princess,NA,712,11,619,82
+2020-04-04,Kosovo,NA,135,1,16,118
+2020-04-04,MS Zaandam,NA,9,2,0,7
 2020-04-05,Diamond Princess,NA,712,11,619,82
 2020-04-05,Kosovo,NA,145,1,23,121
 2020-04-05,MS Zaandam,NA,9,2,0,7
+2020-04-06,Diamond Princess,NA,712,11,619,82
+2020-04-06,Kosovo,NA,145,1,23,121
+2020-04-06,MS Zaandam,NA,9,2,0,7
 2020-04-07,Diamond Princess,NA,712,11,619,82
 2020-04-07,Kosovo,NA,170,4,24,142
 2020-04-07,MS Zaandam,NA,9,2,0,7
@@ -264,3 +264,24 @@ ObservationDate,Country_Region,Province_State,Confirmed,Deaths,Recovered,Active
 2020-06-03,Diamond Princess,NA,712,13,651,48
 2020-06-03,Kosovo,NA,1142,30,871,241
 2020-06-03,MS Zaandam,NA,9,2,0,7
+2020-06-04,Diamond Princess,NA,712,13,651,48
+2020-06-04,Kosovo,NA,1142,30,871,241
+2020-06-04,MS Zaandam,NA,9,2,0,7
+2020-06-05,Diamond Princess,NA,712,13,651,48
+2020-06-05,Kosovo,NA,1142,30,871,241
+2020-06-05,MS Zaandam,NA,9,2,0,7
+2020-06-06,Diamond Princess,NA,712,13,651,48
+2020-06-06,Kosovo,NA,1142,30,871,241
+2020-06-06,MS Zaandam,NA,9,2,0,7
+2020-06-07,Diamond Princess,NA,712,13,651,48
+2020-06-07,Kosovo,NA,1142,30,871,241
+2020-06-07,MS Zaandam,NA,9,2,0,7
+2020-06-08,Diamond Princess,NA,712,13,651,48
+2020-06-08,Kosovo,NA,1263,31,912,320
+2020-06-08,MS Zaandam,NA,9,2,0,7
+2020-06-09,Diamond Princess,NA,712,13,651,48
+2020-06-09,Kosovo,NA,1263,31,912,320
+2020-06-09,MS Zaandam,NA,9,2,0,7
+2020-06-10,Diamond Princess,NA,712,13,651,48
+2020-06-10,Kosovo,NA,1298,31,913,354
+2020-06-10,MS Zaandam,NA,9,2,0,7

@@ -1,5 +1,5 @@
 # loading the required packages
-suppressMessages(library(tidyverse))
+suppressMessages(library(dplyr))
 suppressMessages(library(rvest))
 
 # reading html
