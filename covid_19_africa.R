@@ -49,8 +49,8 @@ covid_africa
 # at the time of uploading this script only 53 of the 54 African countries had confirmed cases
 length(unique(covid_africa$Country))
 
-# adding the daily update from John Hopkins University. adjust the name of the csv "05-27-2020.csv" accordingly
-daily_update <- read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/05-27-2020.csv")
+# adding the daily update from John Hopkins University. adjust the name of the csv "06-07-2020.csv" accordingly
+daily_update <- read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/06-10-2020.csv")
 
 
 # modifications where made to some names to match those in the daily updates from JHU
@@ -90,12 +90,11 @@ daily_update <- daily_update %>%
  
 # correction on date
 daily_update <- daily_update %>%
-        mutate(ObservationDate = "2020-05-27") %>%
-        mutate(ObservationDate = as_date(ObservationDate))
+        mutate(ObservationDate = ObservationDate -1)
 
 # adding african regions
 # modifications were made to some names to match those in the covid_africa dataset
-northern_africa <- c("Algeria", "Egypt", "Libya", "Morocco", "Sudan", "Tunisia")
+northern_africa <- c("Algeria", "Egypt", "Libya", "Morocco", "Sudan", "Tunisia", "Western Sahara")
 eastern_africa <- c("Burundi", "Comoros", "Djibouti", "Ethiopia", "Eritrea", "Kenya",
                     "Madagascar", "Malawi", "Mauritius", "Mozambique", "Rwanda",
                     "Seychelles", "Somalia", "South Sudan", "Tanzania", "Uganda",
@@ -105,7 +104,7 @@ central_africa <- c("Angola", "Cameroon", "Central African Republic", "Chad",
                     "Gabon", "Sao Tome and Principe")
 southern_africa <- c("Botswana", "Eswatini", "Lesotho", "Namibia", "South Africa")
 western_africa <- c("Benin", "Burkina Faso", "Cabo Verde", "Gambia", "Ghana", "Guinea",
-                    "Guinea-Bissau", "Ivory Coast", "Liberia", "Mali", "Mauritania",
+                    "Guinea-Bissau", "Cote d'Ivoire", "Liberia", "Mali", "Mauritania",
                     "Niger", "Nigeria", "Senegal", "Sierra Leone", "Togo")
 
 daily_update <- daily_update %>%
@@ -121,15 +120,13 @@ daily_update <- daily_update %>%
 head(daily_update); tail(daily_update)
 
 # join covid_africa with the daily_update. Joining will be done on all variables
-covid_africa <- covid_africa %>%
-        full_join(daily_update) %>%
-        mutate(Region = as_factor(Region))
+covid_africa <- rbind(covid_africa, daily_update)
 
 # looking at the updated covid_africa dataset.
 head(covid_africa); tail(covid_africa)
 
 # storing the data set
-write_csv(covid_africa, "covid_19_africa.csv")
+write_csv(covid_africa, "covid19_africa.csv")
 
 # References
 # 1. John Hopkins University Covid_19 datasets: 
@@ -143,6 +140,7 @@ write_csv(covid_africa, "covid_19_africa.csv")
 
 
         
+
 
 
 
