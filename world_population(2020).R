@@ -2,11 +2,8 @@
 suppressMessages(library(dplyr))
 suppressMessages(library(rvest))
 
-# reading html
-world_population <- read_html("https://www.worldometers.info/world-population/population-by-country/")
-
 # getting the 2020 population data
-world_population <- world_population %>%
+world_population <- read_html("https://www.worldometers.info/world-population/population-by-country/") %>%
         html_nodes(xpath = '//*[@id="example2"]') %>%
         html_table()
 
