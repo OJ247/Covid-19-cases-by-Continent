@@ -1619,3 +1619,25 @@ ObservationDate,Country_Region,Province_State,Confirmed,Deaths,Recovered,Active
 2020-07-15,Fiji,NA,26,0,18,8
 2020-07-15,New Zealand,NA,1548,22,1499,27
 2020-07-15,Papua New Guinea,NA,11,0,8,3
+2020-07-16,Australia,Australian Capital Territory,113,3,105,5
+2020-07-16,Australia,New South Wales,3535,49,2988,498
+2020-07-16,Australia,Northern Territory,31,0,29,2
+2020-07-16,Australia,Queensland,1071,6,1058,7
+2020-07-16,Australia,South Australia,444,4,440,0
+2020-07-16,Australia,Tasmania,228,13,215,0
+2020-07-16,Australia,Victoria,5165,32,2669,2464
+2020-07-16,Australia,Western Australia,646,9,610,27
+2020-07-16,Fiji,NA,26,0,18,8
+2020-07-16,New Zealand,NA,1549,22,1506,21
+2020-07-16,Papua New Guinea,NA,11,0,8,3
+2020-07-17,Australia,Australian Capital Territory,113,3,105,5
+2020-07-17,Australia,New South Wales,3550,49,2988,513
+2020-07-17,Australia,Northern Territory,31,0,29,2
+2020-07-17,Australia,Queensland,1071,6,1059,6
+2020-07-17,Australia,South Australia,444,4,440,0
+2020-07-17,Australia,Tasmania,228,13,215,0
+2020-07-17,Australia,Victoria,5353,34,2709,2610
+2020-07-17,Australia,Western Australia,651,9,617,25
+2020-07-17,Fiji,NA,26,0,18,8
+2020-07-17,New Zealand,NA,1550,22,1506,22
+2020-07-17,Papua New Guinea,NA,15,0,8,7
