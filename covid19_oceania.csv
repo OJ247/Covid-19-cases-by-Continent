@@ -1696,3 +1696,91 @@ ObservationDate,Country_Region,Province_State,Confirmed,Deaths,Recovered,Active
 2020-07-22,Fiji,NA,27,0,18,9
 2020-07-22,New Zealand,NA,1555,22,1511,22
 2020-07-22,Papua New Guinea,NA,30,0,8,22
+2020-07-23,Australia,Australian Capital Territory,113,3,109,1
+2020-07-23,Australia,New South Wales,3640,49,2988,603
+2020-07-23,Australia,Northern Territory,31,0,30,1
+2020-07-23,Australia,Queensland,1076,6,1063,7
+2020-07-23,Australia,South Australia,447,4,441,2
+2020-07-23,Australia,Tasmania,229,13,215,1
+2020-07-23,Australia,Victoria,7405,55,3298,4052
+2020-07-23,Australia,Western Australia,654,9,631,14
+2020-07-23,Fiji,NA,27,0,18,9
+2020-07-23,New Zealand,NA,1556,22,1513,21
+2020-07-23,Papua New Guinea,NA,31,0,11,20
+2020-07-24,Australia,Australian Capital Territory,113,3,109,1
+2020-07-24,Australia,New South Wales,3654,49,2988,617
+2020-07-24,Australia,Northern Territory,31,0,30,1
+2020-07-24,Australia,Queensland,1076,6,1063,7
+2020-07-24,Australia,South Australia,447,4,441,2
+2020-07-24,Australia,Tasmania,229,13,215,1
+2020-07-24,Australia,Victoria,7744,61,3450,4233
+2020-07-24,Australia,Western Australia,656,9,642,5
+2020-07-24,Fiji,NA,27,0,18,9
+2020-07-24,New Zealand,NA,1556,22,1513,21
+2020-07-24,Papua New Guinea,NA,32,0,11,21
+2020-07-25,Australia,Australian Capital Territory,113,3,109,1
+2020-07-25,Australia,New South Wales,3668,49,2988,631
+2020-07-25,Australia,Northern Territory,31,0,30,1
+2020-07-25,Australia,Queensland,1076,6,1063,7
+2020-07-25,Australia,South Australia,447,4,441,2
+2020-07-25,Australia,Tasmania,229,13,215,1
+2020-07-25,Australia,Victoria,8181,71,3529,4581
+2020-07-25,Australia,Western Australia,658,9,644,5
+2020-07-25,Fiji,NA,27,0,18,9
+2020-07-25,New Zealand,NA,1556,22,1513,21
+2020-07-25,Papua New Guinea,NA,39,0,11,28
+2020-07-26,Australia,Australian Capital Territory,113,3,109,1
+2020-07-26,Australia,New South Wales,3685,49,2989,647
+2020-07-26,Australia,Northern Territory,31,0,30,1
+2020-07-26,Australia,Queensland,1076,6,1063,7
+2020-07-26,Australia,South Australia,447,4,441,2
+2020-07-26,Australia,Tasmania,229,13,215,1
+2020-07-26,Australia,Victoria,8696,77,3680,4939
+2020-07-26,Australia,Western Australia,658,9,647,2
+2020-07-26,Fiji,NA,27,0,18,9
+2020-07-26,New Zealand,NA,1556,22,1513,21
+2020-07-26,Papua New Guinea,NA,62,0,11,51
+2020-07-27,Australia,Australian Capital Territory,113,3,109,1
+2020-07-27,Australia,New South Wales,3699,49,2989,661
+2020-07-27,Australia,Northern Territory,31,0,30,1
+2020-07-27,Australia,Queensland,1076,6,1063,7
+2020-07-27,Australia,South Australia,447,4,441,2
+2020-07-27,Australia,Tasmania,229,13,215,1
+2020-07-27,Australia,Victoria,9049,83,3817,5149
+2020-07-27,Australia,Western Australia,659,9,647,3
+2020-07-27,Fiji,NA,27,0,18,9
+2020-07-27,New Zealand,NA,1557,22,1514,21
+2020-07-27,Papua New Guinea,NA,62,0,11,51
+2020-07-28,Australia,Australian Capital Territory,113,3,109,1
+2020-07-28,Australia,New South Wales,3718,49,2989,680
+2020-07-28,Australia,Northern Territory,31,0,30,1
+2020-07-28,Australia,Queensland,1078,6,1063,9
+2020-07-28,Australia,South Australia,448,4,441,3
+2020-07-28,Australia,Tasmania,229,13,215,1
+2020-07-28,Australia,Victoria,9304,92,4123,5089
+2020-07-28,Australia,Western Australia,661,9,647,5
+2020-07-28,Fiji,NA,27,0,18,9
+2020-07-28,New Zealand,NA,1559,22,1514,23
+2020-07-28,Papua New Guinea,NA,63,0,11,52
+2020-07-29,Australia,Australian Capital Territory,113,3,109,1
+2020-07-29,Australia,New South Wales,3736,49,2989,698
+2020-07-29,Australia,Northern Territory,31,0,30,1
+2020-07-29,Australia,Queensland,1082,6,1065,11
+2020-07-29,Australia,South Australia,448,4,441,3
+2020-07-29,Australia,Tasmania,229,13,215,1
+2020-07-29,Australia,Victoria,9998,105,4123,5770
+2020-07-29,Australia,Western Australia,661,9,647,5
+2020-07-29,Fiji,NA,27,0,18,9
+2020-07-29,New Zealand,NA,1560,22,1514,24
+2020-07-29,Papua New Guinea,NA,63,1,11,51
+2020-07-30,Australia,Australian Capital Territory,113,3,109,1
+2020-07-30,Australia,New South Wales,3756,49,2989,718
+2020-07-30,Australia,Northern Territory,31,0,30,1
+2020-07-30,Australia,Queensland,1083,6,1066,11
+2020-07-30,Australia,South Australia,449,4,441,4
+2020-07-30,Australia,Tasmania,229,13,215,1
+2020-07-30,Australia,Victoria,10577,112,4259,6206
+2020-07-30,Australia,Western Australia,665,9,650,6
+2020-07-30,Fiji,NA,27,0,18,9
+2020-07-30,New Zealand,NA,1560,22,1518,20
+2020-07-30,Papua New Guinea,NA,63,2,11,50
