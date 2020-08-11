@@ -1883,3 +1883,25 @@ ObservationDate,Country_Region,Province_State,Confirmed,Deaths,Recovered,Active
 2020-08-08,Fiji,NA,27,1,18,8
 2020-08-08,New Zealand,NA,1569,22,1524,23
 2020-08-08,Papua New Guinea,NA,188,3,53,132
+2020-08-09,Australia,Australian Capital Territory,113,3,110,0
+2020-08-09,Australia,New South Wales,3875,50,2994,831
+2020-08-09,Australia,Northern Territory,33,0,30,3
+2020-08-09,Australia,Queensland,1089,6,1072,11
+2020-08-09,Australia,South Australia,459,4,447,8
+2020-08-09,Australia,Tasmania,229,13,216,0
+2020-08-09,Australia,Victoria,14957,228,6378,8351
+2020-08-09,Australia,Western Australia,642,9,629,4
+2020-08-09,Fiji,NA,27,1,18,8
+2020-08-09,New Zealand,NA,1569,22,1526,21
+2020-08-09,Papua New Guinea,NA,214,3,53,158
+2020-08-10,Australia,Australian Capital Territory,113,3,110,0
+2020-08-10,Australia,New South Wales,3897,50,2994,853
+2020-08-10,Australia,Northern Territory,33,0,30,3
+2020-08-10,Australia,Queensland,1089,6,1075,8
+2020-08-10,Australia,South Australia,459,4,447,8
+2020-08-10,Australia,Tasmania,229,13,216,0
+2020-08-10,Australia,Victoria,15251,246,6642,8363
+2020-08-10,Australia,Western Australia,642,9,630,3
+2020-08-10,Fiji,NA,27,1,18,8
+2020-08-10,New Zealand,NA,1570,22,1526,22
+2020-08-10,Papua New Guinea,NA,214,3,53,158
