@@ -1905,3 +1905,135 @@ ObservationDate,Country_Region,Province_State,Confirmed,Deaths,Recovered,Active
 2020-08-10,Fiji,NA,27,1,18,8
 2020-08-10,New Zealand,NA,1570,22,1526,22
 2020-08-10,Papua New Guinea,NA,214,3,53,158
+2020-08-11,Australia,Australian Capital Territory,113,3,110,0
+2020-08-11,Australia,New South Wales,3915,50,2994,871
+2020-08-11,Australia,Northern Territory,33,0,31,2
+2020-08-11,Australia,Queensland,1089,6,1076,7
+2020-08-11,Australia,South Australia,459,4,447,8
+2020-08-11,Australia,Tasmania,230,13,216,1
+2020-08-11,Australia,Victoria,15646,267,6889,8490
+2020-08-11,Australia,Western Australia,642,9,632,1
+2020-08-11,Fiji,NA,27,1,18,8
+2020-08-11,New Zealand,NA,1570,22,1526,22
+2020-08-11,Papua New Guinea,NA,214,3,71,140
+2020-08-12,Australia,Australian Capital Territory,113,3,110,0
+2020-08-12,Australia,New South Wales,3927,51,2994,882
+2020-08-12,Australia,Northern Territory,33,0,31,2
+2020-08-12,Australia,Queensland,1089,6,1076,7
+2020-08-12,Australia,South Australia,459,4,449,6
+2020-08-12,Australia,Tasmania,230,13,216,1
+2020-08-12,Australia,Victoria,15863,275,7271,8317
+2020-08-12,Australia,Western Australia,644,9,632,3
+2020-08-12,Fiji,NA,27,1,18,8
+2020-08-12,New Zealand,NA,1589,22,1531,36
+2020-08-12,Papua New Guinea,NA,287,3,78,206
+2020-08-13,Australia,Australian Capital Territory,113,3,110,0
+2020-08-13,Australia,New South Wales,3936,51,2994,891
+2020-08-13,Australia,Northern Territory,33,0,31,2
+2020-08-13,Australia,Queensland,1091,6,1076,9
+2020-08-13,Australia,South Australia,460,4,449,7
+2020-08-13,Australia,Tasmania,230,13,216,1
+2020-08-13,Australia,Victoria,16234,289,7493,8452
+2020-08-13,Australia,Western Australia,645,9,632,4
+2020-08-13,Fiji,NA,28,1,20,7
+2020-08-13,New Zealand,NA,1602,22,1531,49
+2020-08-13,Papua New Guinea,NA,271,3,78,190
+2020-08-14,Australia,Australian Capital Territory,113,3,110,0
+2020-08-14,Australia,New South Wales,3945,51,2994,900
+2020-08-14,Australia,Northern Territory,33,0,31,2
+2020-08-14,Australia,Queensland,1091,6,1079,6
+2020-08-14,Australia,South Australia,460,4,449,7
+2020-08-14,Australia,Tasmania,230,13,216,1
+2020-08-14,Australia,Victoria,16517,293,8121,8103
+2020-08-14,Australia,Western Australia,646,9,632,5
+2020-08-14,Fiji,NA,28,1,20,7
+2020-08-14,New Zealand,NA,1609,22,1531,56
+2020-08-14,Papua New Guinea,NA,271,3,78,190
+2020-08-15,Australia,Australian Capital Territory,113,3,110,0
+2020-08-15,Australia,New South Wales,3950,52,2994,904
+2020-08-15,Australia,Northern Territory,33,0,31,2
+2020-08-15,Australia,Queensland,1091,6,1079,6
+2020-08-15,Australia,South Australia,460,4,449,7
+2020-08-15,Australia,Tasmania,230,13,216,1
+2020-08-15,Australia,Victoria,16764,309,8121,8334
+2020-08-15,Australia,Western Australia,646,9,633,4
+2020-08-15,Fiji,NA,28,1,20,7
+2020-08-15,New Zealand,NA,1622,22,1531,69
+2020-08-15,Papua New Guinea,NA,271,3,78,190
+2020-08-16,Australia,Australian Capital Territory,113,3,110,0
+2020-08-16,Australia,New South Wales,3957,52,2994,911
+2020-08-16,Australia,Northern Territory,33,0,31,2
+2020-08-16,Australia,Queensland,1091,6,1079,6
+2020-08-16,Australia,South Australia,461,4,450,7
+2020-08-16,Australia,Tasmania,230,13,216,1
+2020-08-16,Australia,Victoria,17027,334,8570,8123
+2020-08-16,Australia,Western Australia,646,9,633,4
+2020-08-16,Fiji,NA,28,1,20,7
+2020-08-16,New Zealand,NA,1631,22,1531,78
+2020-08-16,Papua New Guinea,NA,323,3,110,210
+2020-08-17,Australia,Australian Capital Territory,113,3,110,0
+2020-08-17,Australia,New South Wales,3959,52,2994,913
+2020-08-17,Australia,Northern Territory,33,0,31,2
+2020-08-17,Australia,Queensland,1091,6,1079,6
+2020-08-17,Australia,South Australia,462,4,450,8
+2020-08-17,Australia,Tasmania,230,13,216,1
+2020-08-17,Australia,Victoria,17238,351,9023,7864
+2020-08-17,Australia,Western Australia,647,9,633,5
+2020-08-17,Fiji,NA,28,1,20,7
+2020-08-17,New Zealand,NA,1643,22,1531,90
+2020-08-17,Papua New Guinea,NA,333,3,110,220
+2020-08-18,Australia,Australian Capital Territory,113,3,110,0
+2020-08-18,Australia,New South Wales,3966,52,2994,920
+2020-08-18,Australia,Northern Territory,33,0,31,2
+2020-08-18,Australia,Queensland,1092,6,1079,7
+2020-08-18,Australia,South Australia,462,4,451,7
+2020-08-18,Australia,Tasmania,230,13,216,1
+2020-08-18,Australia,Victoria,17446,363,9413,7670
+2020-08-18,Australia,Western Australia,647,9,633,5
+2020-08-18,Fiji,NA,28,1,20,7
+2020-08-18,New Zealand,NA,1649,22,1531,96
+2020-08-18,Papua New Guinea,NA,347,3,110,234
+2020-08-19,Australia,Australian Capital Territory,113,3,110,0
+2020-08-19,Australia,New South Wales,3971,52,2995,924
+2020-08-19,Australia,Northern Territory,33,0,31,2
+2020-08-19,Australia,Queensland,1093,6,1081,6
+2020-08-19,Australia,South Australia,462,4,452,6
+2020-08-19,Australia,Tasmania,230,13,216,1
+2020-08-19,Australia,Victoria,17683,376,9729,7578
+2020-08-19,Australia,Western Australia,651,9,633,9
+2020-08-19,Fiji,NA,28,1,20,7
+2020-08-19,New Zealand,NA,1654,22,1531,101
+2020-08-19,Papua New Guinea,NA,347,3,110,234
+2020-08-20,Australia,Australian Capital Territory,113,3,110,0
+2020-08-20,Australia,New South Wales,3972,52,2994,926
+2020-08-20,Australia,Northern Territory,33,0,31,2
+2020-08-20,Australia,Queensland,1094,6,1082,6
+2020-08-20,Australia,South Australia,462,4,452,6
+2020-08-20,Australia,Tasmania,230,13,216,1
+2020-08-20,Australia,Victoria,17852,385,12334,5133
+2020-08-20,Australia,Western Australia,651,9,633,9
+2020-08-20,Fiji,NA,28,1,20,7
+2020-08-20,New Zealand,NA,1665,22,1538,105
+2020-08-20,Papua New Guinea,NA,361,4,198,159
+2020-08-21,Australia,Australian Capital Territory,113,3,110,0
+2020-08-21,Australia,New South Wales,3981,52,2994,935
+2020-08-21,Australia,Northern Territory,33,0,31,2
+2020-08-21,Australia,Queensland,1103,6,1082,15
+2020-08-21,Australia,South Australia,462,4,452,6
+2020-08-21,Australia,Tasmania,230,13,216,1
+2020-08-21,Australia,Victoria,18029,398,12940,4691
+2020-08-21,Australia,Western Australia,651,9,633,9
+2020-08-21,Fiji,NA,28,1,20,7
+2020-08-21,New Zealand,NA,1671,22,1538,111
+2020-08-21,Papua New Guinea,NA,361,4,198,159
+2020-08-22,Australia,Australian Capital Territory,113,3,110,0
+2020-08-22,Australia,New South Wales,3985,52,2994,939
+2020-08-22,Australia,Northern Territory,33,0,31,2
+2020-08-22,Australia,Queensland,1105,6,1082,17
+2020-08-22,Australia,South Australia,462,4,452,6
+2020-08-22,Australia,Tasmania,230,13,216,1
+2020-08-22,Australia,Victoria,18231,415,13239,4577
+2020-08-22,Australia,Western Australia,652,9,634,9
+2020-08-22,Fiji,NA,28,1,23,4
+2020-08-22,New Zealand,NA,1674,22,1538,114
+2020-08-22,Papua New Guinea,NA,361,4,198,159

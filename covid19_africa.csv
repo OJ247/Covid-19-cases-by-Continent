@@ -7894,3 +7894,651 @@ ObservationDate,Country,Region,Confirmed,Deaths,Recovered,Active
 2020-08-10,Uganda,Eastern Africa,1297,9,1137,151
 2020-08-10,Zambia,Eastern Africa,8210,241,6802,1167
 2020-08-10,Zimbabwe,Eastern Africa,4748,104,1524,3120
+2020-08-11,Algeria,Northern Africa,36204,1322,25263,9619
+2020-08-11,Angola,Central Africa,1735,80,575,1080
+2020-08-11,Benin,Western Africa,2001,38,1681,282
+2020-08-11,Botswana,Southern Africa,1066,2,80,984
+2020-08-11,Burkina Faso,Western Africa,1211,54,990,167
+2020-08-11,Burundi,Eastern Africa,408,1,315,92
+2020-08-11,Cabo Verde,Western Africa,2920,33,2148,739
+2020-08-11,Cameroon,Central Africa,18213,398,15320,2495
+2020-08-11,Central African Republic,Central Africa,4645,61,1723,2861
+2020-08-11,Chad,Central Africa,946,76,859,11
+2020-08-11,Comoros,Eastern Africa,399,7,379,13
+2020-08-11,Congo (Brazzaville),Central Africa,3745,60,1625,2060
+2020-08-11,Congo (Kinshasa),Central Africa,9499,225,8375,899
+2020-08-11,Ivory Coast,Western Africa,16847,105,13321,3421
+2020-08-11,Djibouti,Eastern Africa,5348,59,5133,156
+2020-08-11,Egypt,Northern Africa,95834,5059,54888,35887
+2020-08-11,Equatorial Guinea,Central Africa,4821,83,2182,2556
+2020-08-11,Eritrea,Eastern Africa,285,0,248,37
+2020-08-11,Eswatini,Southern Africa,3410,63,1720,1627
+2020-08-11,Ethiopia,Eastern Africa,24175,440,10696,13039
+2020-08-11,Gabon,Central Africa,8006,51,5823,2132
+2020-08-11,Gambia,Western Africa,1346,32,227,1087
+2020-08-11,Ghana,Western Africa,41404,215,39055,2134
+2020-08-11,Guinea,Western Africa,8018,50,7020,948
+2020-08-11,Guinea-Bissau,Western Africa,2088,29,1015,1044
+2020-08-11,Kenya,Eastern Africa,27425,438,13867,13120
+2020-08-11,Lesotho,Southern Africa,781,24,175,582
+2020-08-11,Liberia,Western Africa,1250,81,736,433
+2020-08-11,Libya,Northern Africa,6302,132,740,5430
+2020-08-11,Madagascar,Eastern Africa,13317,152,11276,1889
+2020-08-11,Malawi,Eastern Africa,4714,152,2477,2085
+2020-08-11,Mali,Western Africa,2577,125,1973,479
+2020-08-11,Mauritania,Western Africa,6598,157,5704,737
+2020-08-11,Mauritius,Eastern Africa,344,10,334,0
+2020-08-11,Morocco,Northern Africa,35195,533,25385,9277
+2020-08-11,Mozambique,Eastern Africa,2481,17,910,1554
+2020-08-11,Namibia,Southern Africa,3229,19,715,2495
+2020-08-11,Niger,Western Africa,1158,69,1065,24
+2020-08-11,Nigeria,Western Africa,47290,956,33609,12725
+2020-08-11,Rwanda,Eastern Africa,2171,7,1478,686
+2020-08-11,Sao Tome and Principe,Central Africa,881,15,804,62
+2020-08-11,Senegal,Western Africa,11380,238,7449,3693
+2020-08-11,Seychelles,Eastern Africa,127,0,126,1
+2020-08-11,Sierra Leone,Western Africa,1932,69,1478,385
+2020-08-11,Somalia,Eastern Africa,3227,93,1728,1406
+2020-08-11,South Africa,Southern Africa,566109,10751,426125,129233
+2020-08-11,South Sudan,Eastern Africa,2472,47,1175,1250
+2020-08-11,Sudan,Northern Africa,12033,786,6282,4965
+2020-08-11,Tanzania,Eastern Africa,509,21,183,305
+2020-08-11,Togo,Western Africa,1070,26,752,292
+2020-08-11,Tunisia,Northern Africa,1738,52,1272,414
+2020-08-11,Uganda,Eastern Africa,1313,9,1138,166
+2020-08-11,Zambia,Eastern Africa,8275,241,7004,1030
+2020-08-11,Zimbabwe,Eastern Africa,4818,104,1524,3190
+2020-08-12,Algeria,Northern Africa,36699,1333,25627,9739
+2020-08-12,Angola,Central Africa,1762,80,577,1105
+2020-08-12,Benin,Western Africa,2014,38,1681,295
+2020-08-12,Botswana,Southern Africa,1066,2,80,984
+2020-08-12,Burkina Faso,Western Africa,1213,54,995,164
+2020-08-12,Burundi,Eastern Africa,409,1,315,93
+2020-08-12,Cabo Verde,Western Africa,3000,33,2172,795
+2020-08-12,Cameroon,Central Africa,18263,401,15320,2542
+2020-08-12,Central African Republic,Central Africa,4652,61,1728,2863
+2020-08-12,Chad,Central Africa,949,76,859,14
+2020-08-12,Comoros,Eastern Africa,399,7,379,13
+2020-08-12,Congo (Brazzaville),Central Africa,3745,60,1625,2060
+2020-08-12,Congo (Kinshasa),Central Africa,9538,225,8421,892
+2020-08-12,Ivory Coast,Western Africa,16847,105,13321,3421
+2020-08-12,Djibouti,Eastern Africa,5358,59,5150,149
+2020-08-12,Egypt,Northern Africa,95963,5085,55901,34977
+2020-08-12,Equatorial Guinea,Central Africa,4821,83,2182,2556
+2020-08-12,Eritrea,Eastern Africa,285,0,248,37
+2020-08-12,Eswatini,Southern Africa,3525,63,1910,1552
+2020-08-12,Ethiopia,Eastern Africa,25118,463,11034,13621
+2020-08-12,Gabon,Central Africa,8077,51,5920,2106
+2020-08-12,Gambia,Western Africa,1477,33,247,1197
+2020-08-12,Ghana,Western Africa,41572,223,39320,2029
+2020-08-12,Guinea,Western Africa,8116,50,7060,1006
+2020-08-12,Guinea-Bissau,Western Africa,2088,29,1015,1044
+2020-08-12,Kenya,Eastern Africa,28104,456,14610,13038
+2020-08-12,Lesotho,Southern Africa,798,24,175,599
+2020-08-12,Liberia,Western Africa,1252,82,738,432
+2020-08-12,Libya,Northern Africa,6611,132,778,5701
+2020-08-12,Madagascar,Eastern Africa,13397,156,11529,1712
+2020-08-12,Malawi,Eastern Africa,4752,152,2529,2071
+2020-08-12,Mali,Western Africa,2582,125,1977,480
+2020-08-12,Mauritania,Western Africa,6622,157,5741,724
+2020-08-12,Mauritius,Eastern Africa,344,10,334,0
+2020-08-12,Morocco,Northern Africa,36694,556,25677,10461
+2020-08-12,Mozambique,Eastern Africa,2559,19,951,1589
+2020-08-12,Namibia,Southern Africa,3406,22,835,2549
+2020-08-12,Niger,Western Africa,1161,69,1075,17
+2020-08-12,Nigeria,Western Africa,47743,956,33943,12844
+2020-08-12,Rwanda,Eastern Africa,2189,8,1524,657
+2020-08-12,Sao Tome and Principe,Central Africa,882,15,807,60
+2020-08-12,Senegal,Western Africa,11587,242,7523,3822
+2020-08-12,Seychelles,Eastern Africa,127,0,126,1
+2020-08-12,Sierra Leone,Western Africa,1937,69,1483,385
+2020-08-12,Somalia,Eastern Africa,3227,93,1728,1406
+2020-08-12,South Africa,Southern Africa,568919,11010,432029,125880
+2020-08-12,South Sudan,Eastern Africa,2477,47,1175,1255
+2020-08-12,Sudan,Northern Africa,12033,786,6282,4965
+2020-08-12,Tanzania,Eastern Africa,509,21,183,305
+2020-08-12,Togo,Western Africa,1092,26,782,284
+2020-08-12,Tunisia,Northern Africa,1780,52,1278,450
+2020-08-12,Uganda,Eastern Africa,1332,9,1139,184
+2020-08-12,Zambia,Eastern Africa,8501,246,7233,1022
+2020-08-12,Zimbabwe,Eastern Africa,4893,122,1620,3151
+2020-08-13,Algeria,Northern Africa,37187,1341,26004,9842
+2020-08-13,Angola,Central Africa,1815,80,577,1158
+2020-08-13,Benin,Western Africa,2014,38,1681,295
+2020-08-13,Botswana,Southern Africa,1214,3,120,1091
+2020-08-13,Burkina Faso,Western Africa,1228,54,997,177
+2020-08-13,Burundi,Eastern Africa,410,1,315,94
+2020-08-13,Cabo Verde,Western Africa,3073,33,2232,808
+2020-08-13,Cameroon,Central Africa,18308,401,15320,2587
+2020-08-13,Central African Republic,Central Africa,4652,61,1728,2863
+2020-08-13,Chad,Central Africa,949,76,860,13
+2020-08-13,Comoros,Eastern Africa,399,7,379,13
+2020-08-13,Congo (Brazzaville),Central Africa,3745,60,1625,2060
+2020-08-13,Congo (Kinshasa),Central Africa,9589,234,8480,875
+2020-08-13,Ivory Coast,Western Africa,16889,107,13522,3260
+2020-08-13,Djibouti,Eastern Africa,5358,59,5167,132
+2020-08-13,Egypt,Northern Africa,96108,5107,56890,34111
+2020-08-13,Equatorial Guinea,Central Africa,4821,83,2182,2556
+2020-08-13,Eritrea,Eastern Africa,285,0,248,37
+2020-08-13,Eswatini,Southern Africa,3599,65,1991,1543
+2020-08-13,Ethiopia,Eastern Africa,26204,479,11428,14297
+2020-08-13,Gabon,Central Africa,8077,51,5920,2106
+2020-08-13,Gambia,Western Africa,1556,43,267,1246
+2020-08-13,Ghana,Western Africa,41725,223,39495,2007
+2020-08-13,Guinea,Western Africa,8198,50,7120,1028
+2020-08-13,Guinea-Bissau,Western Africa,2088,29,1015,1044
+2020-08-13,Kenya,Eastern Africa,28754,460,15100,13194
+2020-08-13,Lesotho,Southern Africa,884,25,271,588
+2020-08-13,Liberia,Western Africa,1252,82,738,432
+2020-08-13,Libya,Northern Africa,7050,135,816,6099
+2020-08-13,Madagascar,Eastern Africa,13522,162,11780,1580
+2020-08-13,Malawi,Eastern Africa,4912,153,2550,2209
+2020-08-13,Mali,Western Africa,2597,125,1979,493
+2020-08-13,Mauritania,Western Africa,6653,157,5843,653
+2020-08-13,Mauritius,Eastern Africa,344,10,334,0
+2020-08-13,Morocco,Northern Africa,37935,584,26687,10664
+2020-08-13,Mozambique,Eastern Africa,2638,19,1015,1604
+2020-08-13,Namibia,Southern Africa,3544,27,848,2669
+2020-08-13,Niger,Western Africa,1161,69,1075,17
+2020-08-13,Nigeria,Western Africa,48116,966,34309,12841
+2020-08-13,Rwanda,Eastern Africa,2200,8,1558,634
+2020-08-13,Sao Tome and Principe,Central Africa,883,15,808,60
+2020-08-13,Senegal,Western Africa,11740,244,7572,3924
+2020-08-13,Seychelles,Eastern Africa,127,0,126,1
+2020-08-13,Sierra Leone,Western Africa,1940,69,1496,375
+2020-08-13,Somalia,Eastern Africa,3227,93,1728,1406
+2020-08-13,South Africa,Southern Africa,572865,11270,437617,123978
+2020-08-13,South Sudan,Eastern Africa,2478,47,1175,1256
+2020-08-13,Sudan,Northern Africa,12115,792,6305,5018
+2020-08-13,Tanzania,Eastern Africa,509,21,183,305
+2020-08-13,Togo,Western Africa,1104,26,791,287
+2020-08-13,Tunisia,Northern Africa,1847,53,1302,492
+2020-08-13,Uganda,Eastern Africa,1353,11,1141,201
+2020-08-13,Zambia,Eastern Africa,8663,246,7401,1016
+2020-08-13,Zimbabwe,Eastern Africa,4990,128,1927,2935
+2020-08-14,Algeria,Northern Africa,37664,1351,26308,10005
+2020-08-14,Angola,Central Africa,1852,86,584,1182
+2020-08-14,Benin,Western Africa,2014,38,1681,295
+2020-08-14,Botswana,Southern Africa,1214,3,120,1091
+2020-08-14,Burkina Faso,Western Africa,1238,54,1005,179
+2020-08-14,Burundi,Eastern Africa,412,1,315,96
+2020-08-14,Cabo Verde,Western Africa,3136,33,2254,849
+2020-08-14,Cameroon,Central Africa,18469,401,15320,2748
+2020-08-14,Central African Republic,Central Africa,4652,61,1728,2863
+2020-08-14,Chad,Central Africa,951,76,862,13
+2020-08-14,Comoros,Eastern Africa,403,7,379,17
+2020-08-14,Congo (Brazzaville),Central Africa,3745,60,1625,2060
+2020-08-14,Congo (Kinshasa),Central Africa,9605,238,8512,855
+2020-08-14,Ivory Coast,Western Africa,16935,108,13721,3106
+2020-08-14,Djibouti,Eastern Africa,5367,59,5181,127
+2020-08-14,Egypt,Northern Africa,96220,5124,57858,33238
+2020-08-14,Equatorial Guinea,Central Africa,4821,83,2182,2556
+2020-08-14,Eritrea,Eastern Africa,285,0,248,37
+2020-08-14,Eswatini,Southern Africa,3670,68,1991,1611
+2020-08-14,Ethiopia,Eastern Africa,27242,492,11660,15090
+2020-08-14,Gabon,Central Africa,8225,51,6277,1897
+2020-08-14,Gambia,Western Africa,1623,50,304,1269
+2020-08-14,Ghana,Western Africa,41847,223,39718,1906
+2020-08-14,Guinea,Western Africa,8260,50,7177,1033
+2020-08-14,Guinea-Bissau,Western Africa,2088,29,1015,1044
+2020-08-14,Kenya,Eastern Africa,29334,465,15298,13571
+2020-08-14,Lesotho,Southern Africa,884,25,271,588
+2020-08-14,Liberia,Western Africa,1252,82,738,432
+2020-08-14,Libya,Northern Africa,7327,139,848,6340
+2020-08-14,Madagascar,Eastern Africa,13643,164,12011,1468
+2020-08-14,Malawi,Eastern Africa,4988,156,2576,2256
+2020-08-14,Mali,Western Africa,2597,125,1979,493
+2020-08-14,Mauritania,Western Africa,6676,157,5889,630
+2020-08-14,Mauritius,Eastern Africa,345,10,334,1
+2020-08-14,Morocco,Northern Africa,39241,611,27644,10986
+2020-08-14,Mozambique,Eastern Africa,2708,19,1075,1614
+2020-08-14,Namibia,Southern Africa,3726,31,848,2847
+2020-08-14,Niger,Western Africa,1161,69,1075,17
+2020-08-14,Nigeria,Western Africa,48445,973,35998,11474
+2020-08-14,Rwanda,Eastern Africa,2293,8,1604,681
+2020-08-14,Sao Tome and Principe,Central Africa,885,15,809,61
+2020-08-14,Senegal,Western Africa,11872,249,7615,4008
+2020-08-14,Seychelles,Eastern Africa,127,0,126,1
+2020-08-14,Sierra Leone,Western Africa,1947,69,1502,376
+2020-08-14,Somalia,Eastern Africa,3250,93,2268,889
+2020-08-14,South Africa,Southern Africa,579140,11556,461734,105850
+2020-08-14,South Sudan,Eastern Africa,2482,47,1175,1260
+2020-08-14,Sudan,Northern Africa,12162,793,6325,5044
+2020-08-14,Tanzania,Eastern Africa,509,21,183,305
+2020-08-14,Togo,Western Africa,1124,26,806,292
+2020-08-14,Tunisia,Northern Africa,1903,53,1320,530
+2020-08-14,Uganda,Eastern Africa,1385,12,1142,231
+2020-08-14,Zambia,Eastern Africa,9021,256,7586,1179
+2020-08-14,Zimbabwe,Eastern Africa,5072,128,1998,2946
+2020-08-15,Algeria,Northern Africa,38133,1360,26644,10129
+2020-08-15,Angola,Central Africa,1879,86,628,1165
+2020-08-15,Benin,Western Africa,2063,39,1690,334
+2020-08-15,Botswana,Southern Africa,1214,3,120,1091
+2020-08-15,Burkina Faso,Western Africa,1240,54,1006,180
+2020-08-15,Burundi,Eastern Africa,412,1,315,96
+2020-08-15,Cabo Verde,Western Africa,3163,34,2302,827
+2020-08-15,Cameroon,Central Africa,18469,401,16540,1528
+2020-08-15,Central African Republic,Central Africa,4652,61,1728,2863
+2020-08-15,Chad,Central Africa,952,76,864,12
+2020-08-15,Comoros,Eastern Africa,403,7,379,17
+2020-08-15,Congo (Brazzaville),Central Africa,3745,60,1625,2060
+2020-08-15,Congo (Kinshasa),Central Africa,9638,239,8597,802
+2020-08-15,Ivory Coast,Western Africa,16993,108,13759,3126
+2020-08-15,Djibouti,Eastern Africa,5367,59,5181,127
+2020-08-15,Egypt,Northern Africa,96336,5141,58835,32360
+2020-08-15,Equatorial Guinea,Central Africa,4821,83,2182,2556
+2020-08-15,Eritrea,Eastern Africa,285,0,248,37
+2020-08-15,Eswatini,Southern Africa,3745,69,2268,1408
+2020-08-15,Ethiopia,Eastern Africa,28894,509,12037,16348
+2020-08-15,Gabon,Central Africa,8225,51,6277,1897
+2020-08-15,Gambia,Western Africa,1689,54,347,1288
+2020-08-15,Ghana,Western Africa,42210,231,40147,1832
+2020-08-15,Guinea,Western Africa,8343,50,7210,1083
+2020-08-15,Guinea-Bissau,Western Africa,2117,33,1015,1069
+2020-08-15,Kenya,Eastern Africa,29849,472,15970,13407
+2020-08-15,Lesotho,Southern Africa,903,25,271,607
+2020-08-15,Liberia,Western Africa,1257,82,788,387
+2020-08-15,Libya,Northern Africa,7738,145,894,6699
+2020-08-15,Madagascar,Eastern Africa,13724,166,12232,1326
+2020-08-15,Malawi,Eastern Africa,5026,157,2623,2246
+2020-08-15,Mali,Western Africa,2614,125,1986,503
+2020-08-15,Mauritania,Western Africa,6693,157,5928,608
+2020-08-15,Mauritius,Eastern Africa,346,10,334,2
+2020-08-15,Morocco,Northern Africa,41017,632,28566,11819
+2020-08-15,Mozambique,Eastern Africa,2791,19,1136,1636
+2020-08-15,Namibia,Southern Africa,3907,35,2352,1520
+2020-08-15,Niger,Western Africa,1165,69,1077,19
+2020-08-15,Nigeria,Western Africa,48770,974,36290,11506
+2020-08-15,Rwanda,Eastern Africa,2352,8,1631,713
+2020-08-15,Sao Tome and Principe,Central Africa,885,15,815,55
+2020-08-15,Senegal,Western Africa,12032,251,7637,4144
+2020-08-15,Seychelles,Eastern Africa,127,0,126,1
+2020-08-15,Sierra Leone,Western Africa,1954,69,1505,380
+2020-08-15,Somalia,Eastern Africa,3250,93,2268,889
+2020-08-15,South Africa,Southern Africa,583653,11677,466941,105035
+2020-08-15,South Sudan,Eastern Africa,2488,47,1175,1266
+2020-08-15,Sudan,Northern Africa,12211,796,6340,5075
+2020-08-15,Tanzania,Eastern Africa,509,21,183,305
+2020-08-15,Togo,Western Africa,1130,27,836,267
+2020-08-15,Tunisia,Northern Africa,2023,54,1327,642
+2020-08-15,Uganda,Eastern Africa,1434,13,1142,279
+2020-08-15,Zambia,Eastern Africa,9186,260,8065,861
+2020-08-15,Zimbabwe,Eastern Africa,5176,130,2047,2999
+2020-08-16,Algeria,Northern Africa,38583,1370,27017,10196
+2020-08-16,Angola,Central Africa,1906,88,628,1190
+2020-08-16,Benin,Western Africa,2063,39,1690,334
+2020-08-16,Botswana,Southern Africa,1214,3,120,1091
+2020-08-16,Burkina Faso,Western Africa,1267,55,1013,199
+2020-08-16,Burundi,Eastern Africa,413,1,315,97
+2020-08-16,Cabo Verde,Western Africa,3179,35,2317,827
+2020-08-16,Cameroon,Central Africa,18469,401,16540,1528
+2020-08-16,Central African Republic,Central Africa,4652,61,1728,2863
+2020-08-16,Chad,Central Africa,956,76,865,15
+2020-08-16,Comoros,Eastern Africa,405,7,379,19
+2020-08-16,Congo (Brazzaville),Central Africa,3831,76,1625,2130
+2020-08-16,Congo (Kinshasa),Central Africa,9676,240,8705,731
+2020-08-16,Ivory Coast,Western Africa,17026,110,13947,2969
+2020-08-16,Djibouti,Eastern Africa,5369,59,5202,108
+2020-08-16,Egypt,Northern Africa,96475,5160,59743,31572
+2020-08-16,Equatorial Guinea,Central Africa,4821,83,2182,2556
+2020-08-16,Eritrea,Eastern Africa,285,0,248,37
+2020-08-16,Eswatini,Southern Africa,3839,70,2268,1501
+2020-08-16,Ethiopia,Eastern Africa,29876,528,12359,16989
+2020-08-16,Gabon,Central Africa,8225,51,6277,1897
+2020-08-16,Gambia,Western Africa,1872,63,401,1408
+2020-08-16,Ghana,Western Africa,42532,231,40362,1939
+2020-08-16,Guinea,Western Africa,8482,51,7364,1067
+2020-08-16,Guinea-Bissau,Western Africa,2117,33,1015,1069
+2020-08-16,Kenya,Eastern Africa,30120,474,16656,12990
+2020-08-16,Lesotho,Southern Africa,903,25,271,607
+2020-08-16,Liberia,Western Africa,1257,82,788,387
+2020-08-16,Libya,Northern Africa,8172,153,933,7086
+2020-08-16,Madagascar,Eastern Africa,13827,170,12424,1233
+2020-08-16,Malawi,Eastern Africa,5072,161,2626,2285
+2020-08-16,Mali,Western Africa,2640,125,1987,528
+2020-08-16,Mauritania,Western Africa,6701,157,5985,559
+2020-08-16,Mauritius,Eastern Africa,346,10,334,2
+2020-08-16,Morocco,Northern Africa,42489,658,29344,12487
+2020-08-16,Mozambique,Eastern Africa,2855,19,1163,1673
+2020-08-16,Namibia,Southern Africa,4154,35,2370,1749
+2020-08-16,Niger,Western Africa,1167,69,1078,20
+2020-08-16,Nigeria,Western Africa,49068,975,36497,11596
+2020-08-16,Rwanda,Eastern Africa,2453,8,1648,797
+2020-08-16,Sao Tome and Principe,Central Africa,885,15,818,52
+2020-08-16,Senegal,Western Africa,12162,253,7677,4232
+2020-08-16,Seychelles,Eastern Africa,127,0,126,1
+2020-08-16,Sierra Leone,Western Africa,1956,69,1506,381
+2020-08-16,Somalia,Eastern Africa,3256,93,2374,789
+2020-08-16,South Africa,Southern Africa,587345,11839,472377,103129
+2020-08-16,South Sudan,Eastern Africa,2489,47,1175,1267
+2020-08-16,Sudan,Northern Africa,12314,798,6350,5166
+2020-08-16,Tanzania,Eastern Africa,509,21,183,305
+2020-08-16,Togo,Western Africa,1147,27,843,277
+2020-08-16,Tunisia,Northern Africa,2107,54,1358,695
+2020-08-16,Uganda,Eastern Africa,1500,13,1142,345
+2020-08-16,Zambia,Eastern Africa,9343,260,8412,671
+2020-08-16,Zimbabwe,Eastern Africa,5261,132,2092,3037
+2020-08-17,Algeria,Northern Africa,39025,1379,27347,10299
+2020-08-17,Angola,Central Africa,1935,88,632,1215
+2020-08-17,Benin,Western Africa,2063,39,1690,334
+2020-08-17,Botswana,Southern Africa,1308,3,136,1169
+2020-08-17,Burkina Faso,Western Africa,1280,55,1018,207
+2020-08-17,Burundi,Eastern Africa,413,1,336,76
+2020-08-17,Cabo Verde,Western Africa,3203,36,2336,831
+2020-08-17,Cameroon,Central Africa,18582,403,16540,1639
+2020-08-17,Central African Republic,Central Africa,4667,61,1748,2858
+2020-08-17,Chad,Central Africa,959,76,865,18
+2020-08-17,Comoros,Eastern Africa,405,7,379,19
+2020-08-17,Congo (Brazzaville),Central Africa,3831,76,1625,2130
+2020-08-17,Congo (Kinshasa),Central Africa,9706,243,8705,758
+2020-08-17,Ivory Coast,Western Africa,17107,110,13990,3007
+2020-08-17,Djibouti,Eastern Africa,5372,59,5211,102
+2020-08-17,Egypt,Northern Africa,96590,5173,60651,30766
+2020-08-17,Equatorial Guinea,Central Africa,4821,83,2182,2556
+2020-08-17,Eritrea,Eastern Africa,285,0,248,37
+2020-08-17,Eswatini,Southern Africa,3894,73,2371,1450
+2020-08-17,Ethiopia,Eastern Africa,31336,544,12524,18268
+2020-08-17,Gabon,Central Africa,8270,53,6404,1813
+2020-08-17,Gambia,Western Africa,1872,63,401,1408
+2020-08-17,Ghana,Western Africa,42653,239,40567,1847
+2020-08-17,Guinea,Western Africa,8620,51,7472,1097
+2020-08-17,Guinea-Bissau,Western Africa,2117,33,1015,1069
+2020-08-17,Kenya,Eastern Africa,30365,482,17160,12723
+2020-08-17,Lesotho,Southern Africa,946,30,271,645
+2020-08-17,Liberia,Western Africa,1277,82,803,392
+2020-08-17,Libya,Northern Africa,8579,157,969,7453
+2020-08-17,Madagascar,Eastern Africa,13886,171,12603,1112
+2020-08-17,Malawi,Eastern Africa,5125,162,2690,2273
+2020-08-17,Mali,Western Africa,2640,125,1987,528
+2020-08-17,Mauritania,Western Africa,6762,157,6018,587
+2020-08-17,Mauritius,Eastern Africa,346,10,334,2
+2020-08-17,Morocco,Northern Africa,43558,681,29941,12936
+2020-08-17,Mozambique,Eastern Africa,2914,19,1196,1699
+2020-08-17,Namibia,Southern Africa,4344,36,2379,1929
+2020-08-17,Niger,Western Africa,1167,69,1078,20
+2020-08-17,Nigeria,Western Africa,49485,977,36834,11674
+2020-08-17,Rwanda,Eastern Africa,2540,8,1661,871
+2020-08-17,Sao Tome and Principe,Central Africa,885,15,821,49
+2020-08-17,Senegal,Western Africa,12237,256,7728,4253
+2020-08-17,Seychelles,Eastern Africa,127,0,126,1
+2020-08-17,Sierra Leone,Western Africa,1956,69,1506,381
+2020-08-17,Somalia,Eastern Africa,3257,93,2374,790
+2020-08-17,South Africa,Southern Africa,589886,11982,477671,100233
+2020-08-17,South Sudan,Eastern Africa,2490,47,1175,1268
+2020-08-17,Sudan,Northern Africa,12410,803,6385,5222
+2020-08-17,Tanzania,Eastern Africa,509,21,183,305
+2020-08-17,Togo,Western Africa,1154,27,858,269
+2020-08-17,Tunisia,Northern Africa,2185,56,1362,767
+2020-08-17,Uganda,Eastern Africa,1560,15,1165,380
+2020-08-17,Zambia,Eastern Africa,9839,264,8575,1000
+2020-08-17,Zimbabwe,Eastern Africa,5308,135,3848,1325
+2020-08-18,Algeria,Northern Africa,39444,1391,27653,10400
+2020-08-18,Angola,Central Africa,1966,90,667,1209
+2020-08-18,Benin,Western Africa,2063,39,1690,334
+2020-08-18,Botswana,Southern Africa,1308,3,136,1169
+2020-08-18,Burkina Faso,Western Africa,1280,55,1018,207
+2020-08-18,Burundi,Eastern Africa,416,1,336,79
+2020-08-18,Cabo Verde,Western Africa,3253,36,2390,827
+2020-08-18,Cameroon,Central Africa,18599,406,16540,1653
+2020-08-18,Central African Republic,Central Africa,4679,61,1755,2863
+2020-08-18,Chad,Central Africa,970,76,865,29
+2020-08-18,Comoros,Eastern Africa,406,7,393,6
+2020-08-18,Congo (Brazzaville),Central Africa,3831,76,1625,2130
+2020-08-18,Congo (Kinshasa),Central Africa,9721,243,8882,596
+2020-08-18,Ivory Coast,Western Africa,17150,110,14183,2857
+2020-08-18,Djibouti,Eastern Africa,5374,59,5216,99
+2020-08-18,Egypt,Northern Africa,96753,5184,61562,30007
+2020-08-18,Equatorial Guinea,Central Africa,4821,83,2182,2556
+2020-08-18,Eritrea,Eastern Africa,304,0,261,43
+2020-08-18,Eswatini,Southern Africa,3989,76,2587,1326
+2020-08-18,Ethiopia,Eastern Africa,32722,572,12938,19212
+2020-08-18,Gabon,Central Africa,8270,53,6404,1813
+2020-08-18,Gambia,Western Africa,2116,63,415,1638
+2020-08-18,Ghana,Western Africa,42993,248,40796,1949
+2020-08-18,Guinea,Western Africa,8715,52,7532,1131
+2020-08-18,Guinea-Bissau,Western Africa,2117,33,1015,1069
+2020-08-18,Kenya,Eastern Africa,30636,487,17368,12781
+2020-08-18,Lesotho,Southern Africa,946,30,271,645
+2020-08-18,Liberia,Western Africa,1282,82,803,397
+2020-08-18,Libya,Northern Africa,9068,164,1003,7901
+2020-08-18,Madagascar,Eastern Africa,14009,173,12767,1069
+2020-08-18,Malawi,Eastern Africa,5193,163,2716,2314
+2020-08-18,Mali,Western Africa,2666,125,1990,551
+2020-08-18,Mauritania,Western Africa,6789,157,6051,581
+2020-08-18,Mauritius,Eastern Africa,346,10,334,2
+2020-08-18,Morocco,Northern Africa,44803,714,31002,13087
+2020-08-18,Mozambique,Eastern Africa,2991,19,1245,1727
+2020-08-18,Namibia,Southern Africa,4464,37,2407,2020
+2020-08-18,Niger,Western Africa,1167,69,1079,19
+2020-08-18,Nigeria,Western Africa,49895,981,37051,11863
+2020-08-18,Rwanda,Eastern Africa,2577,10,1683,884
+2020-08-18,Sao Tome and Principe,Central Africa,885,15,821,49
+2020-08-18,Senegal,Western Africa,12305,256,7767,4282
+2020-08-18,Seychelles,Eastern Africa,127,0,126,1
+2020-08-18,Sierra Leone,Western Africa,1959,69,1529,361
+2020-08-18,Somalia,Eastern Africa,3257,93,2374,790
+2020-08-18,South Africa,Southern Africa,592144,12264,485468,94412
+2020-08-18,South Sudan,Eastern Africa,2490,47,1175,1268
+2020-08-18,Sudan,Northern Africa,12485,805,6398,5282
+2020-08-18,Tanzania,Eastern Africa,509,21,183,305
+2020-08-18,Togo,Western Africa,1173,27,868,278
+2020-08-18,Tunisia,Northern Africa,2314,57,1370,887
+2020-08-18,Uganda,Eastern Africa,1603,15,1165,423
+2020-08-18,Zambia,Eastern Africa,9981,264,8776,941
+2020-08-18,Zimbabwe,Eastern Africa,5378,141,4105,1132
+2020-08-19,Algeria,Northern Africa,39847,1402,27971,10474
+2020-08-19,Angola,Central Africa,2015,92,698,1225
+2020-08-19,Benin,Western Africa,2095,39,1690,366
+2020-08-19,Botswana,Southern Africa,1308,3,136,1169
+2020-08-19,Burkina Faso,Western Africa,1285,55,1023,207
+2020-08-19,Burundi,Eastern Africa,422,1,336,85
+2020-08-19,Cabo Verde,Western Africa,3321,36,2442,843
+2020-08-19,Cameroon,Central Africa,18624,406,16540,1678
+2020-08-19,Central African Republic,Central Africa,4679,61,1755,2863
+2020-08-19,Chad,Central Africa,971,76,868,27
+2020-08-19,Comoros,Eastern Africa,406,7,393,6
+2020-08-19,Congo (Brazzaville),Central Africa,3850,77,1625,2148
+2020-08-19,Congo (Kinshasa),Central Africa,9741,246,8895,600
+2020-08-19,Ivory Coast,Western Africa,17232,111,14422,2699
+2020-08-19,Djibouti,Eastern Africa,5374,59,5216,99
+2020-08-19,Egypt,Northern Africa,96914,5197,62553,29164
+2020-08-19,Equatorial Guinea,Central Africa,4892,83,2713,2096
+2020-08-19,Eritrea,Eastern Africa,304,0,261,43
+2020-08-19,Eswatini,Southern Africa,4058,79,2611,1368
+2020-08-19,Ethiopia,Eastern Africa,34058,600,13308,20150
+2020-08-19,Gabon,Central Africa,8319,53,6614,1652
+2020-08-19,Gambia,Western Africa,2288,77,435,1776
+2020-08-19,Ghana,Western Africa,43094,256,40963,1875
+2020-08-19,Guinea,Western Africa,8792,53,7574,1165
+2020-08-19,Guinea-Bissau,Western Africa,2117,33,1015,1069
+2020-08-19,Kenya,Eastern Africa,31015,506,17612,12897
+2020-08-19,Lesotho,Southern Africa,946,30,271,645
+2020-08-19,Liberia,Western Africa,1282,82,803,397
+2020-08-19,Libya,Northern Africa,9463,169,1018,8276
+2020-08-19,Madagascar,Eastern Africa,14074,173,12921,980
+2020-08-19,Malawi,Eastern Africa,5240,164,2857,2219
+2020-08-19,Mali,Western Africa,2667,125,1993,549
+2020-08-19,Mauritania,Western Africa,6829,158,6094,577
+2020-08-19,Mauritius,Eastern Africa,346,10,334,2
+2020-08-19,Morocco,Northern Africa,46313,743,31576,13994
+2020-08-19,Mozambique,Eastern Africa,3045,19,1291,1735
+2020-08-19,Namibia,Southern Africa,4665,39,2426,2200
+2020-08-19,Niger,Western Africa,1167,69,1079,19
+2020-08-19,Nigeria,Western Africa,50488,985,37304,12199
+2020-08-19,Rwanda,Eastern Africa,2644,10,1698,936
+2020-08-19,Sao Tome and Principe,Central Africa,885,15,826,44
+2020-08-19,Senegal,Western Africa,12446,258,7877,4311
+2020-08-19,Seychelles,Eastern Africa,132,0,126,6
+2020-08-19,Sierra Leone,Western Africa,1961,69,1531,361
+2020-08-19,Somalia,Eastern Africa,3265,93,2396,776
+2020-08-19,South Africa,Southern Africa,596060,12423,491441,92196
+2020-08-19,South Sudan,Eastern Africa,2494,47,1290,1157
+2020-08-19,Sudan,Northern Africa,12546,808,6429,5309
+2020-08-19,Tanzania,Eastern Africa,509,21,183,305
+2020-08-19,Togo,Western Africa,1190,27,875,288
+2020-08-19,Tunisia,Northern Africa,2427,60,1395,972
+2020-08-19,Uganda,Eastern Africa,1656,16,1188,452
+2020-08-19,Zambia,Eastern Africa,10218,269,9126,823
+2020-08-19,Zimbabwe,Eastern Africa,5643,150,4442,1051
+2020-08-20,Algeria,Northern Africa,40258,1411,28281,10566
+2020-08-20,Angola,Central Africa,2044,93,742,1209
+2020-08-20,Benin,Western Africa,2095,39,1705,351
+2020-08-20,Botswana,Southern Africa,1308,3,136,1169
+2020-08-20,Burkina Faso,Western Africa,1297,55,1034,208
+2020-08-20,Burundi,Eastern Africa,422,1,336,85
+2020-08-20,Cabo Verde,Western Africa,3368,37,2462,869
+2020-08-20,Cameroon,Central Africa,18762,408,16540,1814
+2020-08-20,Central African Republic,Central Africa,4679,61,1755,2863
+2020-08-20,Chad,Central Africa,972,76,869,27
+2020-08-20,Comoros,Eastern Africa,417,7,396,14
+2020-08-20,Congo (Brazzaville),Central Africa,3850,77,1625,2148
+2020-08-20,Congo (Kinshasa),Central Africa,9757,247,8895,615
+2020-08-20,Ivory Coast,Western Africa,17249,112,14611,2526
+2020-08-20,Djibouti,Eastern Africa,5374,59,5216,99
+2020-08-20,Egypt,Northern Africa,97025,5212,63462,28351
+2020-08-20,Equatorial Guinea,Central Africa,4892,83,2713,2096
+2020-08-20,Eritrea,Eastern Africa,306,0,274,32
+2020-08-20,Eswatini,Southern Africa,4110,81,2643,1386
+2020-08-20,Ethiopia,Eastern Africa,35836,620,13536,21680
+2020-08-20,Gabon,Central Africa,8319,53,6614,1652
+2020-08-20,Gambia,Western Africa,2401,81,435,1885
+2020-08-20,Ghana,Western Africa,43260,261,41276,1723
+2020-08-20,Guinea,Western Africa,8876,53,7628,1195
+2020-08-20,Guinea-Bissau,Western Africa,2149,33,1015,1101
+2020-08-20,Kenya,Eastern Africa,31441,516,17869,13056
+2020-08-20,Lesotho,Southern Africa,996,30,423,543
+2020-08-20,Liberia,Western Africa,1284,82,803,399
+2020-08-20,Libya,Northern Africa,9707,173,1047,8487
+2020-08-20,Madagascar,Eastern Africa,14154,177,13038,939
+2020-08-20,Malawi,Eastern Africa,5282,165,2883,2234
+2020-08-20,Mali,Western Africa,2667,125,1993,549
+2020-08-20,Mauritania,Western Africa,6848,158,6123,567
+2020-08-20,Mauritius,Eastern Africa,346,10,334,2
+2020-08-20,Morocco,Northern Africa,47638,775,32806,14057
+2020-08-20,Mozambique,Eastern Africa,3115,20,1380,1715
+2020-08-20,Namibia,Southern Africa,4912,41,2442,2429
+2020-08-20,Niger,Western Africa,1169,69,1082,18
+2020-08-20,Nigeria,Western Africa,50964,992,37569,12403
+2020-08-20,Rwanda,Eastern Africa,2717,11,1705,1001
+2020-08-20,Sao Tome and Principe,Central Africa,888,15,829,44
+2020-08-20,Senegal,Western Africa,12559,261,8050,4248
+2020-08-20,Seychelles,Eastern Africa,132,0,126,6
+2020-08-20,Sierra Leone,Western Africa,1969,69,1536,364
+2020-08-20,Somalia,Eastern Africa,3265,93,2396,776
+2020-08-20,South Africa,Southern Africa,599940,12618,497169,90153
+2020-08-20,South Sudan,Eastern Africa,2494,47,1290,1157
+2020-08-20,Sudan,Northern Africa,12582,812,6456,5314
+2020-08-20,Tanzania,Eastern Africa,509,21,183,305
+2020-08-20,Togo,Western Africa,1212,27,878,307
+2020-08-20,Tunisia,Northern Africa,2543,63,1397,1083
+2020-08-20,Uganda,Eastern Africa,1750,19,1194,537
+2020-08-20,Zambia,Eastern Africa,10372,274,9126,972
+2020-08-20,Zimbabwe,Eastern Africa,5745,151,4525,1069
+2020-08-21,Algeria,Northern Africa,40667,1418,28587,10662
+2020-08-21,Angola,Central Africa,2068,94,804,1170
+2020-08-21,Benin,Western Africa,2095,39,1705,351
+2020-08-21,Botswana,Southern Africa,1308,3,136,1169
+2020-08-21,Burkina Faso,Western Africa,1297,55,1034,208
+2020-08-21,Burundi,Eastern Africa,426,1,336,89
+2020-08-21,Cabo Verde,Western Africa,3412,37,2498,877
+2020-08-21,Cameroon,Central Africa,18762,408,16540,1814
+2020-08-21,Central African Republic,Central Africa,4679,61,1755,2863
+2020-08-21,Chad,Central Africa,981,76,869,36
+2020-08-21,Comoros,Eastern Africa,417,7,396,14
+2020-08-21,Congo (Brazzaville),Central Africa,3850,77,1625,2148
+2020-08-21,Congo (Kinshasa),Central Africa,9802,248,8920,634
+2020-08-21,Ivory Coast,Western Africa,17310,112,14820,2378
+2020-08-21,Djibouti,Eastern Africa,5382,60,5233,89
+2020-08-21,Egypt,Northern Africa,97148,5231,64318,27599
+2020-08-21,Equatorial Guinea,Central Africa,4926,83,2713,2130
+2020-08-21,Eritrea,Eastern Africa,306,0,274,32
+2020-08-21,Eswatini,Southern Africa,4128,81,2682,1365
+2020-08-21,Ethiopia,Eastern Africa,37665,637,13913,23115
+2020-08-21,Gabon,Central Africa,8388,53,6734,1601
+2020-08-21,Gambia,Western Africa,2437,84,455,1898
+2020-08-21,Ghana,Western Africa,43325,261,41408,1656
+2020-08-21,Guinea,Western Africa,8932,53,7648,1231
+2020-08-21,Guinea-Bissau,Western Africa,2149,33,1015,1101
+2020-08-21,Kenya,Eastern Africa,31763,532,18157,13074
+2020-08-21,Lesotho,Southern Africa,1015,30,472,513
+2020-08-21,Liberia,Western Africa,1285,82,803,400
+2020-08-21,Libya,Northern Africa,10121,180,1053,8888
+2020-08-21,Madagascar,Eastern Africa,14218,178,13206,834
+2020-08-21,Malawi,Eastern Africa,5322,166,2929,2227
+2020-08-21,Mali,Western Africa,2688,125,2007,556
+2020-08-21,Mauritania,Western Africa,6885,158,6186,541
+2020-08-21,Mauritius,Eastern Africa,346,10,334,2
+2020-08-21,Morocco,Northern Africa,49247,817,34199,14231
+2020-08-21,Mozambique,Eastern Africa,3195,20,1406,1769
+2020-08-21,Namibia,Southern Africa,5227,42,2457,2728
+2020-08-21,Niger,Western Africa,1172,69,1083,20
+2020-08-21,Nigeria,Western Africa,51304,996,37885,12423
+2020-08-21,Rwanda,Eastern Africa,2780,11,1712,1057
+2020-08-21,Sao Tome and Principe,Central Africa,891,15,830,46
+2020-08-21,Senegal,Western Africa,12689,262,8165,4262
+2020-08-21,Seychelles,Eastern Africa,132,0,126,6
+2020-08-21,Sierra Leone,Western Africa,1972,69,1542,361
+2020-08-21,Somalia,Eastern Africa,3265,93,2396,776
+2020-08-21,South Africa,Southern Africa,603338,12843,500102,90393
+2020-08-21,South Sudan,Eastern Africa,2497,47,1290,1160
+2020-08-21,Sudan,Northern Africa,12623,812,6476,5335
+2020-08-21,Tanzania,Eastern Africa,509,21,183,305
+2020-08-21,Togo,Western Africa,1239,27,891,321
+2020-08-21,Tunisia,Northern Africa,2607,64,1420,1123
+2020-08-21,Uganda,Eastern Africa,1848,19,1199,630
+2020-08-21,Zambia,Eastern Africa,10627,277,9126,1224
+2020-08-21,Zimbabwe,Eastern Africa,5815,152,4587,1076
+2020-08-22,Algeria,Northern Africa,41068,1424,28874,10770
+2020-08-22,Angola,Central Africa,2134,94,814,1226
+2020-08-22,Benin,Western Africa,2115,39,1705,371
+2020-08-22,Botswana,Southern Africa,1308,3,136,1169
+2020-08-22,Burkina Faso,Western Africa,1297,55,1034,208
+2020-08-22,Burundi,Eastern Africa,429,1,336,92
+2020-08-22,Cabo Verde,Western Africa,3455,37,2538,880
+2020-08-22,Cameroon,Central Africa,18762,408,16540,1814
+2020-08-22,Central African Republic,Central Africa,4679,61,1755,2863
+2020-08-22,Chad,Central Africa,982,76,869,37
+2020-08-22,Comoros,Eastern Africa,417,7,396,14
+2020-08-22,Congo (Brazzaville),Central Africa,3850,77,1625,2148
+2020-08-22,Congo (Kinshasa),Central Africa,9811,251,8920,640
+2020-08-22,Ivory Coast,Western Africa,17374,113,15106,2155
+2020-08-22,Djibouti,Eastern Africa,5382,60,5233,89
+2020-08-22,Egypt,Northern Africa,97237,5243,65118,26876
+2020-08-22,Equatorial Guinea,Central Africa,4926,83,3795,1048
+2020-08-22,Eritrea,Eastern Africa,306,0,274,32
+2020-08-22,Eswatini,Southern Africa,4189,83,2762,1344
+2020-08-22,Ethiopia,Eastern Africa,39033,662,14480,23891
+2020-08-22,Gabon,Central Africa,8388,53,6734,1601
+2020-08-22,Gambia,Western Africa,2437,84,455,1898
+2020-08-22,Ghana,Western Africa,43325,261,41408,1656
+2020-08-22,Guinea,Western Africa,8932,53,7648,1231
+2020-08-22,Guinea-Bissau,Western Africa,2149,33,1015,1101
+2020-08-22,Kenya,Eastern Africa,32118,542,18453,13123
+2020-08-22,Lesotho,Southern Africa,1015,30,472,513
+2020-08-22,Liberia,Western Africa,1286,82,816,388
+2020-08-22,Libya,Northern Africa,10437,188,1085,9164
+2020-08-22,Madagascar,Eastern Africa,14277,178,13332,767
+2020-08-22,Malawi,Eastern Africa,5382,168,2998,2216
+2020-08-22,Mali,Western Africa,2699,125,2010,564
+2020-08-22,Mauritania,Western Africa,6894,158,6203,533
+2020-08-22,Mauritius,Eastern Africa,346,10,334,2
+2020-08-22,Morocco,Northern Africa,50812,858,35040,14914
+2020-08-22,Mozambique,Eastern Africa,3304,20,1474,1810
+2020-08-22,Namibia,Southern Africa,5538,46,2460,3032
+2020-08-22,Niger,Western Africa,1172,69,1083,20
+2020-08-22,Nigeria,Western Africa,51905,997,38767,12141
+2020-08-22,Rwanda,Eastern Africa,2889,11,1754,1124
+2020-08-22,Sao Tome and Principe,Central Africa,892,15,831,46
+2020-08-22,Senegal,Western Africa,12850,266,8165,4419
+2020-08-22,Seychelles,Eastern Africa,132,0,126,6
+2020-08-22,Sierra Leone,Western Africa,1980,69,1545,366
+2020-08-22,Somalia,Eastern Africa,3269,93,2396,780
+2020-08-22,South Africa,Southern Africa,607045,12987,504127,89931
+2020-08-22,South Sudan,Eastern Africa,2497,47,1290,1160
+2020-08-22,Sudan,Northern Africa,12682,815,6492,5375
+2020-08-22,Tanzania,Eastern Africa,509,21,183,305
+2020-08-22,Togo,Western Africa,1275,27,903,345
+2020-08-22,Tunisia,Northern Africa,2738,68,1434,1236
+2020-08-22,Uganda,Eastern Africa,2166,20,1199,947
+2020-08-22,Zambia,Eastern Africa,10831,279,9942,610
+2020-08-22,Zimbabwe,Eastern Africa,5893,153,4629,1111
