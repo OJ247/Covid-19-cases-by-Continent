@@ -33213,3 +33213,1079 @@ ObservationDate,Country_Region,Province_State,Confirmed,Deaths,Recovered,Active
 2020-09-08,United Kingdom,Turks and Caicos Islands,614,5,264,345
 2020-09-08,United Kingdom,Unknown,0,0,0,0
 2020-09-08,United Kingdom,Wales,18664,1597,0,17067
+2020-09-09,Albania,NA,10704,322,6284,4098
+2020-09-09,Andorra,NA,1301,53,938,310
+2020-09-09,Austria,NA,30583,747,25764,4072
+2020-09-09,Belarus,NA,73402,726,71999,677
+2020-09-09,Belgium,NA,89691,9917,18635,61139
+2020-09-09,Bosnia and Herzegovina,NA,22258,675,15208,6375
+2020-09-09,Bulgaria,NA,17435,702,12474,4259
+2020-09-09,Croatia,NA,12626,206,9833,2587
+2020-09-09,Czechia,NA,31036,444,20374,10218
+2020-09-09,Denmark,Faroe Islands,415,0,410,5
+2020-09-09,Denmark,Greenland,14,0,14,0
+2020-09-09,Denmark,NA,18607,628,15990,1989
+2020-09-09,Estonia,NA,2585,64,2213,308
+2020-09-09,Finland,NA,8430,337,7500,593
+2020-09-09,France,French Guiana,9418,62,8986,370
+2020-09-09,France,French Polynesia,795,0,528,267
+2020-09-09,France,Guadeloupe,2287,23,336,1928
+2020-09-09,France,Martinique,939,18,98,823
+2020-09-09,France,Mayotte,3374,40,2964,370
+2020-09-09,France,New Caledonia,26,0,25,1
+2020-09-09,France,Reunion,2416,13,1313,1090
+2020-09-09,France,Saint Barthelemy,21,0,13,8
+2020-09-09,France,Saint Pierre and Miquelon,9,0,5,4
+2020-09-09,France,St Martin,256,6,107,143
+2020-09-09,France,NA,363751,30643,74867,257331
+2020-09-09,Germany,Baden-Wurttemberg,44388,1867,39012,3509
+2020-09-09,Germany,Bayern,60452,2644,53552,4256
+2020-09-09,Germany,Berlin,11950,226,10931,793
+2020-09-09,Germany,Brandenburg,3991,173,3699,119
+2020-09-09,Germany,Bremen,2097,58,1898,141
+2020-09-09,Germany,Hamburg,6625,267,5786,572
+2020-09-09,Germany,Hessen,16375,536,14592,1247
+2020-09-09,Germany,Mecklenburg-Vorpommern,1044,20,982,42
+2020-09-09,Germany,Niedersachsen,17491,665,15658,1168
+2020-09-09,Germany,Nordrhein-Westfalen,60878,1826,56206,2846
+2020-09-09,Germany,Rheinland-Pfalz,9521,245,8507,769
+2020-09-09,Germany,Saarland,3208,175,2939,94
+2020-09-09,Germany,Sachsen,6229,225,5626,378
+2020-09-09,Germany,Sachsen-Anhalt,2308,66,2145,97
+2020-09-09,Germany,Schleswig-Holstein,4197,161,3845,191
+2020-09-09,Germany,Thuringen,3700,188,3406,106
+2020-09-09,Germany,Unknown,1979,0,0,1979
+2020-09-09,Greece,NA,12080,293,1347,10440
+2020-09-09,Holy See,NA,12,0,12,0
+2020-09-09,Hungary,NA,9715,628,3984,5103
+2020-09-09,Iceland,NA,2153,10,2067,76
+2020-09-09,Ireland,NA,30164,1781,23364,5019
+2020-09-09,Italy,Abruzzo,3921,472,2943,506
+2020-09-09,Italy,Basilicata,587,28,421,138
+2020-09-09,Italy,Calabria,1667,98,1207,362
+2020-09-09,Italy,Campania,8580,449,4537,3594
+2020-09-09,Italy,Emilia-Romagna,32963,4467,24942,3554
+2020-09-09,Italy,Friuli Venezia Giulia,4000,349,3140,511
+2020-09-09,Italy,Lazio,12514,881,7363,4270
+2020-09-09,Italy,Liguria,11466,1579,8980,907
+2020-09-09,Italy,Lombardia,102303,16891,77088,8324
+2020-09-09,Italy,Marche,7403,988,6005,410
+2020-09-09,Italy,Molise,552,23,437,92
+2020-09-09,Italy,P.A. Bolzano,3017,292,2502,223
+2020-09-09,Italy,P.A. Trento,5359,405,4634,320
+2020-09-09,Italy,Piemonte,33447,4152,27431,1864
+2020-09-09,Italy,Puglia,6139,567,4158,1414
+2020-09-09,Italy,Sardegna,2662,138,1291,1233
+2020-09-09,Italy,Sicilia,4926,289,3110,1527
+2020-09-09,Italy,Toscana,12646,1147,9358,2141
+2020-09-09,Italy,Umbria,1968,81,1514,373
+2020-09-09,Italy,Valle d'Aosta,1254,146,1074,34
+2020-09-09,Italy,Veneto,24209,2135,19137,2937
+2020-09-09,Latvia,NA,1443,35,1234,174
+2020-09-09,Liechtenstein,NA,108,1,105,2
+2020-09-09,Lithuania,NA,3163,86,2008,1069
+2020-09-09,Luxembourg,NA,7023,124,6292,607
+2020-09-09,Malta,NA,2162,14,1760,388
+2020-09-09,Moldova,NA,41144,1096,28962,11086
+2020-09-09,Monaco,NA,161,1,107,53
+2020-09-09,Montenegro,NA,6094,114,4350,1630
+2020-09-09,Netherlands,Aruba,2730,15,1351,1364
+2020-09-09,Netherlands,"Bonaire, Sint Eustatius and Saba",21,0,7,14
+2020-09-09,Netherlands,Curacao,116,1,51,64
+2020-09-09,Netherlands,Drenthe,629,41,0,588
+2020-09-09,Netherlands,Flevoland,1475,95,0,1380
+2020-09-09,Netherlands,Friesland,864,69,0,795
+2020-09-09,Netherlands,Gelderland,7936,691,0,7245
+2020-09-09,Netherlands,Groningen,673,19,0,654
+2020-09-09,Netherlands,Limburg,5618,757,0,4861
+2020-09-09,Netherlands,Noord-Brabant,12941,1551,0,11390
+2020-09-09,Netherlands,Noord-Holland,14274,830,0,13444
+2020-09-09,Netherlands,Overijssel,3644,314,0,3330
+2020-09-09,Netherlands,Sint Maarten,530,19,333,178
+2020-09-09,Netherlands,Unknown,675,18,0,657
+2020-09-09,Netherlands,Utrecht,6120,437,0,5683
+2020-09-09,Netherlands,Zeeland,1101,72,0,1029
+2020-09-09,Netherlands,Zuid-Holland,21738,1352,0,20386
+2020-09-09,North Macedonia,NA,15293,634,12754,1905
+2020-09-09,Norway,NA,11746,264,9348,2134
+2020-09-09,Poland,NA,71947,2147,57135,12665
+2020-09-09,Portugal,NA,61541,1849,43284,16408
+2020-09-09,Romania,NA,98304,4018,41002,53284
+2020-09-09,Russia,Adygea Republic,3567,30,3042,495
+2020-09-09,Russia,Altai Krai,12280,136,10979,1165
+2020-09-09,Russia,Altai Republic,2364,8,2032,324
+2020-09-09,Russia,Amur Oblast,3671,49,3233,389
+2020-09-09,Russia,Arkhangelsk Oblast,11406,255,9340,1811
+2020-09-09,Russia,Astrakhan Oblast,6076,82,5943,51
+2020-09-09,Russia,Bashkortostan Republic,8072,29,7311,732
+2020-09-09,Russia,Belgorod Oblast,7742,55,7078,609
+2020-09-09,Russia,Bryansk Oblast,8497,35,6954,1508
+2020-09-09,Russia,Buryatia Republic,5666,60,4742,864
+2020-09-09,Russia,Chechen Republic,2322,40,1703,579
+2020-09-09,Russia,Chelyabinsk Oblast,14249,109,10042,4098
+2020-09-09,Russia,Chukotka Autonomous Okrug,174,2,167,5
+2020-09-09,Russia,Chuvashia Republic,8043,75,6668,1300
+2020-09-09,Russia,Dagestan Republic,11678,514,10080,1084
+2020-09-09,Russia,Ingushetia Republic,4702,77,4067,558
+2020-09-09,Russia,Irkutsk Oblast,17466,259,13781,3426
+2020-09-09,Russia,Ivanovo Oblast,7757,123,6435,1199
+2020-09-09,Russia,Jewish Autonomous Okrug,693,9,591,93
+2020-09-09,Russia,Kabardino-Balkarian Republic,6792,79,6227,486
+2020-09-09,Russia,Kaliningrad Oblast,3626,58,2966,602
+2020-09-09,Russia,Kalmykia Republic,4966,61,2977,1928
+2020-09-09,Russia,Kaluga Oblast,8300,71,7129,1100
+2020-09-09,Russia,Kamchatka Krai,3981,42,3202,737
+2020-09-09,Russia,Karachay-Cherkess Republic,5651,28,4496,1127
+2020-09-09,Russia,Karelia Republic,3352,16,2394,942
+2020-09-09,Russia,Kemerovo Oblast,7217,49,5407,1761
+2020-09-09,Russia,Khabarovsk Krai,10638,94,8462,2082
+2020-09-09,Russia,Khakassia Republic,3641,47,3224,370
+2020-09-09,Russia,Khanty-Mansi Autonomous Okrug,20270,176,19368,726
+2020-09-09,Russia,Kirov Oblast,7125,100,5252,1773
+2020-09-09,Russia,Komi Republic,6852,88,5974,790
+2020-09-09,Russia,Kostroma Oblast,3863,44,2824,995
+2020-09-09,Russia,Krasnodar Krai,12020,202,9696,2122
+2020-09-09,Russia,Krasnoyarsk Krai,17834,513,14024,3297
+2020-09-09,Russia,Kurgan Oblast,3198,21,2799,378
+2020-09-09,Russia,Kursk Oblast,7372,54,6252,1066
+2020-09-09,Russia,Leningrad Oblast,7121,86,5149,1886
+2020-09-09,Russia,Lipetsk Oblast,5386,30,4803,553
+2020-09-09,Russia,Magadan Oblast,2181,19,1732,430
+2020-09-09,Russia,Mari El Republic,4410,44,3933,433
+2020-09-09,Russia,Mordovia Republic,5745,38,4584,1123
+2020-09-09,Russia,Moscow,268384,4933,224840,38611
+2020-09-09,Russia,Moscow Oblast,69664,1226,52831,15607
+2020-09-09,Russia,Murmansk Oblast,13424,175,10960,2289
+2020-09-09,Russia,Nenets Autonomous Okrug,320,0,114,206
+2020-09-09,Russia,Nizhny Novgorod Oblast,29018,504,25744,2770
+2020-09-09,Russia,North Ossetia - Alania Republic,5137,67,4508,562
+2020-09-09,Russia,Novgorod Oblast,4554,86,3356,1112
+2020-09-09,Russia,Novosibirsk Oblast,11885,384,10640,861
+2020-09-09,Russia,Omsk Oblast,9724,228,8229,1267
+2020-09-09,Russia,Orel Oblast,7476,113,5935,1428
+2020-09-09,Russia,Orenburg Oblast,10750,81,9669,1000
+2020-09-09,Russia,Penza Oblast,8932,114,8117,701
+2020-09-09,Russia,Perm Krai,8394,227,5848,2319
+2020-09-09,Russia,Primorsky Krai,10284,109,8630,1545
+2020-09-09,Russia,Pskov Oblast,4832,65,3602,1165
+2020-09-09,Russia,Rostov Oblast,18236,383,15216,2637
+2020-09-09,Russia,Ryazan Oblast,7431,47,6391,993
+2020-09-09,Russia,Saint Petersburg,38436,2574,26664,9198
+2020-09-09,Russia,Sakha (Yakutiya) Republic,7860,90,6249,1521
+2020-09-09,Russia,Sakhalin Oblast,4851,0,3104,1747
+2020-09-09,Russia,Samara Oblast,9395,138,7401,1856
+2020-09-09,Russia,Saratov Oblast,13268,82,8532,4654
+2020-09-09,Russia,Smolensk Oblast,6287,133,5486,668
+2020-09-09,Russia,Stavropol Krai,13129,257,9032,3840
+2020-09-09,Russia,Sverdlovsk Oblast,26401,495,20480,5426
+2020-09-09,Russia,Tambov Oblast,6985,46,6115,824
+2020-09-09,Russia,Tatarstan Republic,6740,35,5568,1137
+2020-09-09,Russia,Tomsk Oblast,6147,74,5032,1041
+2020-09-09,Russia,Tula Oblast,9513,339,8430,744
+2020-09-09,Russia,Tver Oblast,5612,212,4296,1104
+2020-09-09,Russia,Tyumen Oblast,8206,31,7173,1002
+2020-09-09,Russia,Tyva Republic,7032,67,6389,576
+2020-09-09,Russia,Udmurt Republic,3593,51,2842,700
+2020-09-09,Russia,Ulyanovsk Oblast,12949,120,10983,1846
+2020-09-09,Russia,Vladimir Oblast,6583,198,5615,770
+2020-09-09,Russia,Volgograd Oblast,12993,120,11025,1848
+2020-09-09,Russia,Vologda Oblast,3707,43,3240,424
+2020-09-09,Russia,Voronezh Oblast,15082,129,14157,796
+2020-09-09,Russia,Yamalo-Nenets Autonomous Okrug,13840,94,13097,649
+2020-09-09,Russia,Yaroslavl Oblast,7584,42,7056,486
+2020-09-09,Russia,Zabaykalsky Krai,4922,61,4411,450
+2020-09-09,San Marino,NA,722,42,662,18
+2020-09-09,Serbia,NA,32078,728,0,31350
+2020-09-09,Slovakia,NA,4888,37,2947,1904
+2020-09-09,Slovenia,NA,3312,135,2587,590
+2020-09-09,Spain,Andalusia,37909,1550,10671,25688
+2020-09-09,Spain,Aragon,28914,1212,3772,23930
+2020-09-09,Spain,Asturias,3758,338,1063,2357
+2020-09-09,Spain,Baleares,10135,250,1533,8352
+2020-09-09,Spain,C. Valenciana,29253,1501,9970,17782
+2020-09-09,Spain,Canarias,9602,189,1537,7876
+2020-09-09,Spain,Cantabria,5049,227,2287,2535
+2020-09-09,Spain,Castilla - La Mancha,27807,3052,6392,18363
+2020-09-09,Spain,Castilla y Leon,32922,2873,8716,21333
+2020-09-09,Spain,Catalonia,119839,5773,26203,87863
+2020-09-09,Spain,Ceuta,362,6,163,193
+2020-09-09,Spain,Extremadura,6246,538,2652,3056
+2020-09-09,Spain,Galicia,16659,663,9204,6792
+2020-09-09,Spain,La Rioja,6381,380,3107,2894
+2020-09-09,Spain,Madrid,152185,8782,40736,102667
+2020-09-09,Spain,Melilla,505,3,125,377
+2020-09-09,Spain,Murcia,9419,164,2180,7075
+2020-09-09,Spain,Navarra,11582,540,3905,7137
+2020-09-09,Spain,Pais Vasco,34852,1587,16160,17105
+2020-09-09,Spain,Unknown,0,0,0,0
+2020-09-09,Sweden,Blekinge,615,17,0,598
+2020-09-09,Sweden,Dalarna,2217,174,0,2043
+2020-09-09,Sweden,Gavleborg,3237,163,0,3074
+2020-09-09,Sweden,Gotland,319,6,0,313
+2020-09-09,Sweden,Halland,2252,82,0,2170
+2020-09-09,Sweden,Jamtland Harjedalen,1211,64,0,1147
+2020-09-09,Sweden,Jonkoping,5046,181,0,4865
+2020-09-09,Sweden,Kalmar,896,64,0,832
+2020-09-09,Sweden,Kronoberg,1450,109,0,1341
+2020-09-09,Sweden,Norrbotten,1669,88,0,1581
+2020-09-09,Sweden,Orebro,2760,171,0,2589
+2020-09-09,Sweden,Ostergotland,3873,275,0,3598
+2020-09-09,Sweden,Skane,5011,276,0,4735
+2020-09-09,Sweden,Sormland,2434,253,0,2181
+2020-09-09,Sweden,Stockholm,23241,2398,0,20843
+2020-09-09,Sweden,Uppsala,3822,242,0,3580
+2020-09-09,Sweden,Varmland,1210,73,0,1137
+2020-09-09,Sweden,Vasterbotten,872,31,0,841
+2020-09-09,Sweden,Vasternorrland,1861,136,0,1725
+2020-09-09,Sweden,Vastmanland,2793,183,0,2610
+2020-09-09,Sweden,Vastra Gotaland,19091,856,0,18235
+2020-09-09,Switzerland,NA,45306,2019,38100,5187
+2020-09-09,Ukraine,Cherkasy Oblast,2121,41,1071,1009
+2020-09-09,Ukraine,Chernihiv Oblast,2515,33,607,1875
+2020-09-09,Ukraine,Chernivtsi Oblast,11581,304,6779,4498
+2020-09-09,Ukraine,Crimea Republic*,2891,35,1947,909
+2020-09-09,Ukraine,Dnipropetrovsk Oblast,2923,68,1318,1537
+2020-09-09,Ukraine,Donetsk Oblast,1762,27,924,811
+2020-09-09,Ukraine,Ivano-Frankivsk Oblast,10659,247,4234,6178
+2020-09-09,Ukraine,Kharkiv Oblast,11493,245,3474,7774
+2020-09-09,Ukraine,Kherson Oblast,538,14,309,215
+2020-09-09,Ukraine,Khmelnytskyi Oblast,3355,56,1595,1704
+2020-09-09,Ukraine,Kiev,15821,250,4910,10661
+2020-09-09,Ukraine,Kiev Oblast,6459,122,4313,2024
+2020-09-09,Ukraine,Kirovohrad Oblast,870,47,732,91
+2020-09-09,Ukraine,Luhansk Oblast,480,4,251,225
+2020-09-09,Ukraine,Lviv Oblast,16269,454,4959,10856
+2020-09-09,Ukraine,Mykolaiv Oblast,1714,40,637,1037
+2020-09-09,Ukraine,Odessa Oblast,8827,136,2069,6622
+2020-09-09,Ukraine,Poltava Oblast,1018,24,580,414
+2020-09-09,Ukraine,Rivne Oblast,9943,138,7259,2546
+2020-09-09,Ukraine,Sevastopol*,590,20,442,128
+2020-09-09,Ukraine,Sumy Oblast,2143,33,940,1170
+2020-09-09,Ukraine,Ternopil Oblast,7824,91,3615,4118
+2020-09-09,Ukraine,Vinnytsia Oblast,4503,92,3101,1310
+2020-09-09,Ukraine,Volyn Oblast,6015,130,4192,1693
+2020-09-09,Ukraine,Zakarpattia Oblast,8277,276,3571,4430
+2020-09-09,Ukraine,Zaporizhia Oblast,2041,29,1007,1005
+2020-09-09,Ukraine,Zhytomyr Oblast,3879,78,2256,1545
+2020-09-09,United Kingdom,Anguilla,3,0,3,0
+2020-09-09,United Kingdom,Bermuda,177,9,159,9
+2020-09-09,United Kingdom,British Virgin Islands,63,1,10,52
+2020-09-09,United Kingdom,Cayman Islands,207,1,204,2
+2020-09-09,United Kingdom,Channel Islands,631,48,575,8
+2020-09-09,United Kingdom,England,306555,36931,0,269624
+2020-09-09,United Kingdom,Falkland Islands (Malvinas),13,0,13,0
+2020-09-09,United Kingdom,Gibraltar,322,0,277,45
+2020-09-09,United Kingdom,Isle of Man,337,24,312,1
+2020-09-09,United Kingdom,Montserrat,13,1,12,0
+2020-09-09,United Kingdom,Northern Ireland,7957,567,0,7390
+2020-09-09,United Kingdom,Scotland,21878,2499,0,19379
+2020-09-09,United Kingdom,Turks and Caicos Islands,628,5,266,357
+2020-09-09,United Kingdom,Unknown,0,0,0,0
+2020-09-09,United Kingdom,Wales,18829,1597,0,17232
+2020-09-10,Albania,NA,10860,324,6346,4190
+2020-09-10,Andorra,NA,1301,53,938,310
+2020-09-10,Austria,NA,31247,748,26043,4456
+2020-09-10,Belarus,NA,73591,732,72203,656
+2020-09-10,Belgium,NA,90568,9917,18659,61992
+2020-09-10,Bosnia and Herzegovina,NA,22544,680,15273,6591
+2020-09-10,Bulgaria,NA,17598,706,12619,4273
+2020-09-10,Croatia,NA,12917,208,10142,2567
+2020-09-10,Czechia,NA,32413,448,20787,11178
+2020-09-10,Denmark,Faroe Islands,415,0,410,5
+2020-09-10,Denmark,Greenland,14,0,14,0
+2020-09-10,Denmark,NA,18924,629,16069,2226
+2020-09-10,Estonia,NA,2600,64,2223,313
+2020-09-10,Finland,NA,8469,337,7500,632
+2020-09-10,France,French Guiana,9462,63,9040,359
+2020-09-10,France,French Polynesia,857,0,576,281
+2020-09-10,France,Guadeloupe,2287,23,336,1928
+2020-09-10,France,Martinique,939,18,98,823
+2020-09-10,France,Mayotte,3374,40,2964,370
+2020-09-10,France,New Caledonia,26,0,25,1
+2020-09-10,France,Reunion,2510,13,1313,1184
+2020-09-10,France,Saint Barthelemy,21,0,13,8
+2020-09-10,France,Saint Pierre and Miquelon,10,0,5,5
+2020-09-10,France,St Martin,256,6,107,143
+2020-09-10,France,NA,372501,30656,74991,266854
+2020-09-10,Germany,Baden-Wurttemberg,44610,1868,39246,3496
+2020-09-10,Germany,Bayern,60986,2644,53914,4428
+2020-09-10,Germany,Berlin,12089,226,11012,851
+2020-09-10,Germany,Brandenburg,4000,173,3710,117
+2020-09-10,Germany,Bremen,2112,58,1914,140
+2020-09-10,Germany,Hamburg,6698,267,5813,618
+2020-09-10,Germany,Hessen,16500,537,14707,1256
+2020-09-10,Germany,Mecklenburg-Vorpommern,1046,20,987,39
+2020-09-10,Germany,Niedersachsen,17617,665,15745,1207
+2020-09-10,Germany,Nordrhein-Westfalen,61201,1827,56620,2754
+2020-09-10,Germany,Rheinland-Pfalz,9570,245,8583,742
+2020-09-10,Germany,Saarland,3218,175,2944,99
+2020-09-10,Germany,Sachsen,6277,225,5648,404
+2020-09-10,Germany,Sachsen-Anhalt,2317,66,2151,100
+2020-09-10,Germany,Schleswig-Holstein,4207,161,3864,182
+2020-09-10,Germany,Thuringen,3722,188,3425,109
+2020-09-10,Germany,Unknown,1979,0,0,1979
+2020-09-10,Greece,NA,12452,297,1347,10808
+2020-09-10,Holy See,NA,12,0,12,0
+2020-09-10,Hungary,NA,10191,630,3990,5571
+2020-09-10,Iceland,NA,2157,10,2072,75
+2020-09-10,Ireland,NA,30360,1781,23364,5215
+2020-09-10,Italy,Abruzzo,3932,472,2948,512
+2020-09-10,Italy,Basilicata,593,28,422,143
+2020-09-10,Italy,Calabria,1675,98,1207,370
+2020-09-10,Italy,Campania,8760,450,4568,3742
+2020-09-10,Italy,Emilia-Romagna,33073,4468,24994,3611
+2020-09-10,Italy,Friuli Venezia Giulia,4039,349,3144,546
+2020-09-10,Italy,Lazio,12677,882,7413,4382
+2020-09-10,Italy,Liguria,11580,1579,9060,941
+2020-09-10,Italy,Lombardia,102548,16892,77204,8452
+2020-09-10,Italy,Marche,7443,989,6015,439
+2020-09-10,Italy,Molise,555,23,437,95
+2020-09-10,Italy,P.A. Bolzano,3037,292,2506,239
+2020-09-10,Italy,P.A. Trento,5441,405,4638,398
+2020-09-10,Italy,Piemonte,33521,4153,27450,1918
+2020-09-10,Italy,Puglia,6209,570,4169,1470
+2020-09-10,Italy,Sardegna,2725,139,1300,1286
+2020-09-10,Italy,Sicilia,5032,289,3140,1603
+2020-09-10,Italy,Toscana,12738,1147,9377,2214
+2020-09-10,Italy,Umbria,1992,81,1521,390
+2020-09-10,Italy,Valle d'Aosta,1254,146,1077,31
+2020-09-10,Italy,Veneto,24356,2135,19295,2926
+2020-09-10,Latvia,NA,1448,35,1248,165
+2020-09-10,Liechtenstein,NA,109,1,105,3
+2020-09-10,Lithuania,NA,3199,86,2030,1083
+2020-09-10,Luxembourg,NA,7088,124,6367,597
+2020-09-10,Malta,NA,2204,14,1803,387
+2020-09-10,Moldova,NA,41704,1106,28962,11636
+2020-09-10,Monaco,NA,165,1,107,57
+2020-09-10,Montenegro,NA,6222,114,4393,1715
+2020-09-10,Netherlands,Aruba,2819,16,1407,1396
+2020-09-10,Netherlands,"Bonaire, Sint Eustatius and Saba",25,0,7,18
+2020-09-10,Netherlands,Curacao,131,1,55,75
+2020-09-10,Netherlands,Drenthe,636,41,0,595
+2020-09-10,Netherlands,Flevoland,1491,96,0,1395
+2020-09-10,Netherlands,Friesland,869,69,0,800
+2020-09-10,Netherlands,Gelderland,8030,691,0,7339
+2020-09-10,Netherlands,Groningen,690,19,0,671
+2020-09-10,Netherlands,Limburg,5649,758,0,4891
+2020-09-10,Netherlands,Noord-Brabant,13025,1551,0,11474
+2020-09-10,Netherlands,Noord-Holland,14498,830,0,13668
+2020-09-10,Netherlands,Overijssel,3668,314,0,3354
+2020-09-10,Netherlands,Sint Maarten,530,19,333,178
+2020-09-10,Netherlands,Unknown,673,18,0,655
+2020-09-10,Netherlands,Utrecht,6165,437,0,5728
+2020-09-10,Netherlands,Zeeland,1101,72,0,1029
+2020-09-10,Netherlands,Zuid-Holland,22016,1353,0,20663
+2020-09-10,North Macedonia,NA,15414,637,12896,1881
+2020-09-10,Norway,NA,11867,265,9348,2254
+2020-09-10,Poland,NA,72453,2159,58069,12225
+2020-09-10,Portugal,NA,62126,1852,43441,16833
+2020-09-10,Romania,NA,99684,4065,41010,54609
+2020-09-10,Russia,Adygea Republic,3587,30,3064,493
+2020-09-10,Russia,Altai Krai,12342,139,11038,1165
+2020-09-10,Russia,Altai Republic,2391,8,2048,335
+2020-09-10,Russia,Amur Oblast,3700,50,3260,390
+2020-09-10,Russia,Arkhangelsk Oblast,11491,256,9493,1742
+2020-09-10,Russia,Astrakhan Oblast,6115,84,5964,67
+2020-09-10,Russia,Bashkortostan Republic,8101,30,7523,548
+2020-09-10,Russia,Belgorod Oblast,7786,55,7120,611
+2020-09-10,Russia,Bryansk Oblast,8533,35,6992,1506
+2020-09-10,Russia,Buryatia Republic,5705,60,4795,850
+2020-09-10,Russia,Chechen Republic,2327,40,1739,548
+2020-09-10,Russia,Chelyabinsk Oblast,14318,109,10157,4052
+2020-09-10,Russia,Chukotka Autonomous Okrug,175,2,168,5
+2020-09-10,Russia,Chuvashia Republic,8070,76,6703,1291
+2020-09-10,Russia,Dagestan Republic,11760,515,10138,1107
+2020-09-10,Russia,Ingushetia Republic,4736,77,4075,584
+2020-09-10,Russia,Irkutsk Oblast,17542,260,13862,3420
+2020-09-10,Russia,Ivanovo Oblast,7800,123,6459,1218
+2020-09-10,Russia,Jewish Autonomous Okrug,700,9,611,80
+2020-09-10,Russia,Kabardino-Balkarian Republic,6827,80,6240,507
+2020-09-10,Russia,Kaliningrad Oblast,3655,58,2970,627
+2020-09-10,Russia,Kalmykia Republic,5056,62,3044,1950
+2020-09-10,Russia,Kaluga Oblast,8329,71,7162,1096
+2020-09-10,Russia,Kamchatka Krai,3996,43,3205,748
+2020-09-10,Russia,Karachay-Cherkess Republic,5715,28,4530,1157
+2020-09-10,Russia,Karelia Republic,3385,16,2417,952
+2020-09-10,Russia,Kemerovo Oblast,7304,49,5501,1754
+2020-09-10,Russia,Khabarovsk Krai,10705,95,8591,2019
+2020-09-10,Russia,Khakassia Republic,3674,47,3235,392
+2020-09-10,Russia,Khanty-Mansi Autonomous Okrug,20350,176,19476,698
+2020-09-10,Russia,Kirov Oblast,7190,102,5281,1807
+2020-09-10,Russia,Komi Republic,6898,89,6014,795
+2020-09-10,Russia,Kostroma Oblast,3911,47,2845,1019
+2020-09-10,Russia,Krasnodar Krai,12107,205,9743,2159
+2020-09-10,Russia,Krasnoyarsk Krai,17936,516,14107,3313
+2020-09-10,Russia,Kurgan Oblast,3224,21,2814,389
+2020-09-10,Russia,Kursk Oblast,7405,54,6279,1072
+2020-09-10,Russia,Leningrad Oblast,7156,86,5177,1893
+2020-09-10,Russia,Lipetsk Oblast,5423,31,4848,544
+2020-09-10,Russia,Magadan Oblast,2210,19,1748,443
+2020-09-10,Russia,Mari El Republic,4427,44,3944,439
+2020-09-10,Russia,Mordovia Republic,5776,38,4600,1138
+2020-09-10,Russia,Moscow,269079,4947,226274,37858
+2020-09-10,Russia,Moscow Oblast,69833,1232,52953,15648
+2020-09-10,Russia,Murmansk Oblast,13493,176,11029,2288
+2020-09-10,Russia,Nenets Autonomous Okrug,320,0,114,206
+2020-09-10,Russia,Nizhny Novgorod Oblast,29181,506,25935,2740
+2020-09-10,Russia,North Ossetia - Alania Republic,5163,68,4516,579
+2020-09-10,Russia,Novgorod Oblast,4580,86,3374,1120
+2020-09-10,Russia,Novosibirsk Oblast,11941,387,10712,842
+2020-09-10,Russia,Omsk Oblast,9779,232,8298,1249
+2020-09-10,Russia,Orel Oblast,7525,113,5988,1424
+2020-09-10,Russia,Orenburg Oblast,10843,81,9777,985
+2020-09-10,Russia,Penza Oblast,9029,115,8148,766
+2020-09-10,Russia,Perm Krai,8454,230,5899,2325
+2020-09-10,Russia,Primorsky Krai,10354,109,8685,1560
+2020-09-10,Russia,Pskov Oblast,4859,65,3619,1175
+2020-09-10,Russia,Rostov Oblast,18391,389,15305,2697
+2020-09-10,Russia,Ryazan Oblast,7459,47,6414,998
+2020-09-10,Russia,Saint Petersburg,38651,2590,26776,9285
+2020-09-10,Russia,Sakha (Yakutiya) Republic,7925,90,6296,1539
+2020-09-10,Russia,Sakhalin Oblast,4892,0,3171,1721
+2020-09-10,Russia,Samara Oblast,9500,138,7509,1853
+2020-09-10,Russia,Saratov Oblast,13371,84,8648,4639
+2020-09-10,Russia,Smolensk Oblast,6300,134,5494,672
+2020-09-10,Russia,Stavropol Krai,13258,260,9131,3867
+2020-09-10,Russia,Sverdlovsk Oblast,26527,509,20539,5479
+2020-09-10,Russia,Tambov Oblast,7012,46,6175,791
+2020-09-10,Russia,Tatarstan Republic,6761,36,5592,1133
+2020-09-10,Russia,Tomsk Oblast,6203,74,5084,1045
+2020-09-10,Russia,Tula Oblast,9542,341,8470,731
+2020-09-10,Russia,Tver Oblast,5635,214,4313,1108
+2020-09-10,Russia,Tyumen Oblast,8257,31,7204,1022
+2020-09-10,Russia,Tyva Republic,7049,67,6422,560
+2020-09-10,Russia,Udmurt Republic,3648,54,2855,739
+2020-09-10,Russia,Ulyanovsk Oblast,13057,125,11139,1793
+2020-09-10,Russia,Vladimir Oblast,6614,198,5634,782
+2020-09-10,Russia,Volgograd Oblast,13087,121,11281,1685
+2020-09-10,Russia,Vologda Oblast,3744,44,3259,441
+2020-09-10,Russia,Voronezh Oblast,15192,135,14283,774
+2020-09-10,Russia,Yamalo-Nenets Autonomous Okrug,13894,95,13114,685
+2020-09-10,Russia,Yaroslavl Oblast,7629,42,7134,453
+2020-09-10,Russia,Zabaykalsky Krai,4967,61,4418,488
+2020-09-10,San Marino,NA,722,42,662,18
+2020-09-10,Serbia,NA,32136,729,0,31407
+2020-09-10,Slovakia,NA,5066,37,3001,2028
+2020-09-10,Slovenia,NA,3389,135,2620,634
+2020-09-10,Spain,Andalusia,38884,1566,10671,26647
+2020-09-10,Spain,Aragon,29288,1212,3772,24304
+2020-09-10,Spain,Asturias,3781,338,1063,2380
+2020-09-10,Spain,Baleares,10412,253,1533,8626
+2020-09-10,Spain,C. Valenciana,29907,1501,9970,18436
+2020-09-10,Spain,Canarias,9861,189,1537,8135
+2020-09-10,Spain,Cantabria,5221,227,2287,2707
+2020-09-10,Spain,Castilla - La Mancha,28433,3052,6392,18989
+2020-09-10,Spain,Castilla y Leon,33514,2878,8716,21920
+2020-09-10,Spain,Catalonia,121054,5773,26203,89078
+2020-09-10,Spain,Ceuta,362,7,163,192
+2020-09-10,Spain,Extremadura,6421,538,2652,3231
+2020-09-10,Spain,Galicia,16937,670,9204,7063
+2020-09-10,Spain,La Rioja,6472,381,3107,2984
+2020-09-10,Spain,Madrid,156026,8817,40736,106473
+2020-09-10,Spain,Melilla,549,3,125,421
+2020-09-10,Spain,Murcia,10026,167,2180,7679
+2020-09-10,Spain,Navarra,11582,540,3905,7137
+2020-09-10,Spain,Pais Vasco,35413,1587,16160,17666
+2020-09-10,Spain,Unknown,0,0,0,0
+2020-09-10,Sweden,Blekinge,615,17,0,598
+2020-09-10,Sweden,Dalarna,2228,174,0,2054
+2020-09-10,Sweden,Gavleborg,3247,163,0,3084
+2020-09-10,Sweden,Gotland,319,6,0,313
+2020-09-10,Sweden,Halland,2281,82,0,2199
+2020-09-10,Sweden,Jamtland Harjedalen,1218,64,0,1154
+2020-09-10,Sweden,Jonkoping,5071,181,0,4890
+2020-09-10,Sweden,Kalmar,898,64,0,834
+2020-09-10,Sweden,Kronoberg,1464,109,0,1355
+2020-09-10,Sweden,Norrbotten,1672,88,0,1584
+2020-09-10,Sweden,Orebro,2773,171,0,2602
+2020-09-10,Sweden,Ostergotland,3888,275,0,3613
+2020-09-10,Sweden,Skane,5061,276,0,4785
+2020-09-10,Sweden,Sormland,2439,254,0,2185
+2020-09-10,Sweden,Stockholm,23294,2398,0,20896
+2020-09-10,Sweden,Uppsala,3838,242,0,3596
+2020-09-10,Sweden,Varmland,1219,73,0,1146
+2020-09-10,Sweden,Vasterbotten,876,31,0,845
+2020-09-10,Sweden,Vasternorrland,1865,136,0,1729
+2020-09-10,Sweden,Vastmanland,2798,183,0,2615
+2020-09-10,Sweden,Vastra Gotaland,19130,856,0,18274
+2020-09-10,Switzerland,NA,45711,2020,38100,5591
+2020-09-10,Ukraine,Cherkasy Oblast,2177,41,1097,1039
+2020-09-10,Ukraine,Chernihiv Oblast,2545,35,624,1886
+2020-09-10,Ukraine,Chernivtsi Oblast,11715,306,6860,4549
+2020-09-10,Ukraine,Crimea Republic*,2943,36,1967,940
+2020-09-10,Ukraine,Dnipropetrovsk Oblast,3012,71,1361,1580
+2020-09-10,Ukraine,Donetsk Oblast,1852,27,938,887
+2020-09-10,Ukraine,Ivano-Frankivsk Oblast,10802,250,4370,6182
+2020-09-10,Ukraine,Kharkiv Oblast,11832,251,3491,8090
+2020-09-10,Ukraine,Kherson Oblast,558,14,322,222
+2020-09-10,Ukraine,Khmelnytskyi Oblast,3497,59,1675,1763
+2020-09-10,Ukraine,Kiev,16119,254,4977,10888
+2020-09-10,Ukraine,Kiev Oblast,6554,124,4389,2041
+2020-09-10,Ukraine,Kirovohrad Oblast,874,47,737,90
+2020-09-10,Ukraine,Luhansk Oblast,503,4,265,234
+2020-09-10,Ukraine,Lviv Oblast,16452,455,5084,10913
+2020-09-10,Ukraine,Mykolaiv Oblast,1766,43,637,1086
+2020-09-10,Ukraine,Odessa Oblast,8874,138,2108,6628
+2020-09-10,Ukraine,Poltava Oblast,1069,26,584,459
+2020-09-10,Ukraine,Rivne Oblast,10073,141,7330,2602
+2020-09-10,Ukraine,Sevastopol*,591,20,445,126
+2020-09-10,Ukraine,Sumy Oblast,2187,34,964,1189
+2020-09-10,Ukraine,Ternopil Oblast,8075,95,3710,4270
+2020-09-10,Ukraine,Vinnytsia Oblast,4606,92,3140,1374
+2020-09-10,Ukraine,Volyn Oblast,6092,130,4246,1716
+2020-09-10,Ukraine,Zakarpattia Oblast,8359,277,3610,4472
+2020-09-10,Ukraine,Zaporizhia Oblast,2081,30,1049,1002
+2020-09-10,Ukraine,Zhytomyr Oblast,3938,79,2309,1550
+2020-09-10,United Kingdom,Anguilla,3,0,3,0
+2020-09-10,United Kingdom,Bermuda,177,9,160,8
+2020-09-10,United Kingdom,British Virgin Islands,63,1,10,52
+2020-09-10,United Kingdom,Cayman Islands,208,1,204,3
+2020-09-10,United Kingdom,Channel Islands,631,48,575,8
+2020-09-10,United Kingdom,England,309133,36944,0,272189
+2020-09-10,United Kingdom,Falkland Islands (Malvinas),13,0,13,0
+2020-09-10,United Kingdom,Gibraltar,323,0,287,36
+2020-09-10,United Kingdom,Isle of Man,337,24,312,1
+2020-09-10,United Kingdom,Montserrat,13,1,11,1
+2020-09-10,United Kingdom,Northern Ireland,8035,568,0,7467
+2020-09-10,United Kingdom,Scotland,22039,2499,0,19540
+2020-09-10,United Kingdom,Turks and Caicos Islands,638,5,270,363
+2020-09-10,United Kingdom,Unknown,0,0,0,0
+2020-09-10,United Kingdom,Wales,18931,1597,0,17334
+2020-09-11,Albania,NA,11021,327,6443,4251
+2020-09-11,Andorra,NA,1344,53,943,348
+2020-09-11,Austria,NA,31827,750,26257,4820
+2020-09-11,Belarus,NA,73784,738,72369,677
+2020-09-11,Belgium,NA,91537,9919,18689,62929
+2020-09-11,Bosnia and Herzegovina,NA,22834,686,15672,6476
+2020-09-11,Bulgaria,NA,17799,713,12750,4336
+2020-09-11,Croatia,NA,13107,211,10466,2430
+2020-09-11,Czechia,NA,33860,450,21140,12270
+2020-09-11,Denmark,Faroe Islands,416,0,410,6
+2020-09-11,Denmark,Greenland,14,0,14,0
+2020-09-11,Denmark,NA,19216,629,16139,2448
+2020-09-11,Estonia,NA,2632,64,2233,335
+2020-09-11,Finland,NA,8512,337,7500,675
+2020-09-11,France,French Guiana,9494,63,9078,353
+2020-09-11,France,French Polynesia,953,2,642,309
+2020-09-11,France,Guadeloupe,2287,23,336,2219
+2020-09-11,France,Martinique,939,18,98,823
+2020-09-11,France,Mayotte,3374,40,2964,370
+2020-09-11,France,New Caledonia,26,0,26,0
+2020-09-11,France,Reunion,2623,14,1313,1296
+2020-09-11,France,Saint Barthelemy,21,0,13,8
+2020-09-11,France,Saint Pierre and Miquelon,10,0,5,5
+2020-09-11,France,St Martin,256,6,107,143
+2020-09-11,France,NA,381907,30735,75308,275466
+2020-09-11,Germany,Baden-Wurttemberg,44896,1868,39456,3572
+2020-09-11,Germany,Bayern,61344,2644,54171,4529
+2020-09-11,Germany,Berlin,12215,226,11078,911
+2020-09-11,Germany,Brandenburg,4020,173,3714,133
+2020-09-11,Germany,Bremen,2120,58,1929,133
+2020-09-11,Germany,Hamburg,6772,267,5839,666
+2020-09-11,Germany,Hessen,16603,537,14802,1264
+2020-09-11,Germany,Mecklenburg-Vorpommern,1054,20,991,43
+2020-09-11,Germany,Niedersachsen,17689,666,15829,1194
+2020-09-11,Germany,Nordrhein-Westfalen,61505,1828,56751,2926
+2020-09-11,Germany,Rheinland-Pfalz,9634,246,8659,729
+2020-09-11,Germany,Saarland,3222,175,2964,83
+2020-09-11,Germany,Sachsen,6343,225,5669,449
+2020-09-11,Germany,Sachsen-Anhalt,2333,66,2160,107
+2020-09-11,Germany,Schleswig-Holstein,4207,161,3891,155
+2020-09-11,Germany,Thuringen,3745,188,3446,111
+2020-09-11,Germany,Unknown,2033,0,0,2033
+2020-09-11,Greece,NA,12734,300,1347,11087
+2020-09-11,Holy See,NA,12,0,12,0
+2020-09-11,Hungary,NA,10909,631,4014,6264
+2020-09-11,Iceland,NA,2161,10,2079,72
+2020-09-11,Ireland,NA,30571,1781,23364,5426
+2020-09-11,Italy,Abruzzo,3967,472,2954,541
+2020-09-11,Italy,Basilicata,605,28,423,154
+2020-09-11,Italy,Calabria,1683,98,1215,370
+2020-09-11,Italy,Campania,8900,451,4584,3865
+2020-09-11,Italy,Emilia-Romagna,33225,4468,25027,3730
+2020-09-11,Italy,Friuli Venezia Giulia,4073,349,3162,562
+2020-09-11,Italy,Lazio,12825,883,7466,4476
+2020-09-11,Italy,Liguria,11662,1579,9089,994
+2020-09-11,Italy,Lombardia,102805,16896,77318,8591
+2020-09-11,Italy,Marche,7484,989,6029,466
+2020-09-11,Italy,Molise,559,23,448,88
+2020-09-11,Italy,P.A. Bolzano,3063,292,2516,255
+2020-09-11,Italy,P.A. Trento,5470,405,4643,422
+2020-09-11,Italy,Piemonte,33578,4153,27465,1960
+2020-09-11,Italy,Puglia,6291,570,4175,1546
+2020-09-11,Italy,Sardegna,2790,139,1314,1337
+2020-09-11,Italy,Sicilia,5136,289,3141,1706
+2020-09-11,Italy,Toscana,12885,1148,9425,2312
+2020-09-11,Italy,Umbria,2009,81,1533,395
+2020-09-11,Italy,Valle d'Aosta,1257,146,1078,33
+2020-09-11,Italy,Veneto,24529,2138,19427,2964
+2020-09-11,Latvia,NA,1459,35,1248,176
+2020-09-11,Liechtenstein,NA,109,1,105,3
+2020-09-11,Lithuania,NA,3243,86,2049,1108
+2020-09-11,Luxembourg,NA,7088,124,6367,597
+2020-09-11,Malta,NA,2247,15,1833,399
+2020-09-11,Moldova,NA,42183,1114,30437,10632
+2020-09-11,Monaco,NA,168,1,123,44
+2020-09-11,Montenegro,NA,6385,115,4460,1810
+2020-09-11,Netherlands,Aruba,2898,18,1451,1429
+2020-09-11,Netherlands,"Bonaire, Sint Eustatius and Saba",25,0,7,18
+2020-09-11,Netherlands,Curacao,135,1,55,79
+2020-09-11,Netherlands,Drenthe,637,41,0,596
+2020-09-11,Netherlands,Flevoland,1516,96,0,1420
+2020-09-11,Netherlands,Friesland,875,69,0,806
+2020-09-11,Netherlands,Gelderland,8120,691,0,7429
+2020-09-11,Netherlands,Groningen,719,19,0,700
+2020-09-11,Netherlands,Limburg,5685,758,0,4927
+2020-09-11,Netherlands,Noord-Brabant,13126,1551,0,11575
+2020-09-11,Netherlands,Noord-Holland,14802,832,0,13970
+2020-09-11,Netherlands,Overijssel,3701,314,0,3387
+2020-09-11,Netherlands,Sint Maarten,531,19,387,125
+2020-09-11,Netherlands,Unknown,678,18,0,660
+2020-09-11,Netherlands,Utrecht,6262,437,0,5825
+2020-09-11,Netherlands,Zeeland,1115,72,0,1043
+2020-09-11,Netherlands,Zuid-Holland,22545,1354,0,21191
+2020-09-11,North Macedonia,NA,15555,642,12994,1919
+2020-09-11,Norway,NA,12003,265,10371,1367
+2020-09-11,Poland,NA,73047,2169,58848,12030
+2020-09-11,Portugal,NA,62813,1855,43644,17314
+2020-09-11,Romania,NA,101075,4100,41010,55965
+2020-09-11,Russia,Adygea Republic,3609,30,3083,496
+2020-09-11,Russia,Altai Krai,12405,139,11123,1143
+2020-09-11,Russia,Altai Republic,2422,10,2059,353
+2020-09-11,Russia,Amur Oblast,3731,50,3283,398
+2020-09-11,Russia,Arkhangelsk Oblast,11574,256,9538,1780
+2020-09-11,Russia,Astrakhan Oblast,6168,85,5982,101
+2020-09-11,Russia,Bashkortostan Republic,8131,30,7611,490
+2020-09-11,Russia,Belgorod Oblast,7832,55,7185,592
+2020-09-11,Russia,Bryansk Oblast,8571,35,7027,1509
+2020-09-11,Russia,Buryatia Republic,5748,60,4847,841
+2020-09-11,Russia,Chechen Republic,2333,40,1739,554
+2020-09-11,Russia,Chelyabinsk Oblast,14384,111,10324,3949
+2020-09-11,Russia,Chukotka Autonomous Okrug,177,2,169,6
+2020-09-11,Russia,Chuvashia Republic,8096,76,6807,1213
+2020-09-11,Russia,Dagestan Republic,11842,517,10204,1121
+2020-09-11,Russia,Ingushetia Republic,4773,77,4195,501
+2020-09-11,Russia,Irkutsk Oblast,17615,261,13975,3379
+2020-09-11,Russia,Ivanovo Oblast,7842,123,6496,1223
+2020-09-11,Russia,Jewish Autonomous Okrug,705,9,613,83
+2020-09-11,Russia,Kabardino-Balkarian Republic,6864,81,6251,532
+2020-09-11,Russia,Kaliningrad Oblast,3685,58,2971,656
+2020-09-11,Russia,Kalmykia Republic,5159,65,3050,2044
+2020-09-11,Russia,Kaluga Oblast,8361,71,7182,1108
+2020-09-11,Russia,Kamchatka Krai,4026,49,3210,767
+2020-09-11,Russia,Karachay-Cherkess Republic,5777,28,4560,1189
+2020-09-11,Russia,Karelia Republic,3413,16,2452,945
+2020-09-11,Russia,Kemerovo Oblast,7399,49,5577,1773
+2020-09-11,Russia,Khabarovsk Krai,10782,95,8703,1984
+2020-09-11,Russia,Khakassia Republic,3708,47,3252,409
+2020-09-11,Russia,Khanty-Mansi Autonomous Okrug,20430,177,19587,666
+2020-09-11,Russia,Kirov Oblast,7255,104,5300,1851
+2020-09-11,Russia,Komi Republic,6942,90,6060,792
+2020-09-11,Russia,Kostroma Oblast,3952,49,2896,1007
+2020-09-11,Russia,Krasnodar Krai,12195,209,9787,2199
+2020-09-11,Russia,Krasnoyarsk Krai,18038,518,14185,3335
+2020-09-11,Russia,Kurgan Oblast,3253,21,2835,397
+2020-09-11,Russia,Kursk Oblast,7443,54,6306,1083
+2020-09-11,Russia,Leningrad Oblast,7192,86,5203,1903
+2020-09-11,Russia,Lipetsk Oblast,5456,32,4875,549
+2020-09-11,Russia,Magadan Oblast,2241,19,1763,459
+2020-09-11,Russia,Mari El Republic,4444,44,3973,427
+2020-09-11,Russia,Mordovia Republic,5808,39,4659,1110
+2020-09-11,Russia,Moscow,269777,4956,227530,37291
+2020-09-11,Russia,Moscow Oblast,70008,1237,53090,15681
+2020-09-11,Russia,Murmansk Oblast,13560,177,11073,2310
+2020-09-11,Russia,Nenets Autonomous Okrug,322,0,114,208
+2020-09-11,Russia,Nizhny Novgorod Oblast,29342,509,26150,2683
+2020-09-11,Russia,North Ossetia - Alania Republic,5191,68,4535,588
+2020-09-11,Russia,Novgorod Oblast,4609,86,3399,1124
+2020-09-11,Russia,Novosibirsk Oblast,11994,389,10775,830
+2020-09-11,Russia,Omsk Oblast,9830,235,8387,1208
+2020-09-11,Russia,Orel Oblast,7575,114,6039,1422
+2020-09-11,Russia,Orenburg Oblast,10938,81,9909,948
+2020-09-11,Russia,Penza Oblast,9121,116,8189,816
+2020-09-11,Russia,Perm Krai,8511,232,5933,2346
+2020-09-11,Russia,Primorsky Krai,10422,109,8766,1547
+2020-09-11,Russia,Pskov Oblast,4877,65,3645,1167
+2020-09-11,Russia,Rostov Oblast,18549,393,15394,2762
+2020-09-11,Russia,Ryazan Oblast,7490,47,6437,1006
+2020-09-11,Russia,Saint Petersburg,38867,2607,26881,9379
+2020-09-11,Russia,Sakha (Yakutiya) Republic,7992,90,6341,1561
+2020-09-11,Russia,Sakhalin Oblast,4931,0,3226,1705
+2020-09-11,Russia,Samara Oblast,9607,142,7615,1850
+2020-09-11,Russia,Saratov Oblast,13472,85,8747,4640
+2020-09-11,Russia,Smolensk Oblast,6310,134,5522,654
+2020-09-11,Russia,Stavropol Krai,13391,263,9237,3891
+2020-09-11,Russia,Sverdlovsk Oblast,26660,512,20602,5546
+2020-09-11,Russia,Tambov Oblast,7039,46,6198,795
+2020-09-11,Russia,Tatarstan Republic,6787,36,5602,1149
+2020-09-11,Russia,Tomsk Oblast,6264,75,5109,1080
+2020-09-11,Russia,Tula Oblast,9569,343,8509,717
+2020-09-11,Russia,Tver Oblast,5656,216,4328,1112
+2020-09-11,Russia,Tyumen Oblast,8310,31,7231,1048
+2020-09-11,Russia,Tyva Republic,7073,67,6436,570
+2020-09-11,Russia,Udmurt Republic,3712,54,2910,748
+2020-09-11,Russia,Ulyanovsk Oblast,13166,125,11298,1743
+2020-09-11,Russia,Vladimir Oblast,6647,199,5651,797
+2020-09-11,Russia,Volgograd Oblast,13183,122,11483,1578
+2020-09-11,Russia,Vologda Oblast,3784,44,3289,451
+2020-09-11,Russia,Voronezh Oblast,15303,138,14407,758
+2020-09-11,Russia,Yamalo-Nenets Autonomous Okrug,13944,95,13129,720
+2020-09-11,Russia,Yaroslavl Oblast,7678,42,7191,445
+2020-09-11,Russia,Zabaykalsky Krai,5015,62,4442,511
+2020-09-11,San Marino,NA,722,42,662,18
+2020-09-11,Serbia,NA,32228,730,0,31498
+2020-09-11,Slovakia,NA,5252,37,3081,2134
+2020-09-11,Slovenia,NA,3497,135,2662,700
+2020-09-11,Spain,Andalusia,40125,1573,10671,27881
+2020-09-11,Spain,Aragon,29665,1212,3772,24681
+2020-09-11,Spain,Asturias,3828,338,1063,2427
+2020-09-11,Spain,Baleares,10729,258,1533,8938
+2020-09-11,Spain,C. Valenciana,30866,1515,9970,19381
+2020-09-11,Spain,Canarias,10133,189,1537,8407
+2020-09-11,Spain,Cantabria,5372,227,2287,2858
+2020-09-11,Spain,Castilla - La Mancha,29130,3052,6392,19686
+2020-09-11,Spain,Castilla y Leon,34087,2883,8716,22488
+2020-09-11,Spain,Catalonia,122320,5780,26203,90337
+2020-09-11,Spain,Ceuta,376,7,163,206
+2020-09-11,Spain,Extremadura,6643,538,2652,3453
+2020-09-11,Spain,Galicia,17179,674,9204,7301
+2020-09-11,Spain,La Rioja,6528,382,3107,3039
+2020-09-11,Spain,Madrid,160221,8818,40736,110667
+2020-09-11,Spain,Melilla,577,3,125,449
+2020-09-11,Spain,Murcia,10220,169,2180,7871
+2020-09-11,Spain,Navarra,12232,542,3905,7785
+2020-09-11,Spain,Pais Vasco,36095,1587,16160,18348
+2020-09-11,Spain,Unknown,0,0,0,0
+2020-09-11,Sweden,Blekinge,616,17,0,599
+2020-09-11,Sweden,Dalarna,2252,174,0,2078
+2020-09-11,Sweden,Gavleborg,3250,163,0,3087
+2020-09-11,Sweden,Gotland,321,6,0,315
+2020-09-11,Sweden,Halland,2290,82,0,2208
+2020-09-11,Sweden,Jamtland Harjedalen,1218,64,0,1154
+2020-09-11,Sweden,Jonkoping,5098,181,0,4917
+2020-09-11,Sweden,Kalmar,899,64,0,835
+2020-09-11,Sweden,Kronoberg,1477,109,0,1368
+2020-09-11,Sweden,Norrbotten,1672,88,0,1584
+2020-09-11,Sweden,Orebro,2783,171,0,2612
+2020-09-11,Sweden,Ostergotland,3898,275,0,3623
+2020-09-11,Sweden,Skane,5106,276,0,4830
+2020-09-11,Sweden,Sormland,2441,254,0,2187
+2020-09-11,Sweden,Stockholm,23346,2400,0,20946
+2020-09-11,Sweden,Uppsala,3844,242,0,3602
+2020-09-11,Sweden,Varmland,1220,73,0,1147
+2020-09-11,Sweden,Vasterbotten,877,31,0,846
+2020-09-11,Sweden,Vasternorrland,1868,136,0,1732
+2020-09-11,Sweden,Vastmanland,2805,183,0,2622
+2020-09-11,Sweden,Vastra Gotaland,19224,857,0,18367
+2020-09-11,Switzerland,NA,46239,2020,38100,6119
+2020-09-11,Ukraine,Cherkasy Oblast,2294,41,1132,1121
+2020-09-11,Ukraine,Chernihiv Oblast,2574,35,654,1885
+2020-09-11,Ukraine,Chernivtsi Oblast,11847,310,6959,4578
+2020-09-11,Ukraine,Crimea Republic*,3010,36,2010,964
+2020-09-11,Ukraine,Dnipropetrovsk Oblast,3093,71,1413,1609
+2020-09-11,Ukraine,Donetsk Oblast,1942,27,941,974
+2020-09-11,Ukraine,Ivano-Frankivsk Oblast,10953,253,4513,6187
+2020-09-11,Ukraine,Kharkiv Oblast,12112,257,3491,8364
+2020-09-11,Ukraine,Kherson Oblast,576,14,334,228
+2020-09-11,Ukraine,Khmelnytskyi Oblast,3695,61,1703,1931
+2020-09-11,Ukraine,Kiev,16523,261,5148,11114
+2020-09-11,Ukraine,Kiev Oblast,6648,128,4430,2090
+2020-09-11,Ukraine,Kirovohrad Oblast,885,48,746,91
+2020-09-11,Ukraine,Luhansk Oblast,532,4,270,258
+2020-09-11,Ukraine,Lviv Oblast,16626,462,5167,10997
+2020-09-11,Ukraine,Mykolaiv Oblast,1851,45,656,1150
+2020-09-11,Ukraine,Odessa Oblast,9157,142,2135,6880
+2020-09-11,Ukraine,Poltava Oblast,1130,26,591,513
+2020-09-11,Ukraine,Rivne Oblast,10217,142,7453,2622
+2020-09-11,Ukraine,Sevastopol*,607,20,451,136
+2020-09-11,Ukraine,Sumy Oblast,2229,36,986,1207
+2020-09-11,Ukraine,Ternopil Oblast,8377,98,3821,4458
+2020-09-11,Ukraine,Vinnytsia Oblast,4690,92,3164,1434
+2020-09-11,Ukraine,Volyn Oblast,6161,132,4300,1729
+2020-09-11,Ukraine,Zakarpattia Oblast,8453,280,3613,4560
+2020-09-11,Ukraine,Zaporizhia Oblast,2136,30,1055,1051
+2020-09-11,Ukraine,Zhytomyr Oblast,4055,81,2330,1644
+2020-09-11,United Kingdom,Anguilla,3,0,3,0
+2020-09-11,United Kingdom,Bermuda,177,9,161,7
+2020-09-11,United Kingdom,British Virgin Islands,63,1,10,33
+2020-09-11,United Kingdom,Cayman Islands,208,1,204,3
+2020-09-11,United Kingdom,Channel Islands,633,48,575,10
+2020-09-11,United Kingdom,England,312276,36950,0,275326
+2020-09-11,United Kingdom,Falkland Islands (Malvinas),13,0,13,0
+2020-09-11,United Kingdom,Gibraltar,323,0,289,34
+2020-09-11,United Kingdom,Isle of Man,337,24,312,1
+2020-09-11,United Kingdom,Montserrat,13,1,11,1
+2020-09-11,United Kingdom,Northern Ireland,8123,568,0,7555
+2020-09-11,United Kingdom,Scotland,22214,2499,0,19715
+2020-09-11,United Kingdom,Turks and Caicos Islands,641,5,270,366
+2020-09-11,United Kingdom,Unknown,0,0,0,0
+2020-09-11,United Kingdom,Wales,19064,1597,0,17467
+2020-09-12,Albania,NA,11185,330,6494,4361
+2020-09-12,Andorra,NA,1344,53,943,348
+2020-09-12,Austria,NA,32696,754,26579,5363
+2020-09-12,Belarus,NA,73975,744,72547,684
+2020-09-12,Belgium,NA,92478,9923,18709,63846
+2020-09-12,Bosnia and Herzegovina,NA,23138,690,15922,6526
+2020-09-12,Bulgaria,NA,17891,717,12758,4416
+2020-09-12,Croatia,NA,13368,218,10721,2429
+2020-09-12,Czechia,NA,35401,453,21205,13743
+2020-09-12,Denmark,Faroe Islands,418,0,410,8
+2020-09-12,Denmark,Greenland,14,0,14,0
+2020-09-12,Denmark,NA,19557,630,16247,2680
+2020-09-12,Estonia,NA,2655,64,2252,339
+2020-09-12,Finland,NA,8557,337,7500,720
+2020-09-12,France,French Guiana,9521,63,9132,326
+2020-09-12,France,French Polynesia,953,2,642,309
+2020-09-12,France,Guadeloupe,3080,24,837,2219
+2020-09-12,France,Martinique,939,18,98,823
+2020-09-12,France,Mayotte,3374,40,2964,370
+2020-09-12,France,New Caledonia,26,0,26,0
+2020-09-12,France,Reunion,2723,14,1313,1396
+2020-09-12,France,Saint Barthelemy,21,0,13,8
+2020-09-12,France,Saint Pierre and Miquelon,11,0,5,6
+2020-09-12,France,St Martin,256,6,107,143
+2020-09-12,France,NA,381907,30735,75308,275393
+2020-09-12,Germany,Baden-Wurttemberg,44903,1868,39608,3427
+2020-09-12,Germany,Bayern,61689,2645,54317,4727
+2020-09-12,Germany,Berlin,12253,226,11124,903
+2020-09-12,Germany,Brandenburg,4029,173,3715,141
+2020-09-12,Germany,Bremen,2120,58,1943,119
+2020-09-12,Germany,Hamburg,6813,267,5864,682
+2020-09-12,Germany,Hessen,16714,538,14878,1298
+2020-09-12,Germany,Mecklenburg-Vorpommern,1055,20,992,43
+2020-09-12,Germany,Niedersachsen,17826,667,15884,1275
+2020-09-12,Germany,Nordrhein-Westfalen,61820,1828,56751,3241
+2020-09-12,Germany,Rheinland-Pfalz,9707,246,8711,750
+2020-09-12,Germany,Saarland,3225,175,2975,75
+2020-09-12,Germany,Sachsen,6351,226,5673,452
+2020-09-12,Germany,Sachsen-Anhalt,2333,66,2164,103
+2020-09-12,Germany,Schleswig-Holstein,4218,161,3896,161
+2020-09-12,Germany,Thuringen,3765,188,3458,119
+2020-09-12,Germany,Unknown,1996,0,0,1996
+2020-09-12,Greece,NA,13036,302,1347,11387
+2020-09-12,Holy See,NA,12,0,12,0
+2020-09-12,Hungary,NA,11825,633,4058,7134
+2020-09-12,Iceland,NA,2162,10,2085,67
+2020-09-12,Ireland,NA,30730,1783,23364,5583
+2020-09-12,Italy,Abruzzo,3978,472,2962,544
+2020-09-12,Italy,Basilicata,610,28,427,155
+2020-09-12,Italy,Calabria,1701,98,1215,388
+2020-09-12,Italy,Campania,9003,451,4654,3898
+2020-09-12,Italy,Emilia-Romagna,33363,4469,25067,3827
+2020-09-12,Italy,Friuli Venezia Giulia,4112,349,3177,586
+2020-09-12,Italy,Lazio,12980,884,7475,4621
+2020-09-12,Italy,Liguria,11774,1579,9107,1088
+2020-09-12,Italy,Lombardia,103074,16896,77611,8567
+2020-09-12,Italy,Marche,7511,989,6036,486
+2020-09-12,Italy,Molise,562,23,449,90
+2020-09-12,Italy,P.A. Bolzano,3088,292,2530,266
+2020-09-12,Italy,P.A. Trento,5492,405,4650,437
+2020-09-12,Italy,Piemonte,33671,4153,27488,2030
+2020-09-12,Italy,Puglia,6367,570,4198,1599
+2020-09-12,Italy,Sardegna,2841,140,1322,1379
+2020-09-12,Italy,Sicilia,5180,289,3144,1747
+2020-09-12,Italy,Toscana,13023,1148,9473,2402
+2020-09-12,Italy,Umbria,2042,81,1542,419
+2020-09-12,Italy,Valle d'Aosta,1258,146,1078,34
+2020-09-12,Italy,Veneto,24667,2141,19586,2940
+2020-09-12,Latvia,NA,1464,35,1248,181
+2020-09-12,Liechtenstein,NA,111,1,105,5
+2020-09-12,Lithuania,NA,3296,86,2070,1140
+2020-09-12,Luxembourg,NA,7159,124,6421,614
+2020-09-12,Malta,NA,2274,15,1850,409
+2020-09-12,Moldova,NA,42714,1117,30437,11160
+2020-09-12,Monaco,NA,169,1,123,45
+2020-09-12,Montenegro,NA,6530,118,4491,1921
+2020-09-12,Netherlands,Aruba,2994,18,1542,1434
+2020-09-12,Netherlands,"Bonaire, Sint Eustatius and Saba",25,0,7,18
+2020-09-12,Netherlands,Curacao,145,1,56,88
+2020-09-12,Netherlands,Drenthe,642,41,0,601
+2020-09-12,Netherlands,Flevoland,1538,96,0,1442
+2020-09-12,Netherlands,Friesland,880,69,0,811
+2020-09-12,Netherlands,Gelderland,8229,692,0,7537
+2020-09-12,Netherlands,Groningen,753,19,0,734
+2020-09-12,Netherlands,Limburg,5722,758,0,4964
+2020-09-12,Netherlands,Noord-Brabant,13238,1551,0,11687
+2020-09-12,Netherlands,Noord-Holland,15114,832,0,14282
+2020-09-12,Netherlands,Overijssel,3718,314,0,3404
+2020-09-12,Netherlands,Sint Maarten,533,19,430,84
+2020-09-12,Netherlands,Unknown,701,18,0,683
+2020-09-12,Netherlands,Utrecht,6372,437,0,5935
+2020-09-12,Netherlands,Zeeland,1125,72,0,1053
+2020-09-12,Netherlands,Zuid-Holland,22980,1354,0,21626
+2020-09-12,North Macedonia,NA,15694,646,13128,1920
+2020-09-12,Norway,NA,12079,265,10371,1443
+2020-09-12,Poland,NA,73650,2182,59725,11743
+2020-09-12,Portugal,NA,63310,1860,43894,17556
+2020-09-12,Romania,NA,102386,4127,42811,55448
+2020-09-12,Russia,Adygea Republic,3630,30,3101,499
+2020-09-12,Russia,Altai Krai,12466,141,11209,1116
+2020-09-12,Russia,Altai Republic,2477,11,2080,386
+2020-09-12,Russia,Amur Oblast,3761,50,3306,405
+2020-09-12,Russia,Arkhangelsk Oblast,11657,256,9585,1816
+2020-09-12,Russia,Astrakhan Oblast,6218,87,6002,129
+2020-09-12,Russia,Bashkortostan Republic,8161,30,7710,421
+2020-09-12,Russia,Belgorod Oblast,7874,55,7254,565
+2020-09-12,Russia,Bryansk Oblast,8606,35,7046,1525
+2020-09-12,Russia,Buryatia Republic,5796,60,4892,844
+2020-09-12,Russia,Chechen Republic,2337,40,1753,544
+2020-09-12,Russia,Chelyabinsk Oblast,14453,111,10469,3873
+2020-09-12,Russia,Chukotka Autonomous Okrug,178,2,169,7
+2020-09-12,Russia,Chuvashia Republic,8121,77,6844,1200
+2020-09-12,Russia,Dagestan Republic,11925,521,10268,1136
+2020-09-12,Russia,Ingushetia Republic,4814,77,4214,523
+2020-09-12,Russia,Irkutsk Oblast,17691,262,14047,3382
+2020-09-12,Russia,Ivanovo Oblast,7883,125,6509,1249
+2020-09-12,Russia,Jewish Autonomous Okrug,712,9,613,90
+2020-09-12,Russia,Kabardino-Balkarian Republic,6901,81,6263,557
+2020-09-12,Russia,Kaliningrad Oblast,3712,58,2975,679
+2020-09-12,Russia,Kalmykia Republic,5247,65,3140,2042
+2020-09-12,Russia,Kaluga Oblast,8396,71,7220,1105
+2020-09-12,Russia,Kamchatka Krai,4053,54,3218,781
+2020-09-12,Russia,Karachay-Cherkess Republic,5840,28,4588,1224
+2020-09-12,Russia,Karelia Republic,3441,16,2497,928
+2020-09-12,Russia,Kemerovo Oblast,7492,50,5661,1781
+2020-09-12,Russia,Khabarovsk Krai,10854,95,8790,1969
+2020-09-12,Russia,Khakassia Republic,3741,47,3266,428
+2020-09-12,Russia,Khanty-Mansi Autonomous Okrug,20505,177,19679,649
+2020-09-12,Russia,Kirov Oblast,7321,106,5314,1901
+2020-09-12,Russia,Komi Republic,7003,91,6092,820
+2020-09-12,Russia,Kostroma Oblast,3999,50,2938,1011
+2020-09-12,Russia,Krasnodar Krai,12285,215,9839,2231
+2020-09-12,Russia,Krasnoyarsk Krai,18139,520,14264,3355
+2020-09-12,Russia,Kurgan Oblast,3282,22,2850,410
+2020-09-12,Russia,Kursk Oblast,7479,54,6328,1097
+2020-09-12,Russia,Leningrad Oblast,7228,86,5228,1914
+2020-09-12,Russia,Lipetsk Oblast,5488,32,4898,558
+2020-09-12,Russia,Magadan Oblast,2275,19,1776,480
+2020-09-12,Russia,Mari El Republic,4465,45,3981,439
+2020-09-12,Russia,Mordovia Republic,5838,39,4671,1128
+2020-09-12,Russia,Moscow,270447,4968,228673,36806
+2020-09-12,Russia,Moscow Oblast,70178,1241,53241,15696
+2020-09-12,Russia,Murmansk Oblast,13628,180,11207,2241
+2020-09-12,Russia,Nenets Autonomous Okrug,323,0,114,209
+2020-09-12,Russia,Nizhny Novgorod Oblast,29498,515,26318,2665
+2020-09-12,Russia,North Ossetia - Alania Republic,5220,68,4543,609
+2020-09-12,Russia,Novgorod Oblast,4635,86,3427,1122
+2020-09-12,Russia,Novosibirsk Oblast,12044,390,10833,821
+2020-09-12,Russia,Omsk Oblast,9885,239,8469,1177
+2020-09-12,Russia,Orel Oblast,7624,115,6098,1411
+2020-09-12,Russia,Orenburg Oblast,11034,81,10010,943
+2020-09-12,Russia,Penza Oblast,9211,117,8234,860
+2020-09-12,Russia,Perm Krai,8570,234,5944,2392
+2020-09-12,Russia,Primorsky Krai,10493,109,8867,1517
+2020-09-12,Russia,Pskov Oblast,4915,65,3686,1164
+2020-09-12,Russia,Rostov Oblast,18708,397,15495,2816
+2020-09-12,Russia,Ryazan Oblast,7523,47,6458,1018
+2020-09-12,Russia,Saint Petersburg,39070,2630,26986,9454
+2020-09-12,Russia,Sakha (Yakutiya) Republic,8061,90,6384,1587
+2020-09-12,Russia,Sakhalin Oblast,4968,0,3290,1678
+2020-09-12,Russia,Samara Oblast,9713,142,7680,1891
+2020-09-12,Russia,Saratov Oblast,13573,85,8846,4642
+2020-09-12,Russia,Smolensk Oblast,6323,135,5541,647
+2020-09-12,Russia,Stavropol Krai,13526,265,9424,3837
+2020-09-12,Russia,Sverdlovsk Oblast,26788,522,20662,5604
+2020-09-12,Russia,Tambov Oblast,7067,46,6223,798
+2020-09-12,Russia,Tatarstan Republic,6812,37,5634,1141
+2020-09-12,Russia,Tomsk Oblast,6319,75,5132,1112
+2020-09-12,Russia,Tula Oblast,9595,345,8554,696
+2020-09-12,Russia,Tver Oblast,5680,217,4344,1119
+2020-09-12,Russia,Tyumen Oblast,8360,31,7259,1070
+2020-09-12,Russia,Tyva Republic,7099,67,6469,563
+2020-09-12,Russia,Udmurt Republic,3773,54,2957,762
+2020-09-12,Russia,Ulyanovsk Oblast,13276,130,11398,1748
+2020-09-12,Russia,Vladimir Oblast,6679,199,5669,811
+2020-09-12,Russia,Volgograd Oblast,13280,123,11652,1505
+2020-09-12,Russia,Vologda Oblast,3823,44,3321,458
+2020-09-12,Russia,Voronezh Oblast,15418,138,14533,747
+2020-09-12,Russia,Yamalo-Nenets Autonomous Okrug,13992,95,13145,752
+2020-09-12,Russia,Yaroslavl Oblast,7722,42,7277,403
+2020-09-12,Russia,Zabaykalsky Krai,5066,62,4456,548
+2020-09-12,San Marino,NA,722,42,662,18
+2020-09-12,Serbia,NA,32300,731,0,31569
+2020-09-12,Slovakia,NA,5453,38,3114,2301
+2020-09-12,Slovenia,NA,3603,135,2699,769
+2020-09-12,Spain,Andalusia,40125,1573,10671,27881
+2020-09-12,Spain,Aragon,29665,1212,3772,24681
+2020-09-12,Spain,Asturias,3828,338,1063,2427
+2020-09-12,Spain,Baleares,10729,258,1533,8938
+2020-09-12,Spain,C. Valenciana,30866,1515,9970,19381
+2020-09-12,Spain,Canarias,10133,189,1537,8407
+2020-09-12,Spain,Cantabria,5372,227,2287,2858
+2020-09-12,Spain,Castilla - La Mancha,29130,3052,6392,19686
+2020-09-12,Spain,Castilla y Leon,34087,2883,8716,22488
+2020-09-12,Spain,Catalonia,122320,5780,26203,90337
+2020-09-12,Spain,Ceuta,376,7,163,206
+2020-09-12,Spain,Extremadura,6643,538,2652,3453
+2020-09-12,Spain,Galicia,17179,674,9204,7301
+2020-09-12,Spain,La Rioja,6528,382,3107,3039
+2020-09-12,Spain,Madrid,160221,8818,40736,110667
+2020-09-12,Spain,Melilla,577,3,125,449
+2020-09-12,Spain,Murcia,10220,169,2180,7871
+2020-09-12,Spain,Navarra,12232,542,3905,7785
+2020-09-12,Spain,Pais Vasco,36095,1587,16160,18348
+2020-09-12,Spain,Unknown,0,0,0,0
+2020-09-12,Sweden,Blekinge,616,17,0,599
+2020-09-12,Sweden,Dalarna,2252,174,0,2078
+2020-09-12,Sweden,Gavleborg,3250,163,0,3087
+2020-09-12,Sweden,Gotland,321,6,0,315
+2020-09-12,Sweden,Halland,2290,82,0,2208
+2020-09-12,Sweden,Jamtland Harjedalen,1218,64,0,1154
+2020-09-12,Sweden,Jonkoping,5098,181,0,4917
+2020-09-12,Sweden,Kalmar,899,64,0,835
+2020-09-12,Sweden,Kronoberg,1477,109,0,1368
+2020-09-12,Sweden,Norrbotten,1672,88,0,1584
+2020-09-12,Sweden,Orebro,2783,171,0,2612
+2020-09-12,Sweden,Ostergotland,3898,275,0,3623
+2020-09-12,Sweden,Skane,5106,276,0,4830
+2020-09-12,Sweden,Sormland,2441,254,0,2187
+2020-09-12,Sweden,Stockholm,23346,2400,0,20946
+2020-09-12,Sweden,Uppsala,3844,242,0,3602
+2020-09-12,Sweden,Varmland,1220,73,0,1147
+2020-09-12,Sweden,Vasterbotten,877,31,0,846
+2020-09-12,Sweden,Vasternorrland,1868,136,0,1732
+2020-09-12,Sweden,Vastmanland,2805,183,0,2622
+2020-09-12,Sweden,Vastra Gotaland,19224,857,0,18367
+2020-09-12,Switzerland,NA,46704,2020,38500,6184
+2020-09-12,Ukraine,Cherkasy Oblast,2384,42,1142,1200
+2020-09-12,Ukraine,Chernihiv Oblast,2654,35,654,1965
+2020-09-12,Ukraine,Chernivtsi Oblast,11988,311,7059,4618
+2020-09-12,Ukraine,Crimea Republic*,3080,38,2074,968
+2020-09-12,Ukraine,Dnipropetrovsk Oblast,3176,75,1438,1663
+2020-09-12,Ukraine,Donetsk Oblast,2026,31,941,1054
+2020-09-12,Ukraine,Ivano-Frankivsk Oblast,11083,257,4583,6243
+2020-09-12,Ukraine,Kharkiv Oblast,12404,263,3634,8507
+2020-09-12,Ukraine,Kherson Oblast,596,16,350,230
+2020-09-12,Ukraine,Khmelnytskyi Oblast,3850,76,1747,2027
+2020-09-12,Ukraine,Kiev,16951,266,5267,11418
+2020-09-12,Ukraine,Kiev Oblast,6750,134,4510,2106
+2020-09-12,Ukraine,Kirovohrad Oblast,892,48,750,94
+2020-09-12,Ukraine,Luhansk Oblast,562,4,293,265
+2020-09-12,Ukraine,Lviv Oblast,16774,468,5241,11065
+2020-09-12,Ukraine,Mykolaiv Oblast,1929,45,688,1196
+2020-09-12,Ukraine,Odessa Oblast,9382,149,2191,7042
+2020-09-12,Ukraine,Poltava Oblast,1161,27,600,534
+2020-09-12,Ukraine,Rivne Oblast,10369,142,7620,2607
+2020-09-12,Ukraine,Sevastopol*,619,20,461,138
+2020-09-12,Ukraine,Sumy Oblast,2323,36,1025,1262
+2020-09-12,Ukraine,Ternopil Oblast,8657,100,3959,4598
+2020-09-12,Ukraine,Vinnytsia Oblast,4756,94,3208,1454
+2020-09-12,Ukraine,Volyn Oblast,6224,133,4349,1742
+2020-09-12,Ukraine,Zakarpattia Oblast,8532,282,3690,4560
+2020-09-12,Ukraine,Zaporizhia Oblast,2242,32,1055,1155
+2020-09-12,Ukraine,Zhytomyr Oblast,4194,82,2352,1760
+2020-09-12,United Kingdom,Anguilla,3,0,3,0
+2020-09-12,United Kingdom,Bermuda,177,9,161,7
+2020-09-12,United Kingdom,British Virgin Islands,66,1,37,28
+2020-09-12,United Kingdom,Cayman Islands,208,1,204,3
+2020-09-12,United Kingdom,Channel Islands,633,48,575,10
+2020-09-12,United Kingdom,England,315284,36959,0,278325
+2020-09-12,United Kingdom,Falkland Islands (Malvinas),13,0,13,0
+2020-09-12,United Kingdom,Gibraltar,327,0,294,33
+2020-09-12,United Kingdom,Isle of Man,337,24,312,1
+2020-09-12,United Kingdom,Montserrat,13,1,11,1
+2020-09-12,United Kingdom,Northern Ireland,8227,568,0,7659
+2020-09-12,United Kingdom,Scotland,22435,2499,0,19936
+2020-09-12,United Kingdom,Turks and Caicos Islands,641,5,270,366
+2020-09-12,United Kingdom,Unknown,0,0,0,0
+2020-09-12,United Kingdom,Wales,19228,1597,0,17631
