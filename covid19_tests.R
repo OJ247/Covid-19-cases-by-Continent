@@ -7,7 +7,7 @@
 #        OR
 #        test_date = today() - 1 to scrape test data from the "Yesterday" tab
 
-# Load libraries ----------------------------------------------------------
+# Load packages ----------------------------------------------------------
 
 library(tidyverse)
 library(lubridate)
