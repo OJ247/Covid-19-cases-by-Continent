@@ -62,7 +62,3 @@ scrape_tests <- function(test_date) {
         test_data
 }
 
-
-
-
-
