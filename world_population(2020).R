@@ -26,7 +26,7 @@ world_population <- as_tibble(world_population) %>%
         arrange(`Country (or dependency)`)
 
 # remove commas from cols
-world_population %>% 
+world_population <- world_population %>% 
         mutate(across(`Population (2020)`:`World Share`, ~ str_replace_all(.x, ",", "")))
 
 
